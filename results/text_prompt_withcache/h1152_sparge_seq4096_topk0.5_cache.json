@@ -1,0 +1,31 @@
+{
+  "label": "h1152_sparge_text_seq4096_topk0.5_cache",
+  "model_dir": "modelzoo_configs/apretko/20260604_baselines_tests/models/sparge/h1152",
+  "prompt_mode": "repeated_text",
+  "text_unit": "The quick brown fox jumps over the lazy dog. ",
+  "target_seq_len": 4096,
+  "actual_seq_len": 4096,
+  "batch_size": 1,
+  "dtype": "bf16",
+  "use_cache": true,
+  "times_ms": [
+    72.85555267333984,
+    74.50383758544922,
+    72.31581115722656,
+    72.38009643554688,
+    73.96249389648438
+  ],
+  "mean_ms": 73.20355834960938,
+  "min_ms": 72.31581115722656,
+  "max_ms": 74.50383758544922,
+  "tokens_per_sec_prefill": 55953.56417563896,
+  "cuda_device": "NVIDIA L40",
+  "torch_version": "2.6.0+cu124",
+  "torch_cuda": "12.4",
+  "env": {
+    "CELERITY_USE_SPARGE_ATTN": "1",
+    "CELERITY_SPARGE_IGNORE_BIAS": "1",
+    "CELERITY_SPARGE_IGNORE_MASK": "1",
+    "CELERITY_SPARGE_TOPK": "0.5"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "label": "h1152_baseline_seq8192",
+  "model_dir": "modelzoo_configs/apretko/20260604_baselines_tests/models/baseline/h1152",
+  "seq_len": 8192,
+  "batch_size": 1,
+  "dtype": "bf16",
+  "use_cache": false,
+  "times_ms": [
+    648.8997802734375,
+    648.3547973632812,
+    648.2227172851562,
+    648.1255493164062,
+    648.8348388671875
+  ],
+  "mean_ms": 648.4875366210938,
+  "min_ms": 648.1255493164062,
+  "max_ms": 648.8997802734375,
+  "cuda_device": "NVIDIA L40",
+  "torch_version": "2.6.0+cu124",
+  "torch_cuda": "12.4",
+  "env": {
+    "CELERITY_USE_SPARGE_ATTN": null,
+    "CELERITY_SPARGE_IGNORE_BIAS": null,
+    "CELERITY_SPARGE_IGNORE_MASK": null,
+    "CELERITY_SPARGE_TOPK": null
+  }
+}

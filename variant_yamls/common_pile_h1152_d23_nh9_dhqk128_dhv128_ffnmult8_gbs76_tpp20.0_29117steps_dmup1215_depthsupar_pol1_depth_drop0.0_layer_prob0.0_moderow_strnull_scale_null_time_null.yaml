@@ -1,0 +1,269 @@
+# description: "parameters: 906422400, total tokens: 18128448000, total FLOPs 1.4070993884985339e+20"
+trainer:
+  init:
+    seed: 1
+    backend:
+      backend_type: CSX
+      cluster_config:
+        num_csx: 4
+      enable_distributed: false
+    model:
+      attention_dropout_rate: 0.0
+      attention_k_dim: 1152
+      attention_q_dim: 1152
+      attention_type: scaled_dot_product
+      attention_v_dim: 1152
+      attn_k_initializer:
+        a: -0.05374011537017762
+        b: 0.05374011537017762
+        mean: 0.0
+        name: truncated_normal
+        std: 0.02687005768508881
+      attn_q_initializer:
+        a: -0.004030508652763321
+        b: 0.004030508652763321
+        mean: 0.0
+        name: truncated_normal
+        std: 0.0020152543263816606
+      attn_v_initializer:
+        a: -0.006811795325430408
+        b: 0.006811795325430408
+        mean: 0.0
+        name: truncated_normal
+        std: 0.003405897662715204
+      dropout_rate: 0.0
+      embedding_initializer:
+        a: -2.0
+        b: 2.0
+        mean: 0.0
+        name: truncated_normal
+        std: 1.0
+      embeddings_scale: 1.0
+      ffn_initializer:
+        a: -0.03051165760819953
+        b: 0.03051165760819953
+        mean: 0.0
+        name: truncated_normal
+        std: 0.015255828804099765
+      ffn_output_layer_initializer:
+        a: -0.012825
+        b: 0.012825
+        mean: 0.0
+        name: truncated_normal
+        std: 0.0064125
+      filter_size: 9216
+      head_initializer:
+        a: -2.0
+        b: 2.0
+        mean: 0.0
+        name: truncated_normal
+        std: 1.0
+      hidden_size: 1152
+      layer_norm_epsilon: 1.0e-05
+      max_position_embeddings: 8192
+      mhsa_residual_scale: 0.037584782608695654
+      mlp_residual_scale: 0.021978260869565214
+      name: gpt2
+      nonlinearity: squared_relu
+      num_heads: 9
+      num_hidden_layers: 23
+      output_layer_initializer:
+        a: -0.3342788382494305
+        b: 0.3342788382494305
+        mean: 0.0
+        name: truncated_normal
+        std: 0.16713941912471525
+      output_logits_scale: 0.0008680555555555555
+      position_embedding_type: alibi
+      scale_qk_dot_by_d: True
+      share_embedding_weights: false
+      stochastic_depth_drop_prob: 0.0
+      stochastic_layer_drop_prob: 0.0
+      stochastic_depth_mode: row
+      stochastic_layer_drop_prob_layer_scale: null
+      stochastic_layer_drop_prob_time_scale: null
+      stochastic_layer_drop_prob_time_period: 29117
+      stochastic_layer_drop_layers_str: null
+      use_bias_in_output: false
+      use_ffn_bias: true
+      use_ffn_bias_in_attention: true
+      use_projection_bias_in_attention: true
+      vocab_size: 128256
+    optimizer:
+      AdamW:
+
+        adjust_learning_rate:
+            decoder_attention_q: 0.0011073784722222223
+            decoder_attention_k: 0.0006292534722222221
+            decoder_attention_v: 0.0011672743055555555
+            decoder_attention_output: 0.013637673611111109
+            decoder_input_ffn: 0.009774565972222222
+            decoder_output_ffn: 0.0013857747395833334
+            unembedding: 1
+            embedding: 1
+
+        betas:
+        - 0.9
+        - 0.95
+        correct_bias: true
+        eps: 1.0e-16
+        fix_wd_ema: true
+        weight_decay: 0.0013120992377392282
+    schedulers:
+    - ScalePerParamLR:
+        scheduler:
+          SequentialLR:
+            schedulers:
+            - LinearLR:
+                end_learning_rate: 0.15
+                initial_learning_rate: 0.0
+                total_iters: 602
+            - LinearLR:
+                end_learning_rate: 0
+                initial_learning_rate: 0.15
+                total_iters: 28515
+    precision:
+      fp16_type: bfloat16
+      precision_opt_level: 1
+      loss_scaling_factor: dynamic
+      max_gradient_norm: 1.0
+      log_loss_scale: true
+    loop:
+      max_steps: 29117
+      eval_steps: 1881
+    checkpoint:
+      steps: 1456
+      save_initial_checkpoint: true
+    logging:
+      log_steps: 1
+    callbacks:
+    - ComputeNorm: {}
+    - GlobalFlags:
+        csx.debug.ini:
+          ws_rt_run_nancheck: true
+          ws_rt_skip_bwd_pass_nancheck: true
+        csx.debug.save_gpv: False
+        csx.debug.debug_args:
+          debugMgr.task_spec_hints.activation.container_image: 171496337684.dkr.ecr.us-west-2.amazonaws.com/cbcore:2.9.0-202512242343-6-e2e12a41
+          debugMgr.task_spec_hints.broadcastreduce.container_image: 171496337684.dkr.ecr.us-west-2.amazonaws.com/cbcore:2.9.0-202512242343-6-e2e12a41
+          debugMgr.task_spec_hints.chief.container_image: 171496337684.dkr.ecr.us-west-2.amazonaws.com/cbcore:2.9.0-202512242343-6-e2e12a41
+          debugMgr.task_spec_hints.command.container_image: 171496337684.dkr.ecr.us-west-2.amazonaws.com/cbcore:2.9.0-202512242343-6-e2e12a41
+          debugMgr.task_spec_hints.coordinator.container_image: 171496337684.dkr.ecr.us-west-2.amazonaws.com/cbcore:2.9.0-202512242343-6-e2e12a41
+          debugMgr.task_spec_hints.weight.container_image: 171496337684.dkr.ecr.us-west-2.amazonaws.com/cbcore:2.9.0-202512242343-6-e2e12a41
+          debugMgr.task_spec_hints.worker.container_image: 171496337684.dkr.ecr.us-west-2.amazonaws.com/cbcore:2.9.0-202512242343-6-e2e12a41
+    device: CSX
+  fit:
+    train_dataloader:
+      batch_size: 76
+      data_processor: GptHDF5MapDataProcessor
+      mixture:
+      - data_dir: /cb/home/mostafae/research/outdirs/drop_path/experiments/20260527_common_pile_layer_drop/dataset/train/arxiv_abstracts_filtered
+        weight: 0.0012162568
+      - data_dir: /cb/home/mostafae/research/outdirs/drop_path/experiments/20260527_common_pile_layer_drop/dataset/train/arxiv_papers_filtered
+        weight: 0.0141710312
+      - data_dir: /cb/home/mostafae/research/outdirs/drop_path/experiments/20260527_common_pile_layer_drop/dataset/train/biodiversity_heritage_library_filtered
+        weight: 0.0199803371
+      - data_dir: /cb/home/mostafae/research/outdirs/drop_path/experiments/20260527_common_pile_layer_drop/dataset/train/caselaw_access_project_filtered
+        weight: 0.0402674818
+      - data_dir: /cb/home/mostafae/research/outdirs/drop_path/experiments/20260527_common_pile_layer_drop/dataset/train/cccc_filtered
+        weight: 0.0324387452
+      - data_dir: /cb/home/mostafae/research/outdirs/drop_path/experiments/20260527_common_pile_layer_drop/dataset/train/data_provenance_initiative_filtered
+        weight: 0.001895517
+      - data_dir: /cb/home/mostafae/research/outdirs/drop_path/experiments/20260527_common_pile_layer_drop/dataset/train/doab_filtered
+        weight: 0.0064946558
+      - data_dir: /cb/home/mostafae/research/outdirs/drop_path/experiments/20260527_common_pile_layer_drop/dataset/train/github_archive_filtered
+        weight: 0.0236744891
+      - data_dir: /cb/home/mostafae/research/outdirs/drop_path/experiments/20260527_common_pile_layer_drop/dataset/train/library_of_congress_filtered
+        weight: 0.0187009277
+      - data_dir: /cb/home/mostafae/research/outdirs/drop_path/experiments/20260527_common_pile_layer_drop/dataset/train/peS2o_filtered
+        weight: 0.0916320979
+      - data_dir: /cb/home/mostafae/research/outdirs/drop_path/experiments/20260527_common_pile_layer_drop/dataset/train/pre_1929_books_filtered
+        weight: 0.0244994162
+      - data_dir: /cb/home/mostafae/research/outdirs/drop_path/experiments/20260527_common_pile_layer_drop/dataset/train/pressbooks_filtered
+        weight: 0.000291382
+      - data_dir: /cb/home/mostafae/research/outdirs/drop_path/experiments/20260527_common_pile_layer_drop/dataset/train/project_gutenberg_filtered
+        weight: 0.0113820982
+      - data_dir: /cb/home/mostafae/research/outdirs/drop_path/experiments/20260527_common_pile_layer_drop/dataset/train/pubmed_filtered
+        weight: 0.0819202277
+      - data_dir: /cb/home/mostafae/research/outdirs/drop_path/experiments/20260527_common_pile_layer_drop/dataset/train/regulations_filtered
+        weight: 0.0029695983
+      - data_dir: /cb/home/mostafae/research/outdirs/drop_path/experiments/20260527_common_pile_layer_drop/dataset/train/stackv2_edu_filtered
+        weight: 0.1446872705
+      - data_dir: /cb/home/mostafae/research/outdirs/drop_path/experiments/20260527_common_pile_layer_drop/dataset/train/stackv2_html_filtered
+        weight: 0.0025577357
+      - data_dir: /cb/home/mostafae/research/outdirs/drop_path/experiments/20260527_common_pile_layer_drop/dataset/train/ubuntu_irc_filtered
+        weight: 0.0040810211
+      - data_dir: /cb/home/mostafae/research/outdirs/drop_path/experiments/20260527_common_pile_layer_drop/dataset/train/uk_hansard_filtered
+        weight: 0.0046658913
+      - data_dir: /cb/home/mostafae/research/outdirs/drop_path/experiments/20260527_common_pile_layer_drop/dataset/train/usgpo_filtered
+        weight: 0.0180309437
+      - data_dir: /cb/home/mostafae/research/outdirs/drop_path/experiments/20260527_common_pile_layer_drop/dataset/train/uspto_filtered
+        weight: 0.3544923814
+      - data_dir: /cb/home/mostafae/research/outdirs/drop_path/experiments/20260527_common_pile_layer_drop/dataset/train/wikimedia_filtered
+        weight: 0.032653076
+      - data_dir: /cb/home/mostafae/research/outdirs/drop_path/experiments/20260527_common_pile_layer_drop/dataset/train/wikiteam_filtered
+        weight: 0.0068296621
+      num_samples: 750000000
+      repeat: true
+      shuffle: false
+      shuffle_seed: 1
+      use_worker_cache: false
+      vocab_size: 128256
+    val_dataloader: &id001
+      batch_size: 32
+      data_processor: GptHDF5MapDataProcessor
+      mixture:
+      - data_dir: /cb/home/mostafae/research/outdirs/drop_path/experiments/20260527_common_pile_layer_drop/dataset/val/arxiv_abstracts_filtered
+        weight: 0.0012162568
+      - data_dir: /cb/home/mostafae/research/outdirs/drop_path/experiments/20260527_common_pile_layer_drop/dataset/val/arxiv_papers_filtered
+        weight: 0.0141710312
+      - data_dir: /cb/home/mostafae/research/outdirs/drop_path/experiments/20260527_common_pile_layer_drop/dataset/val/biodiversity_heritage_library_filtered
+        weight: 0.0199803371
+      - data_dir: /cb/home/mostafae/research/outdirs/drop_path/experiments/20260527_common_pile_layer_drop/dataset/val/caselaw_access_project_filtered
+        weight: 0.0402674818
+      - data_dir: /cb/home/mostafae/research/outdirs/drop_path/experiments/20260527_common_pile_layer_drop/dataset/val/cccc_filtered
+        weight: 0.0324387452
+      - data_dir: /cb/home/mostafae/research/outdirs/drop_path/experiments/20260527_common_pile_layer_drop/dataset/val/data_provenance_initiative_filtered
+        weight: 0.001895517
+      - data_dir: /cb/home/mostafae/research/outdirs/drop_path/experiments/20260527_common_pile_layer_drop/dataset/val/doab_filtered
+        weight: 0.0064946558
+      - data_dir: /cb/home/mostafae/research/outdirs/drop_path/experiments/20260527_common_pile_layer_drop/dataset/val/github_archive_filtered
+        weight: 0.0236744891
+      - data_dir: /cb/home/mostafae/research/outdirs/drop_path/experiments/20260527_common_pile_layer_drop/dataset/val/library_of_congress_filtered
+        weight: 0.0187009277
+      - data_dir: /cb/home/mostafae/research/outdirs/drop_path/experiments/20260527_common_pile_layer_drop/dataset/val/peS2o_filtered
+        weight: 0.0916320979
+      - data_dir: /cb/home/mostafae/research/outdirs/drop_path/experiments/20260527_common_pile_layer_drop/dataset/val/pre_1929_books_filtered
+        weight: 0.0244994162
+      - data_dir: /cb/home/mostafae/research/outdirs/drop_path/experiments/20260527_common_pile_layer_drop/dataset/val/pressbooks_filtered
+        weight: 0.000291382
+      - data_dir: /cb/home/mostafae/research/outdirs/drop_path/experiments/20260527_common_pile_layer_drop/dataset/val/project_gutenberg_filtered
+        weight: 0.0113820982
+      - data_dir: /cb/home/mostafae/research/outdirs/drop_path/experiments/20260527_common_pile_layer_drop/dataset/val/pubmed_filtered
+        weight: 0.0819202277
+      - data_dir: /cb/home/mostafae/research/outdirs/drop_path/experiments/20260527_common_pile_layer_drop/dataset/val/regulations_filtered
+        weight: 0.0029695983
+      - data_dir: /cb/home/mostafae/research/outdirs/drop_path/experiments/20260527_common_pile_layer_drop/dataset/val/stackv2_edu_filtered
+        weight: 0.1446872705
+      - data_dir: /cb/home/mostafae/research/outdirs/drop_path/experiments/20260527_common_pile_layer_drop/dataset/val/stackv2_html_filtered
+        weight: 0.0025577357
+      - data_dir: /cb/home/mostafae/research/outdirs/drop_path/experiments/20260527_common_pile_layer_drop/dataset/val/ubuntu_irc_filtered
+        weight: 0.0040810211
+      - data_dir: /cb/home/mostafae/research/outdirs/drop_path/experiments/20260527_common_pile_layer_drop/dataset/val/uk_hansard_filtered
+        weight: 0.0046658913
+      - data_dir: /cb/home/mostafae/research/outdirs/drop_path/experiments/20260527_common_pile_layer_drop/dataset/val/usgpo_filtered
+        weight: 0.0180309437
+      - data_dir: /cb/home/mostafae/research/outdirs/drop_path/experiments/20260527_common_pile_layer_drop/dataset/val/uspto_filtered
+        weight: 0.3544923814
+      - data_dir: /cb/home/mostafae/research/outdirs/drop_path/experiments/20260527_common_pile_layer_drop/dataset/val/wikimedia_filtered
+        weight: 0.032653076
+      - data_dir: /cb/home/mostafae/research/outdirs/drop_path/experiments/20260527_common_pile_layer_drop/dataset/val/wikiteam_filtered
+        weight: 0.0068296621
+      repeat: false
+      shuffle: false
+      use_worker_cache: false
+      vocab_size: 128256
+  validate:
+    val_dataloader: *id001
+  validate_all:
+    val_dataloaders: *id001

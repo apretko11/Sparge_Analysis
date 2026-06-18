@@ -1,0 +1,27 @@
+{
+  "label": "h640_baseline_seq1024",
+  "model_dir": "modelzoo_configs/apretko/20260604_baselines_tests/models/baseline/h640",
+  "seq_len": 1024,
+  "batch_size": 1,
+  "dtype": "bf16",
+  "use_cache": false,
+  "times_ms": [
+    10.878975868225098,
+    10.609631538391113,
+    11.280384063720703,
+    12.68496036529541,
+    11.338624000549316
+  ],
+  "mean_ms": 11.358515167236328,
+  "min_ms": 10.609631538391113,
+  "max_ms": 12.68496036529541,
+  "cuda_device": "NVIDIA L40",
+  "torch_version": "2.6.0+cu124",
+  "torch_cuda": "12.4",
+  "env": {
+    "CELERITY_USE_SPARGE_ATTN": null,
+    "CELERITY_SPARGE_IGNORE_BIAS": null,
+    "CELERITY_SPARGE_IGNORE_MASK": null,
+    "CELERITY_SPARGE_TOPK": null
+  }
+}

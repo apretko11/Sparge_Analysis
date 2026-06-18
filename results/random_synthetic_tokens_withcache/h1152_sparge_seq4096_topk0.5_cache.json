@@ -1,0 +1,27 @@
+{
+  "label": "h1152_sparge_seq4096_topk0.5_cache",
+  "model_dir": "modelzoo_configs/apretko/20260604_baselines_tests/models/sparge/h1152",
+  "seq_len": 4096,
+  "batch_size": 1,
+  "dtype": "bf16",
+  "use_cache": true,
+  "times_ms": [
+    72.03020477294922,
+    72.7213134765625,
+    73.40534210205078,
+    71.81804656982422,
+    73.27609252929688
+  ],
+  "mean_ms": 72.65019989013672,
+  "min_ms": 71.81804656982422,
+  "max_ms": 73.40534210205078,
+  "cuda_device": "NVIDIA L40",
+  "torch_version": "2.6.0+cu124",
+  "torch_cuda": "12.4",
+  "env": {
+    "CELERITY_USE_SPARGE_ATTN": "1",
+    "CELERITY_SPARGE_IGNORE_BIAS": "1",
+    "CELERITY_SPARGE_IGNORE_MASK": "1",
+    "CELERITY_SPARGE_TOPK": "0.5"
+  }
+}

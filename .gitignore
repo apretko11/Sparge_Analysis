@@ -1,0 +1,20 @@
+# Large model/checkpoint files
+models/
+*.bin
+*.safetensors
+*.pt
+*.pth
+*.ckpt
+
+# Temporary links/cache
+tmp_links/
+__pycache__/
+*.pyc
+
+# Optional local logs
+logs/
+
+# Environment/local files
+.env
+.venv/
+.DS_Store

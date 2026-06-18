@@ -1,0 +1,27 @@
+{
+  "label": "h896_sparge_seq1024_topk0.5",
+  "model_dir": "modelzoo_configs/apretko/20260604_baselines_tests/models/sparge/h896",
+  "seq_len": 1024,
+  "batch_size": 1,
+  "dtype": "bf16",
+  "use_cache": false,
+  "times_ms": [
+    29.4420166015625,
+    28.80191993713379,
+    28.91878318786621,
+    28.710880279541016,
+    34.32038497924805
+  ],
+  "mean_ms": 30.038796997070314,
+  "min_ms": 28.710880279541016,
+  "max_ms": 34.32038497924805,
+  "cuda_device": "NVIDIA L40",
+  "torch_version": "2.6.0+cu124",
+  "torch_cuda": "12.4",
+  "env": {
+    "CELERITY_USE_SPARGE_ATTN": "1",
+    "CELERITY_SPARGE_IGNORE_BIAS": "1",
+    "CELERITY_SPARGE_IGNORE_MASK": "1",
+    "CELERITY_SPARGE_TOPK": "0.5"
+  }
+}
