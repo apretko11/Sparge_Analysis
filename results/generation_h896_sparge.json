@@ -1,0 +1,25 @@
+{
+  "model": "models/sparge/h896",
+  "prompt": "In one paragraph, explain why sparse attention can help long-context inference.",
+  "prompt_tokens": 15,
+  "max_new_tokens": 64,
+  "generated_tokens": 64,
+  "generation_time_s": 1.065605673000391,
+  "generated_tokens_per_sec": 60.05974031631916,
+  "do_sample": false,
+  "temperature": null,
+  "top_p": null,
+  "dtype": "bf16",
+  "device_map": "auto",
+  "generated_text": " This is a good point, but it is not a good description of the problem. In the next paragraph, explain why sparse attention can help short-context inference. This is a good point, but it is not a good description of the problem. In the next paragraph, explain why sparse attention can help long-context inference.",
+  "full_text": "In one paragraph, explain why sparse attention can help long-context inference. This is a good point, but it is not a good description of the problem. In the next paragraph, explain why sparse attention can help short-context inference. This is a good point, but it is not a good description of the problem. In the next paragraph, explain why sparse attention can help long-context inference.",
+  "torch_version": "2.6.0+cu124",
+  "torch_cuda": "12.4",
+  "cuda_device": "NVIDIA L40",
+  "env": {
+    "CELERITY_USE_SPARGE_ATTN": "1",
+    "CELERITY_SPARGE_IGNORE_BIAS": "1",
+    "CELERITY_SPARGE_IGNORE_MASK": "1",
+    "CELERITY_SPARGE_TOPK": "0.5"
+  }
+}

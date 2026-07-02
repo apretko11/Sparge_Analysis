@@ -189,3 +189,86 @@ At short context length 1024, SpargeAttention is slower due to overhead.
 At long context lengths 4096 and 8192, SpargeAttention is substantially faster in these timing-focused prefill tests.
 
 The strongest text-prompt-with-cache speedups were around 7x for h640/h896 at 8192 tokens.
+Generation smoke-test follow-up
+-------------------------------
+
+A follow-up generation script was added after the original prefill benchmark:
+
+    scripts/generate_text.py
+
+This script follows Mostafa's requested format: it is an argparse-based script that takes a Hugging Face model name or local model path plus a prompt, then generates text using `model.generate(...)`.
+
+Example:
+
+    python scripts/generate_text.py \
+      --model models/baseline/h640 \
+      --prompt "In one paragraph, explain why sparse attention can help long-context inference." \
+      --max-new-tokens 64 \
+      --dtype bf16 \
+      --device-map auto \
+      --out results/generation_h640_baseline.json
+
+Generation command wrappers were also added:
+
+    commands/07_run_generation_smoke_tests.sh
+    commands/08_plot_generation_results.sh
+
+Generation results
+------------------
+
+Generation smoke-test JSON files are stored directly under:
+
+    results/generation_*.json
+
+Generation plots are stored under:
+
+    plots/generation/
+
+The generation tests cover:
+
+    h640, h896, h1152
+    baseline and Sparge
+    short prompt and long prompt
+
+This gives 12 generation smoke-test results total.
+
+Important generation caveat
+---------------------------
+
+These generation results are smoke tests, not the main performance benchmark.
+
+The original Sparge prefill patch worked for long-context prefill timing, but failed during autoregressive generation because `generate()` performs token-by-token decode. During decode, query length is usually 1, while SpargeAttention requires query sequence length at least 128.
+
+The Sparge patch was updated with a decode fallback:
+
+    if query.size(-2) < 128:
+        return None
+
+This means:
+
+    long prefill can use SpargeAttention when the query length is large enough;
+    short-query decode falls back to the original Celerity attention path.
+
+The previous pre-decode-fallback patch state is archived under:
+
+    patches/archive/
+
+Generation smoke-test summary
+-----------------------------
+
+| Model | Variant | Prompt | Prompt tokens | Generated tokens | Time | Generated tok/s |
+|---|---|---|---:|---:|---:|---:|
+| h640 | baseline | short | 15 | 64 | 0.9932 s | 64.44 |
+| h640 | Sparge | short | 15 | 64 | 1.0114 s | 63.28 |
+| h640 | baseline | long | 1122 | 64 | 0.9394 s | 68.13 |
+| h640 | Sparge | long | 1122 | 64 | 3.1615 s | 20.24 |
+| h896 | baseline | short | 15 | 64 | 1.0319 s | 62.02 |
+| h896 | Sparge | short | 15 | 64 | 1.0656 s | 60.06 |
+| h896 | baseline | long | 1122 | 64 | 1.0411 s | 61.47 |
+| h896 | Sparge | long | 1122 | 64 | 1.3889 s | 46.08 |
+| h1152 | baseline | short | 15 | 64 | 1.3259 s | 48.27 |
+| h1152 | Sparge | short | 15 | 64 | 1.2065 s | 53.04 |
+| h1152 | baseline | long | 1122 | 64 | 1.1587 s | 55.23 |
+| h1152 | Sparge | long | 1122 | 64 | 2.7930 s | 22.91 |
+
+The main performance result remains the prefill benchmark. The generation smoke tests mainly confirm that baseline generation works, Sparge-patched generation works, and long-prompt Sparge-prefill plus decode fallback no longer crashes.

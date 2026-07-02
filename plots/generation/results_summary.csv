@@ -1,0 +1,13 @@
+size,variant,prompt_type,file,model,prompt_tokens,generated_tokens,generation_time_s,generated_tokens_per_sec,dtype,device_map,cuda_device,celerity_use_sparge_attn,celerity_sparge_topk
+h640,baseline,short,results/generation_h640_baseline.json,models/baseline/h640,15,64,0.993187255000521,64.43900651943669,bf16,auto,NVIDIA L40,,
+h640,sparge,short,results/generation_h640_sparge.json,models/sparge/h640,15,64,1.0114022269999623,63.278484357146255,bf16,auto,NVIDIA L40,1,0.5
+h640,baseline,long,results/generation_h640_baseline_long_prompt.json,models/baseline/h640,1122,64,0.9393623910000315,68.13132036494088,bf16,auto,NVIDIA L40,,
+h640,sparge,long,results/generation_h640_sparge_long_prompt.json,models/sparge/h640,1122,64,3.1614875340001163,20.24363509636336,bf16,auto,NVIDIA L40,1,0.5
+h896,baseline,short,results/generation_h896_baseline.json,models/baseline/h896,15,64,1.0318503580001561,62.02449754830663,bf16,auto,NVIDIA L40,,
+h896,sparge,short,results/generation_h896_sparge.json,models/sparge/h896,15,64,1.065605673000391,60.05974031631916,bf16,auto,NVIDIA L40,1,0.5
+h896,baseline,long,results/generation_h896_baseline_long_prompt.json,models/baseline/h896,1122,64,1.0411423679997824,61.47093996660155,bf16,auto,NVIDIA L40,,
+h896,sparge,long,results/generation_h896_sparge_long_prompt.json,models/sparge/h896,1122,64,1.3889083710000705,46.07935363937464,bf16,auto,NVIDIA L40,1,0.5
+h1152,baseline,short,results/generation_h1152_baseline.json,models/baseline/h1152,15,64,1.3259157750017039,48.26852595514052,bf16,auto,NVIDIA L40,,
+h1152,sparge,short,results/generation_h1152_sparge.json,models/sparge/h1152,15,64,1.2065324799987138,53.044572824154905,bf16,auto,NVIDIA L40,1,0.5
+h1152,baseline,long,results/generation_h1152_baseline_long_prompt.json,models/baseline/h1152,1122,64,1.1587245409991738,55.23314449248869,bf16,auto,NVIDIA L40,,
+h1152,sparge,long,results/generation_h1152_sparge_long_prompt.json,models/sparge/h1152,1122,64,2.792967238001438,22.914697719761453,bf16,auto,NVIDIA L40,1,0.5
