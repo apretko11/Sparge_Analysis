@@ -1,6 +1,6 @@
---- models/baseline/h640/modeling_celerity.py	2026-06-18 15:36:52.298469922 +0000
-+++ models/sparge/h640/modeling_celerity.py	2026-06-18 16:49:41.209168291 +0000
-@@ -394,6 +394,65 @@
+--- models/baseline/h640/modeling_celerity.py	2026-07-02 02:19:12.113423146 +0000
++++ models/sparge/h640/modeling_celerity.py	2026-07-02 03:06:02.121903951 +0000
+@@ -394,6 +394,71 @@
              if not hasattr(self.__class__, name):
                  setattr(self.__class__, name, property(fget=getter, fset=setter))
  
@@ -26,6 +26,12 @@
 +            return None
 +
 +        if head_mask is not None:
++            return None
++
++        # SpargeAttention kernels require query sequence length >= 128.
++        # During autoregressive generation, decode steps usually have q_len=1,
++        # so fall back to the original Celerity attention path for decode.
++        if query.size(-2) < 128:
 +            return None
 +
 +        ignore_bias = os.environ.get("CELERITY_SPARGE_IGNORE_BIAS", "0") == "1"
@@ -66,7 +72,7 @@
      def prune_heads(self, heads):
          if len(heads) == 0:
              return
-@@ -410,6 +469,10 @@
+@@ -410,6 +475,10 @@
          self.pruned_heads = self.pruned_heads.union(heads)
  
      def _attn(self, query, key, value, attention_mask=None, head_mask=None, position_bias=None):

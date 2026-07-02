@@ -418,6 +418,12 @@ class CelerityAttention(nn.Module):
         if head_mask is not None:
             return None
 
+        # SpargeAttention kernels require query sequence length >= 128.
+        # During autoregressive generation, decode steps usually have q_len=1,
+        # so fall back to the original Celerity attention path for decode.
+        if query.size(-2) < 128:
+            return None
+
         ignore_bias = os.environ.get("CELERITY_SPARGE_IGNORE_BIAS", "0") == "1"
         ignore_mask = os.environ.get("CELERITY_SPARGE_IGNORE_MASK", "0") == "1"
 

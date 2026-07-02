@@ -394,71 +394,6 @@ class CelerityAttention(nn.Module):
             if not hasattr(self.__class__, name):
                 setattr(self.__class__, name, property(fget=getter, fset=setter))
 
-
-    def _sparge_attn(self, query, key, value, attention_mask=None, head_mask=None, position_bias=None):
-        """
-        SpargeAttention fast path for timing experiments.
-
-        Enable with:
-            CELERITY_USE_SPARGE_ATTN=1
-
-        For these Celerity models, ALiBi position_bias and causal attention_mask
-        are normally added before softmax. The SpargeAttention plug-and-play API
-        accepts q/k/v plus is_causal, but not arbitrary additive bias/mask.
-        Therefore, for timing-only experiments, explicitly set:
-            CELERITY_SPARGE_IGNORE_BIAS=1
-            CELERITY_SPARGE_IGNORE_MASK=1
-        """
-        if os.environ.get("CELERITY_USE_SPARGE_ATTN", "0") != "1":
-            return None
-
-        if self.is_cross_attention:
-            return None
-
-        if head_mask is not None:
-            return None
-
-        # SpargeAttention kernels require query sequence length >= 128.
-        # During autoregressive generation, decode steps usually have q_len=1,
-        # so fall back to the original Celerity attention path for decode.
-        if query.size(-2) < 128:
-            return None
-
-        ignore_bias = os.environ.get("CELERITY_SPARGE_IGNORE_BIAS", "0") == "1"
-        ignore_mask = os.environ.get("CELERITY_SPARGE_IGNORE_MASK", "0") == "1"
-
-        if position_bias is not None and not ignore_bias:
-            return None
-
-        if attention_mask is not None and not ignore_mask:
-            return None
-
-        from spas_sage_attn import spas_sage2_attn_meansim_topk_cuda
-
-        q = query
-        d = float(value.size(-1))
-
-        if self.scale_attn_weights:
-            q = q * (d ** (0.5 - float(self.attn_scale_power)))
-        else:
-            q = q * (d ** 0.5)
-
-        if self.scale_attn_by_inverse_layer_idx:
-            q = q / float(self.layer_idx + 1)
-
-        topk = float(os.environ.get("CELERITY_SPARGE_TOPK", "0.5"))
-
-        attn_output = spas_sage2_attn_meansim_topk_cuda(
-            q.contiguous(),
-            key.contiguous(),
-            value.contiguous(),
-            topk=topk,
-            is_causal=True,
-        )
-
-        return attn_output, None
-
-
     def prune_heads(self, heads):
         if len(heads) == 0:
             return
@@ -475,10 +410,6 @@ class CelerityAttention(nn.Module):
         self.pruned_heads = self.pruned_heads.union(heads)
 
     def _attn(self, query, key, value, attention_mask=None, head_mask=None, position_bias=None):
-        sparge_result = self._sparge_attn(query, key, value, attention_mask, head_mask, position_bias)
-        if sparge_result is not None:
-            return sparge_result
-
         attn_weights = torch.matmul(query, key.transpose(-1, -2))
 
         if self.scale_attn_weights:
