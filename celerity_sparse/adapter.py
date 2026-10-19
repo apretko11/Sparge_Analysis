@@ -122,7 +122,7 @@ class CeleritySparseAdapter:
         else:
             if self._compiled is None:
                 from torch.nn.attention.flex_attention import flex_attention
-                self._compiled = torch.compile(flex_attention, fullgraph=True, dynamic=True)
+                self._compiled = torch.compile(flex_attention, fullgraph=True, dynamic=False)
             out = flex_attention_call(q, k, v, position_bias, blocks, self._compiled)
         out = attn.o_proj(out.transpose(1, 2).contiguous().reshape(b, length, -1))
         # Count COMPLETED backend calls, not merely requests or model forwards.

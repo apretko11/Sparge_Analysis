@@ -50,11 +50,14 @@ def error_metrics(actual, expected):
 @torch.no_grad()
 def kernel_gate():
     from torch.nn.attention.flex_attention import flex_attention
-    compiled = torch.compile(flex_attention, fullgraph=True, dynamic=True)
     results = []
     torch.manual_seed(74)
     last = None
     for dim in (64, 128):
+        # Five static sequence shapes per head dimension; isolate the two
+        # batches to avoid the PyTorch 2.5.1 eight-entry compiler cache limit.
+        torch._dynamo.reset()
+        compiled = torch.compile(flex_attention, fullgraph=True, dynamic=False)
         for length in (17, 128, 129, 517, 4096):
             q, k, v = [torch.randn(1, 3, length, dim, device="cuda", dtype=torch.bfloat16)
                        for _ in range(3)]

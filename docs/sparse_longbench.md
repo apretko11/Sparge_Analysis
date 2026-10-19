@@ -69,6 +69,29 @@ actual SM86 execution remains a required test, not an assumed compatibility clai
 torch.compile will generate/cache GPU code during these explicitly launched tests.
 Use a separate codegen cache so existing environments/results remain undisturbed.
 
+The PyTorch 2.5.1 compilation workaround uses fullgraph=True, dynamic=False
+in both adapter and validator. score_mod captures concrete Python integer
+clamp bounds instead of reading captured tensor shapes inside the subgraph;
+ALiBi values, conversions, indexing, selection, causality, scale and thresholds
+are unchanged. This targets the matching sym_size assertion in
+[PyTorch issue #136914](https://github.com/pytorch/pytorch/issues/136914).
+It is not GPU-verified until rerun on the A6000.
+
+Static compilation specializes kernels for different sequence lengths/shapes,
+increasing compilation time/cache usage. The kernel validator resets compiler
+state between head dimensions to isolate its two five-shape batches without
+raising cache limits, removing tests, or suppressing errors. Larger LongBench
+diagnostics can still hit the compiler specialization limit; start with two
+cases and stop on any compiler error. No automatic dense fallback is added.
+Use fresh report names, e.g. a6000_kernels_static_02.json and
+271m_static_02.json, to preserve earlier failures.
+
+If this targeted workaround still fails, test PyTorch 2.6 only in a SEPARATE
+environment and rerun all correctness gates and matched controls there. The
+upstream issue reports success on 2.6.0.dev20241017+cu124; that is a reason
+to test 2.6, not proof that this integration works. Do not upgrade the
+validated LongBench environment.
+
 From the existing GPU environment, with both repositories available:
 
 ```bash

@@ -109,12 +109,16 @@ def flex_attention_call(q, k, v, bias, blocks, compiled):
     if torch.cuda.get_device_capability(q.device)[0] < 8:
         raise RuntimeError("Flex validation requires an Ampere-or-newer NVIDIA GPU")
     position_bias = bias.to(q.dtype)
+    # Compute concrete bounds in eager Python: PyTorch 2.5.1 Flex lowering
+    # can fail on symbolic shape lookups inside a captured score_mod.
+    q_max = int(position_bias.shape[-2]) - 1
+    kv_max = int(position_bias.shape[-1]) - 1
 
     def score_mod(score, b, h, q_idx, kv_idx):
         # Clamp only for out-of-bounds lanes in the final partial block.
         # Flex masks padded lanes; valid lanes read the ORIGINAL ALiBi tensor.
-        return score + position_bias[h, q_idx.clamp(max=position_bias.shape[-2] - 1),
-                                     kv_idx.clamp(max=position_bias.shape[-1] - 1)].float()
+        return score + position_bias[h, q_idx.clamp(max=q_max),
+                                     kv_idx.clamp(max=kv_max)].float()
 
     return compiled(q, k, v, score_mod=score_mod,
                     block_mask=make_block_mask(blocks), scale=1.0 / q.shape[-1])
