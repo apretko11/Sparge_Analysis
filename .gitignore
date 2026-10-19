@@ -18,3 +18,8 @@ logs/
 .env
 .venv/
 .DS_Store
+
+# New sparse diagnostic: unmodified source fixtures and generated compiler caches
+results/sparse_source/
+results/sparse_codegen_cache/
+results/sparse_triton_cache/
