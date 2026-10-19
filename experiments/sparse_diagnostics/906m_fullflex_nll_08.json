@@ -1,0 +1,13 @@
+{
+  "original": {
+    "avg_nll": 5.012097618796608,
+    "perplexity": 150.21950916277183,
+    "tokens": 11
+  },
+  "flex_full": {
+    "avg_nll": 4.999418432062322,
+    "perplexity": 148.32687186109163,
+    "tokens": 11
+  },
+  "delta_nll_per_token": -0.01267918673428614
+}
