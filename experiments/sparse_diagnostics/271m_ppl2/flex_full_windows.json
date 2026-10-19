@@ -1,0 +1,18 @@
+[
+  {
+    "shape": [
+      1,
+      4096
+    ],
+    "token_ids_sha256": "56ab26eab4ddef3b1c920389aab5d9cee6d851e84fc7479f1c578a4544449a1b",
+    "forward_seconds": 0.05957334599952446
+  },
+  {
+    "shape": [
+      1,
+      4096
+    ],
+    "token_ids_sha256": "6a222770c34d985274fc76a3f441f8d8f026dc9491b0951dead39773dedc7269",
+    "forward_seconds": 0.06008504700002959
+  }
+]

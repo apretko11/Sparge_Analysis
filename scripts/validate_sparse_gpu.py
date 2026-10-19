@@ -97,8 +97,17 @@ def kernel_gate():
         torch.cuda.synchronize()
     kernels = sorted({event.name for event in prof.events()
                       if event.device_type == torch.autograd.DeviceType.CUDA})
-    if not any("flex" in name.lower() for name in kernels):
-        raise AssertionError(f"No Flex GPU kernel visible in profiler: {kernels}")
+    # PyTorch 2.5.1 can report Inductor-generated Flex kernels as "triton_".
+    # This profiler scope contains the compiled FlexAttention call.
+    compiled_kernels = [
+        name for name in kernels
+        if "flex" in name.lower() or name.startswith("triton_")
+    ]
+
+    if not compiled_kernels:
+        raise AssertionError(
+            f"No compiled Flex/Triton CUDA kernel visible in profiler: {kernels}"
+        )
     return dict(comparisons=results, cuda_kernels=kernels,
                 attention_atol=0.03, attention_relative_rms=0.02,
                 causality_atol=1e-5, causality_rtol=1e-5)

@@ -120,8 +120,17 @@ def flex_attention_call(q, k, v, bias, blocks, compiled):
         return score + position_bias[h, q_idx.clamp(max=q_max),
                                      kv_idx.clamp(max=kv_max)].float()
 
-    return compiled(q, k, v, score_mod=score_mod,
-                    block_mask=make_block_mask(blocks), scale=1.0 / q.shape[-1])
+    return compiled(
+        q, k, v,
+        score_mod=score_mod,
+        block_mask=make_block_mask(blocks),
+        scale=1.0 / q.shape[-1],
+        kernel_options={
+            "FORCE_USE_FLEX_ATTENTION": True,
+            "BLOCK_M": 64,
+            "BLOCK_N": 32,
+        },
+    )
 
 
 def block_statistics(blocks, length):

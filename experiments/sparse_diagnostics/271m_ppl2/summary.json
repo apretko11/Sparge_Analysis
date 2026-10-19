@@ -1,0 +1,99 @@
+{
+  "status": "complete",
+  "arms": {
+    "original": {
+      "nll_sum": 60.15858459472656,
+      "scored_tokens": 11,
+      "avg_nll": 5.468962235884233,
+      "perplexity": 237.21389291687075,
+      "execution": {
+        "calls_by_backend": {
+          "original": 26
+        },
+        "failures": {},
+        "dense_fallback_calls": 0,
+        "completed_attention_calls": 26,
+        "calls_omitting_blocks": 0,
+        "flex_execution_coverage": 0.0,
+        "causal_pair_sparsity": null,
+        "block_sparsity": null,
+        "retained_blocks": 0,
+        "eligible_blocks": 0,
+        "retained_causal_pairs": 0,
+        "eligible_causal_pairs": 0
+      },
+      "warmup_and_compilation_wall_seconds": 0.8979414470004485,
+      "measured_evaluation_wall_seconds": 0.5356940639994718,
+      "model_forward_seconds": 0.328293276000295,
+      "peak_allocated_bytes": 4890161664,
+      "peak_reserved_bytes": 8518631424,
+      "examples": 2,
+      "delta_nll_per_token_vs_original": 0.0,
+      "delta_perplexity_vs_original": 0.0
+    },
+    "flex_full": {
+      "nll_sum": 60.13645553588867,
+      "scored_tokens": 11,
+      "avg_nll": 5.4669505032626065,
+      "perplexity": 236.7371616788587,
+      "execution": {
+        "calls_by_backend": {
+          "flex": 26
+        },
+        "failures": {},
+        "dense_fallback_calls": 0,
+        "completed_attention_calls": 26,
+        "calls_omitting_blocks": 0,
+        "flex_execution_coverage": 1.0,
+        "causal_pair_sparsity": 0.0,
+        "block_sparsity": 0.0,
+        "retained_blocks": 137280,
+        "eligible_blocks": 137280,
+        "retained_causal_pairs": 2181570560,
+        "eligible_causal_pairs": 2181570560
+      },
+      "warmup_and_compilation_wall_seconds": 2.9388697160002266,
+      "measured_evaluation_wall_seconds": 0.32897544400020706,
+      "model_forward_seconds": 0.11965839299955405,
+      "peak_allocated_bytes": 4890161664,
+      "peak_reserved_bytes": 6541017088,
+      "examples": 2,
+      "delta_nll_per_token_vs_original": -0.002011732621626905,
+      "delta_perplexity_vs_original": -0.4767312380120359
+    },
+    "flex_sparse": {
+      "nll_sum": 61.509918212890625,
+      "scored_tokens": 11,
+      "avg_nll": 5.591810746626421,
+      "perplexity": 268.22086027508715,
+      "execution": {
+        "calls_by_backend": {
+          "flex": 26
+        },
+        "failures": {},
+        "dense_fallback_calls": 0,
+        "completed_attention_calls": 26,
+        "calls_omitting_blocks": 26,
+        "flex_execution_coverage": 1.0,
+        "causal_pair_sparsity": 0.46863558701488894,
+        "block_sparsity": 0.4545454545454546,
+        "retained_blocks": 74880,
+        "eligible_blocks": 137280,
+        "retained_causal_pairs": 1159208960,
+        "eligible_causal_pairs": 2181570560
+      },
+      "warmup_and_compilation_wall_seconds": 0.4099758069996824,
+      "measured_evaluation_wall_seconds": 0.30846957999983715,
+      "model_forward_seconds": 0.10838318700007221,
+      "peak_allocated_bytes": 4890161664,
+      "peak_reserved_bytes": 6541017088,
+      "examples": 2,
+      "delta_nll_per_token_vs_original": 0.1228485107421875,
+      "delta_perplexity_vs_original": 31.0069673582164,
+      "delta_nll_per_token_vs_same_backend_full": 0.1248602433638144
+    }
+  },
+  "method": "prefix-safe ALiBi-aware Sparge-inspired block selection",
+  "execution": "compiled Flex block sparsity",
+  "paired_window_identity": true
+}
