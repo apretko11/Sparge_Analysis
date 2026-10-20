@@ -1,0 +1,25 @@
+{
+  "command": [
+    "/home/ubuntu/Perplexity_LongBench/.venv/bin/python",
+    "-B",
+    "-u",
+    "/home/ubuntu/Sparge_Analysis/scripts/run_sparse_longbench.py",
+    "--model",
+    "adpretko/celerity-906m-8k-ad0p0",
+    "--longbench-repo",
+    "/home/ubuntu/Perplexity_LongBench",
+    "--manifest",
+    "/home/ubuntu/Perplexity_LongBench/experiments/celerity_all_4k_a6000_bf16/manifest.json",
+    "--backend",
+    "reference",
+    "--keep-fraction",
+    "0.5",
+    "--local-blocks",
+    "1",
+    "--limit-cases",
+    "0",
+    "--output-dir",
+    "/home/ubuntu/Sparge_Analysis/results/sparse_longbench/evaluations/adpretko--celerity-906m-8k-ad0p0_keep-0.5_1e61d5756efb8571dad0517ca7fc2bef7f807337559c8fa04e769ce06f4b6360/attempt_20261019T203837Z_423bf6d16010/result"
+  ],
+  "gpu": "0"
+}

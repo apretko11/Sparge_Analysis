@@ -1,0 +1,914 @@
+[
+  {
+    "shape": [
+      1,
+      4096
+    ],
+    "token_ids_sha256": "56ab26eab4ddef3b1c920389aab5d9cee6d851e84fc7479f1c578a4544449a1b",
+    "forward_seconds": 0.330648230999941
+  },
+  {
+    "shape": [
+      1,
+      4096
+    ],
+    "token_ids_sha256": "6a222770c34d985274fc76a3f441f8d8f026dc9491b0951dead39773dedc7269",
+    "forward_seconds": 0.330772925999554
+  },
+  {
+    "shape": [
+      1,
+      4096
+    ],
+    "token_ids_sha256": "a33a1764a4be4925e1b0eaaef48095e41bcac2e1a8157877bca263d61a178034",
+    "forward_seconds": 0.3309735040002124
+  },
+  {
+    "shape": [
+      1,
+      4096
+    ],
+    "token_ids_sha256": "0ae2f0ebf49e4ea377d7fcc1bede6720185e6965596d0c19d76785642f60d0b2",
+    "forward_seconds": 0.331432937999125
+  },
+  {
+    "shape": [
+      1,
+      4096
+    ],
+    "token_ids_sha256": "c6eca4e521c8389b2f4182fc00eaee5778a12c0e00b9e3b12f7cd5c55dfb6f0d",
+    "forward_seconds": 0.33067693399971176
+  },
+  {
+    "shape": [
+      1,
+      2482
+    ],
+    "token_ids_sha256": "aaa8f39537c194827145f2aa53083fdd714482119279269f7347b2579da896f0",
+    "forward_seconds": 0.14959741799975745
+  },
+  {
+    "shape": [
+      1,
+      4096
+    ],
+    "token_ids_sha256": "5069f60fcc5c443f0303414ef136d5a9cf7905a821623f1b4dc5a7c78615096e",
+    "forward_seconds": 0.33074250900062907
+  },
+  {
+    "shape": [
+      1,
+      4096
+    ],
+    "token_ids_sha256": "b7c1513d8d24a289604cf409af8a9663291770f3a281685ea04b2d490dd2656c",
+    "forward_seconds": 0.33050296799956413
+  },
+  {
+    "shape": [
+      1,
+      4096
+    ],
+    "token_ids_sha256": "345b3f2d43a9f86b298d0ecb2c4ce2a057b544c8f0ec5c69849a58e058bb96fa",
+    "forward_seconds": 0.3308509620001132
+  },
+  {
+    "shape": [
+      1,
+      4096
+    ],
+    "token_ids_sha256": "fbbd918e673c913d530df85ce840e52c5d29efa0190fd7a46b6185cace91479c",
+    "forward_seconds": 0.3305650759994023
+  },
+  {
+    "shape": [
+      1,
+      4096
+    ],
+    "token_ids_sha256": "0f0baa1dd7e744cfa1f957ae2a2606e958ab82efdcd1f58815dbb052b2103101",
+    "forward_seconds": 0.3304468509995786
+  },
+  {
+    "shape": [
+      1,
+      4096
+    ],
+    "token_ids_sha256": "86e1a9623a6affa8dd1f833752321fd3b217f289a301cdb72a8215ba545d15a1",
+    "forward_seconds": 0.330665172999943
+  },
+  {
+    "shape": [
+      1,
+      3194
+    ],
+    "token_ids_sha256": "5ce36965cbd7415570361933e72751340649c699abebbeb7c2bdbccdb47610a5",
+    "forward_seconds": 0.23585282800013374
+  },
+  {
+    "shape": [
+      1,
+      4096
+    ],
+    "token_ids_sha256": "0a7ccb6650f6633354daf055901eb3f14eca181b74d96fb489859d1decef55b7",
+    "forward_seconds": 0.33066602399958356
+  },
+  {
+    "shape": [
+      1,
+      3072
+    ],
+    "token_ids_sha256": "54af7f3071ad89fe70a448ad0527f96aca2af7003595faeb4867031714ffd04c",
+    "forward_seconds": 0.19708237400118378
+  },
+  {
+    "shape": [
+      1,
+      4096
+    ],
+    "token_ids_sha256": "a7f5c3ddb13abf4f7a0b06a7b169ff6dbb7b2dc6031293a6d0aa512a3b038781",
+    "forward_seconds": 0.33072104700113414
+  },
+  {
+    "shape": [
+      1,
+      4096
+    ],
+    "token_ids_sha256": "b60e90ddbcb2d84064a23680a07d0bd21fa338d56966fd2b48c5b1cb0030ec91",
+    "forward_seconds": 0.33072491500024626
+  },
+  {
+    "shape": [
+      1,
+      4096
+    ],
+    "token_ids_sha256": "1cacfea62237c68d78c8f618feeb2a4f4dfd7eba98a457aa99cf7479ed2cf6ed",
+    "forward_seconds": 0.3306343330004893
+  },
+  {
+    "shape": [
+      1,
+      4096
+    ],
+    "token_ids_sha256": "b87b44c1110ed0aae4779b2ab53323bc05e84a0f169635e9396e18654eea50a5",
+    "forward_seconds": 0.3306360179994954
+  },
+  {
+    "shape": [
+      1,
+      4096
+    ],
+    "token_ids_sha256": "54822830d86aa8aecf2dc6dc3cfd5e5d2425751265cdf25c6f9d94207ea8ec3c",
+    "forward_seconds": 0.3308020900003612
+  },
+  {
+    "shape": [
+      1,
+      4096
+    ],
+    "token_ids_sha256": "b6dd8389e11fb83b1021d009f29dfece360d42c53ddecc45d36011237b5c8ce6",
+    "forward_seconds": 0.3309728730000643
+  },
+  {
+    "shape": [
+      1,
+      4096
+    ],
+    "token_ids_sha256": "ac0666ac07763639fe733398de6c02cf25b44a45f225ab21aaf1121f599f7189",
+    "forward_seconds": 0.3307140649994835
+  },
+  {
+    "shape": [
+      1,
+      4096
+    ],
+    "token_ids_sha256": "374183f354e7afa69815740717942daf84e76fa6671da4ace9e10f8388fbc985",
+    "forward_seconds": 0.3310391470004106
+  },
+  {
+    "shape": [
+      1,
+      4096
+    ],
+    "token_ids_sha256": "328910d3561977b4e674915f3d81f1b639fab559a4f4e0d3626939773b58ca8a",
+    "forward_seconds": 0.330963222999344
+  },
+  {
+    "shape": [
+      1,
+      4096
+    ],
+    "token_ids_sha256": "2d01843ae31b51d1e694d1efead9f8b2bf6c30f8683237c21f5d1ce419c4c75e",
+    "forward_seconds": 0.33090926300064893
+  },
+  {
+    "shape": [
+      1,
+      4096
+    ],
+    "token_ids_sha256": "f83baa3eabaf5208257724120241bda934fe5289f317f539428147d58120716c",
+    "forward_seconds": 0.3308378069996252
+  },
+  {
+    "shape": [
+      1,
+      4096
+    ],
+    "token_ids_sha256": "298b42f7c942fd32809607b54431fff76f3b51d21f1c0a82434b975e40985dc9",
+    "forward_seconds": 0.33118054300030053
+  },
+  {
+    "shape": [
+      1,
+      4096
+    ],
+    "token_ids_sha256": "90aa99b3f58889579e05cbdfb4fb48d7d311c34613ae78e99c96dbd578c17651",
+    "forward_seconds": 0.33087968600011664
+  },
+  {
+    "shape": [
+      1,
+      4096
+    ],
+    "token_ids_sha256": "0f91ace2306aa34e20954cefc10ade6884d574f7f278d350549626fb1958fc93",
+    "forward_seconds": 0.3310323130008328
+  },
+  {
+    "shape": [
+      1,
+      4096
+    ],
+    "token_ids_sha256": "f8cee79b79598c01669ba9e607a50a9ad54042355cfbc961ee115a2d70db7bcf",
+    "forward_seconds": 0.3308979100002034
+  },
+  {
+    "shape": [
+      1,
+      4096
+    ],
+    "token_ids_sha256": "cf38989db52a37cfa0e3cf411ed9a30de6bbd73f0161a280d458430f642369fd",
+    "forward_seconds": 0.3307479979994241
+  },
+  {
+    "shape": [
+      1,
+      4096
+    ],
+    "token_ids_sha256": "7c32e9a489dff134545c128c4cf42c9d8f6be3afe3d6a9e75979a76bfcb8450e",
+    "forward_seconds": 0.33090592500047933
+  },
+  {
+    "shape": [
+      1,
+      4096
+    ],
+    "token_ids_sha256": "dbb1b55a409741b69a1617ed6ade4b76fc9ada32e1a0fd859b8268fa20dd4b4b",
+    "forward_seconds": 0.3310917660000996
+  },
+  {
+    "shape": [
+      1,
+      4096
+    ],
+    "token_ids_sha256": "19ce70692b8366b234a340e3d53a19e925aa4502a28d7a3f323951409b4c5ae7",
+    "forward_seconds": 0.33099884999865026
+  },
+  {
+    "shape": [
+      1,
+      4096
+    ],
+    "token_ids_sha256": "46278bc986da29a73fa212ccfd389bb535a6b073e4371f3310fd9472b0e54e92",
+    "forward_seconds": 0.3308935429995472
+  },
+  {
+    "shape": [
+      1,
+      4096
+    ],
+    "token_ids_sha256": "11f0b3ea8c3cb8777e77270f6d43720832b16df201826fe41f9d7d23e255863f",
+    "forward_seconds": 0.33106730000145035
+  },
+  {
+    "shape": [
+      1,
+      4096
+    ],
+    "token_ids_sha256": "17c7f74d85775839b010f73e1ac9a1691851a828a09d91dfb8b50e2383446246",
+    "forward_seconds": 0.33103862600000866
+  },
+  {
+    "shape": [
+      1,
+      4081
+    ],
+    "token_ids_sha256": "e56a73fda71c13a3ab80b0e4eef69594f2ad389a5518424c2d3aed3f3fecdc4c",
+    "forward_seconds": 0.3638481350008078
+  },
+  {
+    "shape": [
+      1,
+      4096
+    ],
+    "token_ids_sha256": "e6dcaedab6e2c1a48a11d365b03291b7c077f3359308c6ba0b2527d6fc0df547",
+    "forward_seconds": 0.3313374989993463
+  },
+  {
+    "shape": [
+      1,
+      4096
+    ],
+    "token_ids_sha256": "dd3ad39e8feac773c6bea8950ea9a0accae655dbf2b014b0f3e385c67a0d3d1c",
+    "forward_seconds": 0.3312954390003142
+  },
+  {
+    "shape": [
+      1,
+      4096
+    ],
+    "token_ids_sha256": "7e4d107f1a23d1a79ed8bd1d08282908ed799833e0fd7484eee68ecf5a541e6a",
+    "forward_seconds": 0.33102640400102246
+  },
+  {
+    "shape": [
+      1,
+      4096
+    ],
+    "token_ids_sha256": "73f05cf423d554888f30c6f30d926fb4484f35536400975a0e9fb43349ff9056",
+    "forward_seconds": 0.33121087000108673
+  },
+  {
+    "shape": [
+      1,
+      4096
+    ],
+    "token_ids_sha256": "5630debb6e1118d6097d934be5c5fea8387c44ee5fbf2ac1270549233682b3c8",
+    "forward_seconds": 0.3310770179996325
+  },
+  {
+    "shape": [
+      1,
+      4096
+    ],
+    "token_ids_sha256": "b3cc60cadf42d3160d1f614c341ede3246b4a885a61234c5cf10fad7bb6cb7fa",
+    "forward_seconds": 0.33073655599946505
+  },
+  {
+    "shape": [
+      1,
+      4096
+    ],
+    "token_ids_sha256": "ce12a853150dba20cfedfc16a441229f2805240d9cc350548691e61fce0ad264",
+    "forward_seconds": 0.33139716099867655
+  },
+  {
+    "shape": [
+      1,
+      4096
+    ],
+    "token_ids_sha256": "5f815117758d2027611e2bef89d68a0493cbf4809ddfef78f56f6776f88f2352",
+    "forward_seconds": 0.3315577730008954
+  },
+  {
+    "shape": [
+      1,
+      4096
+    ],
+    "token_ids_sha256": "7b9bb90f28e9b46bfcd5d5127bb993ad02d8958745c3bc4cc8d6c082530dbbe4",
+    "forward_seconds": 0.33120539899937285
+  },
+  {
+    "shape": [
+      1,
+      4096
+    ],
+    "token_ids_sha256": "2ce1642d72d99a32f6efb6fce038a2d3fdd2d8ea2fc9cdddc09f6f9b7c7e0360",
+    "forward_seconds": 0.3313430600010179
+  },
+  {
+    "shape": [
+      1,
+      4096
+    ],
+    "token_ids_sha256": "9f1a8fdc0225f09078284f0e7b15a263f35fca8b0d8e1fea882fa65a9e97fdb8",
+    "forward_seconds": 0.3313498920015263
+  },
+  {
+    "shape": [
+      1,
+      4096
+    ],
+    "token_ids_sha256": "280fd0271d49c81ebf203c1d47b2c9e0dac73c5b9c37bfaa4b5b8f7c28a9e938",
+    "forward_seconds": 0.3310996199998044
+  },
+  {
+    "shape": [
+      1,
+      4096
+    ],
+    "token_ids_sha256": "8ff4a509d42a55385a0f6a2258cc5158a19d683621c8b483c03c5f893cb91898",
+    "forward_seconds": 0.33105566700032796
+  },
+  {
+    "shape": [
+      1,
+      4096
+    ],
+    "token_ids_sha256": "24546b0adad735ed6acb8c1bcf3a1fd8ef87bc1d4fa8222eb30324e3e1a3b8b2",
+    "forward_seconds": 0.3312198969997553
+  },
+  {
+    "shape": [
+      1,
+      4096
+    ],
+    "token_ids_sha256": "d90baac6ba6e6df92229fb2e9d7414543366f42b4cbcc94875a8e73f8d6bad4c",
+    "forward_seconds": 0.3312698010013264
+  },
+  {
+    "shape": [
+      1,
+      4096
+    ],
+    "token_ids_sha256": "06f6ec44dafebab22d8e08fe62b75fb63fbce2449763a48c6e4f424a9df64b4e",
+    "forward_seconds": 0.3311666070003412
+  },
+  {
+    "shape": [
+      1,
+      4096
+    ],
+    "token_ids_sha256": "49637fde386cccd5a03861edabdc351e3897bad9a7265b7d6f28a5dac7dd9d60",
+    "forward_seconds": 0.33113928499915346
+  },
+  {
+    "shape": [
+      1,
+      4096
+    ],
+    "token_ids_sha256": "1b11e12812f25adc75dc51126806432ed78f36911baa0145821dc5927d75e42a",
+    "forward_seconds": 0.33147245200052566
+  },
+  {
+    "shape": [
+      1,
+      4096
+    ],
+    "token_ids_sha256": "46f0ea0e8ff18413581d32778390cadccb5e629f1c32aee6dd7441e974dbfda9",
+    "forward_seconds": 0.3312018029992032
+  },
+  {
+    "shape": [
+      1,
+      4096
+    ],
+    "token_ids_sha256": "c40bd6d884f013798fd0e20ed21407678f2e96829c7eb51846c30e949649c43e",
+    "forward_seconds": 0.3312848080004187
+  },
+  {
+    "shape": [
+      1,
+      4096
+    ],
+    "token_ids_sha256": "026b7f51238736cdd161dd84ce20285a3e5938b8f52f0f0ca3f545d994ed2d19",
+    "forward_seconds": 0.33111475900113874
+  },
+  {
+    "shape": [
+      1,
+      4096
+    ],
+    "token_ids_sha256": "5a8b4538cc1b84c4ad5bf656c218aeb9f401bfe8e1cc1c7e2c614772123bec9a",
+    "forward_seconds": 0.3311458469997888
+  },
+  {
+    "shape": [
+      1,
+      4096
+    ],
+    "token_ids_sha256": "1432599c10211ee4ce9efb8c268f4c3b098d36cb96973c3d1f1ede648d288a5a",
+    "forward_seconds": 0.33087031899958674
+  },
+  {
+    "shape": [
+      1,
+      4096
+    ],
+    "token_ids_sha256": "763ca5906010a60b47fde9a51a0c8506233651753624b25162a1068a19df22ec",
+    "forward_seconds": 0.33101924899892765
+  },
+  {
+    "shape": [
+      1,
+      4096
+    ],
+    "token_ids_sha256": "4ceb45c4be6a03ec562571a104e94fe49230d3eecb2f8b64a4dc92e1785dfe4d",
+    "forward_seconds": 0.3307230310001614
+  },
+  {
+    "shape": [
+      1,
+      4096
+    ],
+    "token_ids_sha256": "431f1b5165c9e9fa5a4db6eaa50b52ea4d89f68be296bc9b1a34254c515caa73",
+    "forward_seconds": 0.3307357640005648
+  },
+  {
+    "shape": [
+      1,
+      4096
+    ],
+    "token_ids_sha256": "26975056c033fbe3fb3a2422b943c80680dae5bde0248cda5122b91bcc02ec1d",
+    "forward_seconds": 0.3311414279996825
+  },
+  {
+    "shape": [
+      1,
+      4096
+    ],
+    "token_ids_sha256": "ea655248009f371092afbc7780db7fb6800651d2f61f250fc7426104a5ce65f3",
+    "forward_seconds": 0.3312064410001767
+  },
+  {
+    "shape": [
+      1,
+      4096
+    ],
+    "token_ids_sha256": "5e4f7d5442bf2cab71dc08f7f46759ee8b258fe419747cf66355cbcdaf7d0b49",
+    "forward_seconds": 0.33081399200091255
+  },
+  {
+    "shape": [
+      1,
+      4096
+    ],
+    "token_ids_sha256": "35fe61b7238ed26c08354597b0ebc0e9fd92a182e720dfa2a0c281c7107edec2",
+    "forward_seconds": 0.3312417480010481
+  },
+  {
+    "shape": [
+      1,
+      4096
+    ],
+    "token_ids_sha256": "91b90896111e3b4908427206cf4f50dc1713c5f25832c05660ea3493e6076aa4",
+    "forward_seconds": 0.33135863700044865
+  },
+  {
+    "shape": [
+      1,
+      4096
+    ],
+    "token_ids_sha256": "3f321145f6fe4b126351c20947b822f640a1b4d7e46cdb5c7aaccb696497ba21",
+    "forward_seconds": 0.3310524009993969
+  },
+  {
+    "shape": [
+      1,
+      4096
+    ],
+    "token_ids_sha256": "40bbac1f10b60fb24df09d345eb9901197c937bb4cf4895ce3ed1e24c721e8ae",
+    "forward_seconds": 0.33102889799920376
+  },
+  {
+    "shape": [
+      1,
+      1383
+    ],
+    "token_ids_sha256": "b2bbf7e355417c282d2a771c68ad6a158e48dde8fc2581cd4474fd46f4fa5c38",
+    "forward_seconds": 0.05955890199948044
+  },
+  {
+    "shape": [
+      1,
+      1447
+    ],
+    "token_ids_sha256": "d57ca4c26a3352e8b3b2fad2c4172a9643fae32d90a835e08d1b2341b8575dc5",
+    "forward_seconds": 0.06344460099899152
+  },
+  {
+    "shape": [
+      1,
+      4096
+    ],
+    "token_ids_sha256": "2339a4c0071467854e5f4a0ea8c9eb9ca2330161d891396a8f2329eb150cf085",
+    "forward_seconds": 0.33088912300081574
+  },
+  {
+    "shape": [
+      1,
+      4096
+    ],
+    "token_ids_sha256": "7e817e876b304cafa80188a1718fa3aeb548061cfdb2c792794bb592d2158b10",
+    "forward_seconds": 0.3309566999996605
+  },
+  {
+    "shape": [
+      1,
+      4096
+    ],
+    "token_ids_sha256": "88ab5c4ee0bed3adc52121e4dd3afd4574b464d5415c30187d1e24157e1d42da",
+    "forward_seconds": 0.3309878389991354
+  },
+  {
+    "shape": [
+      1,
+      2445
+    ],
+    "token_ids_sha256": "82e9e4362843ad467213ba92b6aab635c9d13eb8c2ef5c3b3ce53fea2257568a",
+    "forward_seconds": 0.1494018600005802
+  },
+  {
+    "shape": [
+      1,
+      2573
+    ],
+    "token_ids_sha256": "88f3183b75a7c99476619d4b5403cb111feb9effa6eebb9861ba4309135fd607",
+    "forward_seconds": 0.16191345200059004
+  },
+  {
+    "shape": [
+      1,
+      2604
+    ],
+    "token_ids_sha256": "42637af6ca118d5d78f766f0b21baff671517f31021d2850be6f19b0e49a5d8a",
+    "forward_seconds": 0.15227654400041502
+  },
+  {
+    "shape": [
+      1,
+      3456
+    ],
+    "token_ids_sha256": "449077181a46097f2d1461de102084ca68975ab460b304527cd7ac0f458f73e8",
+    "forward_seconds": 0.24571343599927786
+  },
+  {
+    "shape": [
+      1,
+      3040
+    ],
+    "token_ids_sha256": "09d24e55a3792fa43e182f08158b814c600e2a995d72737b3f60322e9c31a63a",
+    "forward_seconds": 0.19417876499937847
+  },
+  {
+    "shape": [
+      1,
+      3069
+    ],
+    "token_ids_sha256": "a8bbb0d873b107e77a2ef9ba18ccc1ad8c76dbfc7e0d5836cde132164b9bd21c",
+    "forward_seconds": 0.21543538700097997
+  },
+  {
+    "shape": [
+      1,
+      4096
+    ],
+    "token_ids_sha256": "c10d702bd9f0d57e1da8a3864947beb8ac34ccc91f6422e5a8dd15fcb6439d97",
+    "forward_seconds": 0.3309198099996138
+  },
+  {
+    "shape": [
+      1,
+      4096
+    ],
+    "token_ids_sha256": "5b5aa6931a676a2e89f043ca2ea209a54a6f693eae8717d1cc90e5104730390c",
+    "forward_seconds": 0.3310841200000141
+  },
+  {
+    "shape": [
+      1,
+      2060
+    ],
+    "token_ids_sha256": "72701668d080c0d8bd9195c63d938d44f2bffde72a74ef00c1bb907bc5f8ad02",
+    "forward_seconds": 0.10508303700044053
+  },
+  {
+    "shape": [
+      1,
+      4096
+    ],
+    "token_ids_sha256": "1751d708ce7963b4425975216b62237611f669aa6e1390d56777b400af04efab",
+    "forward_seconds": 0.33144694399925356
+  },
+  {
+    "shape": [
+      1,
+      4096
+    ],
+    "token_ids_sha256": "3b3495d3e9cf910d87fbffafbdfdba47dcb5dc4bf7b94331ead011d4c325ec4f",
+    "forward_seconds": 0.33099574399966514
+  },
+  {
+    "shape": [
+      1,
+      4096
+    ],
+    "token_ids_sha256": "529a6e4f3aef7a75529f7b4698674c1c11208ca076ce675fc65c94d8ed63ef80",
+    "forward_seconds": 0.3309290190009051
+  },
+  {
+    "shape": [
+      1,
+      4096
+    ],
+    "token_ids_sha256": "627b1fc6ab6bf09905b0502eeafdd610b698c110faf49ff1eb0749b1ce3eaf54",
+    "forward_seconds": 0.33085975800167944
+  },
+  {
+    "shape": [
+      1,
+      4096
+    ],
+    "token_ids_sha256": "f894689c1c493dfebf2159376f94f84c4f4ed6ca5e63c5e411cd742ca745bc15",
+    "forward_seconds": 0.33124237899937725
+  },
+  {
+    "shape": [
+      1,
+      4096
+    ],
+    "token_ids_sha256": "4353ef1b84c79266fe24e29ac24a0219e3e515a82acd1177cc13799374c68960",
+    "forward_seconds": 0.3311097189998691
+  },
+  {
+    "shape": [
+      1,
+      2704
+    ],
+    "token_ids_sha256": "f2de51b464f7d9bb3a1bc9d9df6ee232cf13b24dad727c4e7ccc4024108629a0",
+    "forward_seconds": 0.16066062299978512
+  },
+  {
+    "shape": [
+      1,
+      4096
+    ],
+    "token_ids_sha256": "3b7f666f30e9b8281c53435906c3022124a1ccbacf585ae937bb4d6e0163f70b",
+    "forward_seconds": 0.33100826800000505
+  },
+  {
+    "shape": [
+      1,
+      4096
+    ],
+    "token_ids_sha256": "c6e37d994971b90f0783c40514c16fa0b62c142900fb6f99315aea50881ad22d",
+    "forward_seconds": 0.33129400399957376
+  },
+  {
+    "shape": [
+      1,
+      4096
+    ],
+    "token_ids_sha256": "e2ba96080ca2b45606a9f75d20117cf69918744e0e38ce984949a83849416238",
+    "forward_seconds": 0.3312599019991467
+  },
+  {
+    "shape": [
+      1,
+      4096
+    ],
+    "token_ids_sha256": "0be0d3447223b54065316c91431ccfc4095b85d12e819fb9446bb58aecdc1dad",
+    "forward_seconds": 0.3309831110000232
+  },
+  {
+    "shape": [
+      1,
+      4096
+    ],
+    "token_ids_sha256": "dbb3d983ea8c69164d76b94bbebff4ef6a78682334d59fcaaec66fb15ba95e11",
+    "forward_seconds": 0.3308820000002015
+  },
+  {
+    "shape": [
+      1,
+      4096
+    ],
+    "token_ids_sha256": "3a0a73816ed6a8be70e88a7c13d012fdb080939c2208c3f8daad4b564e54f0a5",
+    "forward_seconds": 0.33097177900162933
+  },
+  {
+    "shape": [
+      1,
+      4096
+    ],
+    "token_ids_sha256": "098c0359c365c441cb24d1a2bf54cd3449ce138c5b1f255b45d5d946ba8181d9",
+    "forward_seconds": 0.3313013700008014
+  },
+  {
+    "shape": [
+      1,
+      4096
+    ],
+    "token_ids_sha256": "3c863e3a2b032a3aa95f7422633fbfb7a6b81c04b8285108f7ec944630f1b676",
+    "forward_seconds": 0.33119908700064116
+  },
+  {
+    "shape": [
+      1,
+      4096
+    ],
+    "token_ids_sha256": "116bd8e6d003ab1958379b13297d53b12b94eafe56b2a95a5e473caf64ee2d18",
+    "forward_seconds": 0.33109679400149616
+  },
+  {
+    "shape": [
+      1,
+      4096
+    ],
+    "token_ids_sha256": "70bd356193de54e45eafc81c2771bb9893f8bc9ce319d2d79f99f0ed729a5da2",
+    "forward_seconds": 0.33099950999894645
+  },
+  {
+    "shape": [
+      1,
+      4096
+    ],
+    "token_ids_sha256": "b49bf6f3b828c3c2acfae87b6a8ef3e6f599d1c4dc15d904ee56cbaf0dc515ea",
+    "forward_seconds": 0.3311442129997886
+  },
+  {
+    "shape": [
+      1,
+      4096
+    ],
+    "token_ids_sha256": "5a7bf7cc275c9f8b2a74cfcd2ba2062de72d490a33aa95034ed17f080bd3b78e",
+    "forward_seconds": 0.3307293119996757
+  },
+  {
+    "shape": [
+      1,
+      1966
+    ],
+    "token_ids_sha256": "00252fabd0948719a567f4f164fb5a54cfdb64c860953c2bd4a565f03b2d51c8",
+    "forward_seconds": 0.10133631099961349
+  },
+  {
+    "shape": [
+      1,
+      1263
+    ],
+    "token_ids_sha256": "849fa652bffe2ffaac808c8cc7d1c579b45ccf452df4082a6e47a1b2b1eb969a",
+    "forward_seconds": 0.05242242299937061
+  },
+  {
+    "shape": [
+      1,
+      2610
+    ],
+    "token_ids_sha256": "8e03ce92c093ea8b072076a7865adc10b3b87224bb9dfb38e3b1ea054dbba8b8",
+    "forward_seconds": 0.16321145500114653
+  },
+  {
+    "shape": [
+      1,
+      1942
+    ],
+    "token_ids_sha256": "d13de6fe27d66ab83c1534f60b396d458ae1463b3428a9b465722f64265124d3",
+    "forward_seconds": 0.0998039450005308
+  },
+  {
+    "shape": [
+      1,
+      1881
+    ],
+    "token_ids_sha256": "fed8b6c71f660b97bf0e10554c909ae7647fb85193aee13dc452fca3d038acf2",
+    "forward_seconds": 0.09710033200099133
+  },
+  {
+    "shape": [
+      1,
+      4096
+    ],
+    "token_ids_sha256": "e7394551a92846637b7a9828290018372593ec8c03ead7978db9067df6a7894f",
+    "forward_seconds": 0.33097746999919764
+  },
+  {
+    "shape": [
+      1,
+      2742
+    ],
+    "token_ids_sha256": "577df52cf237a02a042b04a69a2b59f955218adea86ee9f0eff0f99c510bc5fb",
+    "forward_seconds": 0.1775994220006396
+  },
+  {
+    "shape": [
+      1,
+      4096
+    ],
+    "token_ids_sha256": "81cca49a3f6260bb35f2799eccb4cff70f158c0cff8c5d8c9bab296b4fa13bc5",
+    "forward_seconds": 0.3313619429991377
+  },
+  {
+    "shape": [
+      1,
+      4096
+    ],
+    "token_ids_sha256": "28efe92d08483d4dbc88f318c0fe0e4d69f7bf281ec6df8bbf2d7c5e512ab2eb",
+    "forward_seconds": 0.3311169920016255
+  },
+  {
+    "shape": [
+      1,
+      4096
+    ],
+    "token_ids_sha256": "dfa077803edc40f879a1bab771d78d8fd07204593a4729d4802b4d6b95d74dd9",
+    "forward_seconds": 0.33107597500020347
+  }
+]

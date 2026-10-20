@@ -1,0 +1,97 @@
+Output: /home/ubuntu/Sparge_Analysis/results/sparse_longbench/evaluations/adpretko--celerity-906m-8k-ad0p4_keep-0.75_4ae94ad8923cddaecc8ff8d704bf5554b7a54590dcc3b3e5bd85d21266829fe7/attempt_20261019T215125Z_fb47cd84376f/result
+Some weights of CelerityForCausalLM were not initialized from the model checkpoint at adpretko/celerity-906m-8k-ad0p4 and are newly initialized: ['model.alibi_emb.slopes']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+Starting from v4.46, the `logits` model output will have the same type as the model (except at train time, where it will always be FP32)
+{
+  "original": {
+    "nll_sum": 15044.617500066757,
+    "scored_tokens": 6162,
+    "avg_nll": 2.4415153359407267,
+    "perplexity": 11.490439432882717,
+    "execution": {
+      "calls_by_backend": {
+        "original": 2622
+      },
+      "failures": {},
+      "dense_fallback_calls": 0,
+      "completed_attention_calls": 2622,
+      "calls_omitting_blocks": 0,
+      "flex_execution_coverage": 0.0,
+      "causal_pair_sparsity": null,
+      "block_sparsity": null,
+      "retained_blocks": 0,
+      "eligible_blocks": 0,
+      "retained_causal_pairs": 0,
+      "eligible_causal_pairs": 0
+    },
+    "warmup_and_compilation_wall_seconds": 39.5840489459988,
+    "measured_evaluation_wall_seconds": 39.19571616900066,
+    "model_forward_seconds": 34.499921978011116,
+    "peak_allocated_bytes": 6459053568,
+    "peak_reserved_bytes": 10261364736,
+    "examples": 80,
+    "delta_nll_per_token_vs_original": 0.0,
+    "delta_perplexity_vs_original": 0.0
+  },
+  "reference_full": {
+    "nll_sum": 15044.617500066757,
+    "scored_tokens": 6162,
+    "avg_nll": 2.4415153359407267,
+    "perplexity": 11.490439432882717,
+    "execution": {
+      "calls_by_backend": {
+        "reference": 2622
+      },
+      "failures": {},
+      "dense_fallback_calls": 0,
+      "completed_attention_calls": 2622,
+      "calls_omitting_blocks": 0,
+      "flex_execution_coverage": 0.0,
+      "causal_pair_sparsity": 0.0,
+      "block_sparsity": 0.0,
+      "retained_blocks": 11204082,
+      "eligible_blocks": 11204082,
+      "retained_causal_pairs": 177253348797,
+      "eligible_causal_pairs": 177253348797
+    },
+    "warmup_and_compilation_wall_seconds": 58.844218252001156,
+    "measured_evaluation_wall_seconds": 58.7967374180007,
+    "model_forward_seconds": 54.20903691801868,
+    "peak_allocated_bytes": 6459053568,
+    "peak_reserved_bytes": 10714349568,
+    "examples": 80,
+    "delta_nll_per_token_vs_original": 0.0,
+    "delta_perplexity_vs_original": 0.0
+  },
+  "reference_sparse": {
+    "nll_sum": 16096.516709327698,
+    "scored_tokens": 6162,
+    "avg_nll": 2.6122227700953746,
+    "perplexity": 13.629312034756781,
+    "execution": {
+      "calls_by_backend": {
+        "reference": 2622
+      },
+      "failures": {},
+      "dense_fallback_calls": 0,
+      "completed_attention_calls": 2622,
+      "calls_omitting_blocks": 2622,
+      "flex_execution_coverage": 0.0,
+      "causal_pair_sparsity": 0.21751840870524952,
+      "block_sparsity": 0.21073051768096662,
+      "retained_blocks": 8843040,
+      "eligible_blocks": 11204082,
+      "retained_causal_pairs": 138697482429,
+      "eligible_causal_pairs": 177253348797
+    },
+    "warmup_and_compilation_wall_seconds": 59.48302387299918,
+    "measured_evaluation_wall_seconds": 59.409927349999634,
+    "model_forward_seconds": 54.858672447982826,
+    "peak_allocated_bytes": 6459053568,
+    "peak_reserved_bytes": 10714349568,
+    "examples": 80,
+    "delta_nll_per_token_vs_original": 0.17070743415464795,
+    "delta_perplexity_vs_original": 2.1388726018740645,
+    "delta_nll_per_token_vs_same_backend_full": 0.17070743415464795
+  }
+}

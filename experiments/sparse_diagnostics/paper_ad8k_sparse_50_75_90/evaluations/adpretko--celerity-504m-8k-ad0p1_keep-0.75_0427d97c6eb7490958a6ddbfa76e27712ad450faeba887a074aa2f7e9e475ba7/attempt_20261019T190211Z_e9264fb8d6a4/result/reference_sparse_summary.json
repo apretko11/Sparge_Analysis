@@ -1,0 +1,28 @@
+{
+  "nll_sum": 16347.911704063416,
+  "scored_tokens": 6162,
+  "avg_nll": 2.6530203998804636,
+  "perplexity": 14.196854129399979,
+  "execution": {
+    "calls_by_backend": {
+      "reference": 1938
+    },
+    "failures": {},
+    "dense_fallback_calls": 0,
+    "completed_attention_calls": 1938,
+    "calls_omitting_blocks": 1938,
+    "flex_execution_coverage": 0.0,
+    "causal_pair_sparsity": 0.21751840870524952,
+    "block_sparsity": 0.21073051768096662,
+    "retained_blocks": 10167360,
+    "eligible_blocks": 12881988,
+    "retained_causal_pairs": 159468602986,
+    "eligible_causal_pairs": 203798536298
+  },
+  "warmup_and_compilation_wall_seconds": 61.83558614700087,
+  "measured_evaluation_wall_seconds": 61.37343230499937,
+  "model_forward_seconds": 56.804829307991895,
+  "peak_allocated_bytes": 5474859008,
+  "peak_reserved_bytes": 10406068224,
+  "examples": 80
+}

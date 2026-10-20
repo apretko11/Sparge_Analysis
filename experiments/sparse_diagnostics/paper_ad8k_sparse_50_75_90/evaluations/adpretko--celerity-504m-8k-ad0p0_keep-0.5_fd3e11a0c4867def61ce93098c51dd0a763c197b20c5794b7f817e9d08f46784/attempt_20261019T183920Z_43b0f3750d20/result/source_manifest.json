@@ -1,0 +1,1505 @@
+{
+  "version": 2,
+  "created_utc": "2026-10-15T17:47:30.369575+00:00",
+  "settings": {
+    "owner": "adpretko",
+    "model_prefix": "adpretko/celerity-",
+    "model_order": "recent",
+    "model_offset": 0,
+    "limit_models": 0,
+    "tasks": [
+      "narrativeqa",
+      "qasper",
+      "multifieldqa_en",
+      "hotpotqa",
+      "2wikimqa",
+      "musique",
+      "gov_report",
+      "qmsum",
+      "multi_news",
+      "trec",
+      "triviaqa",
+      "samsum",
+      "passage_count",
+      "passage_retrieval_en",
+      "lcc",
+      "repobench-p"
+    ],
+    "examples_per_task": 5,
+    "seed": 42,
+    "sampling": "random",
+    "context_mode": "common",
+    "common_context": 4096,
+    "answer_stride": 128,
+    "dtype": "bfloat16",
+    "dataset": "THUDM/LongBench",
+    "reference_policy": "first",
+    "use_chat_template": false,
+    "scorer": "longbench_perplexity.answer_conditional_ppl",
+    "truncation_policy": "longbench_utils.middle_truncate_tokens",
+    "min_trained_context": 4096,
+    "source_manifest_sha256": "cf385946b4d632a6cb8d14691026cfa36d40ba247b8666bfdd850c955fa1bb3a"
+  },
+  "models": [
+    {
+      "model": "adpretko/celerity-1810m-8k-ad0p0",
+      "revision": "151b7541424ce07e98361c44e1fb91dcd6592109",
+      "trained_context_tokens": 8192,
+      "model_type": "celerity",
+      "vocab_size": 128256
+    },
+    {
+      "model": "adpretko/celerity-906m-8k-ld0p8-ild",
+      "revision": "1126d8b0496724c755f1c960db5dd5283878d340",
+      "trained_context_tokens": 8192,
+      "model_type": "celerity",
+      "vocab_size": 128256
+    },
+    {
+      "model": "adpretko/celerity-906m-8k-ld0p4-ild",
+      "revision": "c3645728904f75310c4885f30ba4cde12be22316",
+      "trained_context_tokens": 8192,
+      "model_type": "celerity",
+      "vocab_size": 128256
+    },
+    {
+      "model": "adpretko/celerity-906m-8k-ld0p2-ild",
+      "revision": "ffa259c9fcb6a24942dd20be04016793bcdf03da",
+      "trained_context_tokens": 8192,
+      "model_type": "celerity",
+      "vocab_size": 128256
+    },
+    {
+      "model": "adpretko/celerity-906m-8k-ld0p4",
+      "revision": "0242fc88cf1e8e44a42dafc617b62d8e10242ed1",
+      "trained_context_tokens": 8192,
+      "model_type": "celerity",
+      "vocab_size": 128256
+    },
+    {
+      "model": "adpretko/celerity-906m-8k-ld0p2",
+      "revision": "2f871948ae68994c67bd300e35cdb1af94f40240",
+      "trained_context_tokens": 8192,
+      "model_type": "celerity",
+      "vocab_size": 128256
+    },
+    {
+      "model": "adpretko/celerity-906m-8k-ld0p1",
+      "revision": "04ca7feb94d3c6160b9b8db3eeb8c74537c25e12",
+      "trained_context_tokens": 8192,
+      "model_type": "celerity",
+      "vocab_size": 128256
+    },
+    {
+      "model": "adpretko/celerity-906m-8k-rd0p8-ild",
+      "revision": "1310f7931db0d751a72db134248404566c523b8a",
+      "trained_context_tokens": 8192,
+      "model_type": "celerity",
+      "vocab_size": 128256
+    },
+    {
+      "model": "adpretko/celerity-906m-8k-rd0p4-ild",
+      "revision": "68722ddadcba4f0de047c69b19118fac592daa41",
+      "trained_context_tokens": 8192,
+      "model_type": "celerity",
+      "vocab_size": 128256
+    },
+    {
+      "model": "adpretko/celerity-906m-8k-rd0p2-ild",
+      "revision": "9a757f5e68ea2de4cdb6490cb09469dd88b53dea",
+      "trained_context_tokens": 8192,
+      "model_type": "celerity",
+      "vocab_size": 128256
+    },
+    {
+      "model": "adpretko/celerity-906m-8k-rd0p4",
+      "revision": "f439b392bafc19fed112e3c626f5483923d0acde",
+      "trained_context_tokens": 8192,
+      "model_type": "celerity",
+      "vocab_size": 128256
+    },
+    {
+      "model": "adpretko/celerity-906m-8k-rd0p2",
+      "revision": "d253b4d8d5f85f3f8fe38ca40811026370f48721",
+      "trained_context_tokens": 8192,
+      "model_type": "celerity",
+      "vocab_size": 128256
+    },
+    {
+      "model": "adpretko/celerity-906m-8k-rd0p1",
+      "revision": "378ee3a9e2abd57e0140bb7d92df2fd57323fda6",
+      "trained_context_tokens": 8192,
+      "model_type": "celerity",
+      "vocab_size": 128256
+    },
+    {
+      "model": "adpretko/celerity-271m-8k-bs-ablation-ad0p8-bs128",
+      "revision": "c85300e38ecfe2bf27cb6aa9d514661ba975f4ed",
+      "trained_context_tokens": 8192,
+      "model_type": "celerity",
+      "vocab_size": 128256
+    },
+    {
+      "model": "adpretko/celerity-271m-8k-bs-ablation-ad0p4-bs128",
+      "revision": "1b49766ff28b24d9d2aa9282ed65066dddfb020b",
+      "trained_context_tokens": 8192,
+      "model_type": "celerity",
+      "vocab_size": 128256
+    },
+    {
+      "model": "adpretko/celerity-271m-8k-bs-ablation-ad0p2-bs128",
+      "revision": "67c63fa4caeb21984ab70db67de059af48741618",
+      "trained_context_tokens": 8192,
+      "model_type": "celerity",
+      "vocab_size": 128256
+    },
+    {
+      "model": "adpretko/celerity-271m-8k-bs-ablation-ad0-bs128",
+      "revision": "fa23e762dbbaa0b02a7b9778bf251aad9cbea434",
+      "trained_context_tokens": 8192,
+      "model_type": "celerity",
+      "vocab_size": 128256
+    },
+    {
+      "model": "adpretko/celerity-271m-8k-bs-ablation-ad0p8-bs91",
+      "revision": "d01ed790674a4aab4a9c140504c18401b4cf5613",
+      "trained_context_tokens": 8192,
+      "model_type": "celerity",
+      "vocab_size": 128256
+    },
+    {
+      "model": "adpretko/celerity-271m-8k-bs-ablation-ad0p4-bs91",
+      "revision": "82aefe051d603a4e21877e2fb40335ea1902a767",
+      "trained_context_tokens": 8192,
+      "model_type": "celerity",
+      "vocab_size": 128256
+    },
+    {
+      "model": "adpretko/celerity-271m-8k-bs-ablation-ad0p2-bs91",
+      "revision": "61f972877e2730538680e9071f1a4ac0a82108eb",
+      "trained_context_tokens": 8192,
+      "model_type": "celerity",
+      "vocab_size": 128256
+    },
+    {
+      "model": "adpretko/celerity-271m-8k-bs-ablation-ad0-bs91",
+      "revision": "bb10f0da1420edd8db39f64211e713727b47994a",
+      "trained_context_tokens": 8192,
+      "model_type": "celerity",
+      "vocab_size": 128256
+    },
+    {
+      "model": "adpretko/celerity-271m-8k-bs-ablation-ad0p8-bs64",
+      "revision": "ab9f1dddae27cd1b75905cbf99704753a3344f82",
+      "trained_context_tokens": 8192,
+      "model_type": "celerity",
+      "vocab_size": 128256
+    },
+    {
+      "model": "adpretko/celerity-271m-8k-bs-ablation-ad0p4-bs64",
+      "revision": "e38ad14d8ebe6ccefc28bbde551fb32aaeb0f710",
+      "trained_context_tokens": 8192,
+      "model_type": "celerity",
+      "vocab_size": 128256
+    },
+    {
+      "model": "adpretko/celerity-271m-8k-bs-ablation-ad0p2-bs64",
+      "revision": "ac201bceae847b3e0e7f7cf6ad0c0266047c756f",
+      "trained_context_tokens": 8192,
+      "model_type": "celerity",
+      "vocab_size": 128256
+    },
+    {
+      "model": "adpretko/celerity-271m-8k-bs-ablation-ad0-bs64",
+      "revision": "c3b8a29e4b4de4254336a30ce1d9d97b2351bca8",
+      "trained_context_tokens": 8192,
+      "model_type": "celerity",
+      "vocab_size": 128256
+    },
+    {
+      "model": "adpretko/celerity-271m-8k-bs-ablation-ad0p8-bs32",
+      "revision": "4298f0ca7d250ecfd70ea3f5c0d523c826230d5a",
+      "trained_context_tokens": 8192,
+      "model_type": "celerity",
+      "vocab_size": 128256
+    },
+    {
+      "model": "adpretko/celerity-271m-8k-bs-ablation-ad0p4-bs32",
+      "revision": "97947f23a24d06b5e9f8a38add5d1001b6466f9a",
+      "trained_context_tokens": 8192,
+      "model_type": "celerity",
+      "vocab_size": 128256
+    },
+    {
+      "model": "adpretko/celerity-271m-8k-bs-ablation-ad0p2-bs32",
+      "revision": "522989a5227ce3232132bd10aa9dbbd27f3a0b3e",
+      "trained_context_tokens": 8192,
+      "model_type": "celerity",
+      "vocab_size": 128256
+    },
+    {
+      "model": "adpretko/celerity-271m-8k-bs-ablation-ad0-bs32",
+      "revision": "d87db27d630dd177176e83ce647a98150d66a8cf",
+      "trained_context_tokens": 8192,
+      "model_type": "celerity",
+      "vocab_size": 128256
+    },
+    {
+      "model": "adpretko/celerity-271m-8k-bs-ablation-ad0p8-bs23",
+      "revision": "9ceecd2136a2b118d0243b146462db808112fd08",
+      "trained_context_tokens": 8192,
+      "model_type": "celerity",
+      "vocab_size": 128256
+    },
+    {
+      "model": "adpretko/celerity-271m-8k-bs-ablation-ad0p4-bs23",
+      "revision": "697ad701c94f1aa20e1fe6856a0eab484a880be7",
+      "trained_context_tokens": 8192,
+      "model_type": "celerity",
+      "vocab_size": 128256
+    },
+    {
+      "model": "adpretko/celerity-271m-8k-bs-ablation-ad0p2-bs23",
+      "revision": "2367f031e95c1ab30c73422ec5ee400c55fbb12a",
+      "trained_context_tokens": 8192,
+      "model_type": "celerity",
+      "vocab_size": 128256
+    },
+    {
+      "model": "adpretko/celerity-271m-8k-bs-ablation-ad0-bs23",
+      "revision": "8b8de805e7fd23ba21d8601b91ad0d11e2bf49a2",
+      "trained_context_tokens": 8192,
+      "model_type": "celerity",
+      "vocab_size": 128256
+    },
+    {
+      "model": "adpretko/celerity-271m-8k-bs-ablation-ad0p8-bs16",
+      "revision": "c19414d2e8b33c81a5e0a4f401b92f65ef98d12b",
+      "trained_context_tokens": 8192,
+      "model_type": "celerity",
+      "vocab_size": 128256
+    },
+    {
+      "model": "adpretko/celerity-271m-8k-bs-ablation-ad0p4-bs16",
+      "revision": "216fb7c4b1cb4d60ef2f975f3829ffc91b8a050f",
+      "trained_context_tokens": 8192,
+      "model_type": "celerity",
+      "vocab_size": 128256
+    },
+    {
+      "model": "adpretko/celerity-271m-8k-bs-ablation-ad0p2-bs16",
+      "revision": "478bbfae0906058b7df5f5aa93f9a9c051e88d60",
+      "trained_context_tokens": 8192,
+      "model_type": "celerity",
+      "vocab_size": 128256
+    },
+    {
+      "model": "adpretko/celerity-271m-8k-bs-ablation-ad0-bs16",
+      "revision": "ba68a089f46f64173f8f5a441fe61603033b9954",
+      "trained_context_tokens": 8192,
+      "model_type": "celerity",
+      "vocab_size": 128256
+    },
+    {
+      "model": "adpretko/celerity-271m-8k-bs-ablation-ad0p8-bs11",
+      "revision": "eb97a4517052c893d8ab7198559d2e103f6c1847",
+      "trained_context_tokens": 8192,
+      "model_type": "celerity",
+      "vocab_size": 128256
+    },
+    {
+      "model": "adpretko/celerity-271m-8k-bs-ablation-ad0p4-bs11",
+      "revision": "978416ad0137b119033185357e466f7cc578f591",
+      "trained_context_tokens": 8192,
+      "model_type": "celerity",
+      "vocab_size": 128256
+    },
+    {
+      "model": "adpretko/celerity-271m-8k-bs-ablation-ad0p2-bs11",
+      "revision": "9906ad0fe909d92698cc74e9f5a178a1e1b15ee3",
+      "trained_context_tokens": 8192,
+      "model_type": "celerity",
+      "vocab_size": 128256
+    },
+    {
+      "model": "adpretko/celerity-271m-8k-bs-ablation-ad0-bs11",
+      "revision": "31f9f4c87e5dd2bbb38021af1e90043a93de2579",
+      "trained_context_tokens": 8192,
+      "model_type": "celerity",
+      "vocab_size": 128256
+    },
+    {
+      "model": "adpretko/celerity-271m-8k-tema-ablation-ad0p8-tema8",
+      "revision": "37a2747899bdbf7a56956d538d5b186fe34ccb83",
+      "trained_context_tokens": 8192,
+      "model_type": "celerity",
+      "vocab_size": 128256
+    },
+    {
+      "model": "adpretko/celerity-271m-8k-tema-ablation-ad0p4-tema8",
+      "revision": "984884390089d82da541dd411c2c5edc205796bc",
+      "trained_context_tokens": 8192,
+      "model_type": "celerity",
+      "vocab_size": 128256
+    },
+    {
+      "model": "adpretko/celerity-271m-8k-tema-ablation-ad0p2-tema8",
+      "revision": "6dcacd6c5d537e948859bf492d9cebe25a9d84ee",
+      "trained_context_tokens": 8192,
+      "model_type": "celerity",
+      "vocab_size": 128256
+    },
+    {
+      "model": "adpretko/celerity-271m-8k-tema-ablation-ad0-tema8",
+      "revision": "db9d9d161be2d0b16e506c5bd0e765b3b2a8ac80",
+      "trained_context_tokens": 8192,
+      "model_type": "celerity",
+      "vocab_size": 128256
+    },
+    {
+      "model": "adpretko/celerity-271m-8k-tema-ablation-ad0p8-tema4",
+      "revision": "1c53bd69b971fd11e5ba388226867c6cbbf98a37",
+      "trained_context_tokens": 8192,
+      "model_type": "celerity",
+      "vocab_size": 128256
+    },
+    {
+      "model": "adpretko/celerity-271m-8k-tema-ablation-ad0p4-tema4",
+      "revision": "9f56242077422b4f13c4a06127d4d33df316543e",
+      "trained_context_tokens": 8192,
+      "model_type": "celerity",
+      "vocab_size": 128256
+    },
+    {
+      "model": "adpretko/celerity-271m-8k-tema-ablation-ad0p2-tema4",
+      "revision": "c26e46dedbd473e4079fc554046379ad7d898bd1",
+      "trained_context_tokens": 8192,
+      "model_type": "celerity",
+      "vocab_size": 128256
+    },
+    {
+      "model": "adpretko/celerity-271m-8k-tema-ablation-ad0-tema4",
+      "revision": "91ed47c93492e538db807f326d8cb513d9f0cc5f",
+      "trained_context_tokens": 8192,
+      "model_type": "celerity",
+      "vocab_size": 128256
+    },
+    {
+      "model": "adpretko/celerity-271m-8k-tema-ablation-ad0p8-tema2",
+      "revision": "c8af8ad9644bae8a2f5b829b04cbe526a61c5095",
+      "trained_context_tokens": 8192,
+      "model_type": "celerity",
+      "vocab_size": 128256
+    },
+    {
+      "model": "adpretko/celerity-271m-8k-tema-ablation-ad0p4-tema2",
+      "revision": "d04c206477b62e3436d2af22b0759cd6c8c536be",
+      "trained_context_tokens": 8192,
+      "model_type": "celerity",
+      "vocab_size": 128256
+    },
+    {
+      "model": "adpretko/celerity-271m-8k-tema-ablation-ad0p2-tema2",
+      "revision": "465392f8f03b541127797029499e6b44880b55d4",
+      "trained_context_tokens": 8192,
+      "model_type": "celerity",
+      "vocab_size": 128256
+    },
+    {
+      "model": "adpretko/celerity-271m-8k-tema-ablation-ad0-tema2",
+      "revision": "e5ae035d0fc6e35cca27afed63d8e69301c1d5dd",
+      "trained_context_tokens": 8192,
+      "model_type": "celerity",
+      "vocab_size": 128256
+    },
+    {
+      "model": "adpretko/celerity-271m-8k-tema-ablation-ad0p8-tema1",
+      "revision": "a22e6589c3fd41cdece324bc6b121d2a47082447",
+      "trained_context_tokens": 8192,
+      "model_type": "celerity",
+      "vocab_size": 128256
+    },
+    {
+      "model": "adpretko/celerity-271m-8k-tema-ablation-ad0p4-tema1",
+      "revision": "de7fee39769d704343ac4b328185e1f089b03302",
+      "trained_context_tokens": 8192,
+      "model_type": "celerity",
+      "vocab_size": 128256
+    },
+    {
+      "model": "adpretko/celerity-271m-8k-tema-ablation-ad0p2-tema1",
+      "revision": "1440462463aa64e6eaa933bcd8c1b25295de5fc9",
+      "trained_context_tokens": 8192,
+      "model_type": "celerity",
+      "vocab_size": 128256
+    },
+    {
+      "model": "adpretko/celerity-271m-8k-tema-ablation-ad0-tema1",
+      "revision": "1c78140c80181d2aed4ef0270adf952dd2300982",
+      "trained_context_tokens": 8192,
+      "model_type": "celerity",
+      "vocab_size": 128256
+    },
+    {
+      "model": "adpretko/celerity-271m-8k-tema-ablation-ad0p8-tema0p5",
+      "revision": "09762944ea74b7e249f18ce9a60356e8e42eb975",
+      "trained_context_tokens": 8192,
+      "model_type": "celerity",
+      "vocab_size": 128256
+    },
+    {
+      "model": "adpretko/celerity-271m-8k-tema-ablation-ad0p4-tema0p5",
+      "revision": "18fc92e5a9c16fda62b57c0ca5d0a8dd4d8bc955",
+      "trained_context_tokens": 8192,
+      "model_type": "celerity",
+      "vocab_size": 128256
+    },
+    {
+      "model": "adpretko/celerity-271m-8k-tema-ablation-ad0p2-tema0p5",
+      "revision": "9361884d4ef2a54399105313305196c6eecc082d",
+      "trained_context_tokens": 8192,
+      "model_type": "celerity",
+      "vocab_size": 128256
+    },
+    {
+      "model": "adpretko/celerity-271m-8k-tema-ablation-ad0-tema0p5",
+      "revision": "1913147e83beddc404c699a20728902ee8c856c7",
+      "trained_context_tokens": 8192,
+      "model_type": "celerity",
+      "vocab_size": 128256
+    },
+    {
+      "model": "adpretko/celerity-271m-8k-tema-ablation-ad0p8-tema0p25",
+      "revision": "6773c47995639fb6c4a83898c282d324095cfbf5",
+      "trained_context_tokens": 8192,
+      "model_type": "celerity",
+      "vocab_size": 128256
+    },
+    {
+      "model": "adpretko/celerity-271m-8k-tema-ablation-ad0p4-tema0p25",
+      "revision": "dbcc664056b2d5bbcbd7dac193060bb26c542bd3",
+      "trained_context_tokens": 8192,
+      "model_type": "celerity",
+      "vocab_size": 128256
+    },
+    {
+      "model": "adpretko/celerity-271m-8k-tema-ablation-ad0p2-tema0p25",
+      "revision": "5771e35b8cf492ec0301eb5462659716058869c4",
+      "trained_context_tokens": 8192,
+      "model_type": "celerity",
+      "vocab_size": 128256
+    },
+    {
+      "model": "adpretko/celerity-271m-8k-tema-ablation-ad0-tema0p25",
+      "revision": "00cc86a9c608825a48f173194f478da4d88ad1e7",
+      "trained_context_tokens": 8192,
+      "model_type": "celerity",
+      "vocab_size": 128256
+    },
+    {
+      "model": "adpretko/celerity-271m-8k-tema-ablation-ad0p8-tema0p125",
+      "revision": "78efb42cc72d4598bff3f3fddcfde1d04abbd2d3",
+      "trained_context_tokens": 8192,
+      "model_type": "celerity",
+      "vocab_size": 128256
+    },
+    {
+      "model": "adpretko/celerity-271m-8k-tema-ablation-ad0p4-tema0p125",
+      "revision": "0432511d15345619f0c3183bf8127068eb830910",
+      "trained_context_tokens": 8192,
+      "model_type": "celerity",
+      "vocab_size": 128256
+    },
+    {
+      "model": "adpretko/celerity-271m-8k-tema-ablation-ad0p2-tema0p125",
+      "revision": "ca9f3f966797c8e96916f7ce846029f4adb1b6f2",
+      "trained_context_tokens": 8192,
+      "model_type": "celerity",
+      "vocab_size": 128256
+    },
+    {
+      "model": "adpretko/celerity-271m-8k-tema-ablation-ad0-tema0p125",
+      "revision": "9c0d7a27c7357645217ae9288274a2dad77265ae",
+      "trained_context_tokens": 8192,
+      "model_type": "celerity",
+      "vocab_size": 128256
+    },
+    {
+      "model": "adpretko/celerity-271m-8k-lr-ablation-ad0p8-lr1p2",
+      "revision": "0db48f3f48c287d77914ebb9e0fee11ceb2c1b71",
+      "trained_context_tokens": 8192,
+      "model_type": "celerity",
+      "vocab_size": 128256
+    },
+    {
+      "model": "adpretko/celerity-271m-8k-lr-ablation-ad0p4-lr1p2",
+      "revision": "0cfe945a251a3a710a17b88bbbcef83cf403f816",
+      "trained_context_tokens": 8192,
+      "model_type": "celerity",
+      "vocab_size": 128256
+    },
+    {
+      "model": "adpretko/celerity-271m-8k-lr-ablation-ad0p2-lr1p2",
+      "revision": "7f75ba70d957c55daf50002dd988d956ade0691e",
+      "trained_context_tokens": 8192,
+      "model_type": "celerity",
+      "vocab_size": 128256
+    },
+    {
+      "model": "adpretko/celerity-271m-8k-lr-ablation-ad0-lr1p2",
+      "revision": "94c6ec308dcd4faaa8d1dd8a7e8dc2a3fc77ab0c",
+      "trained_context_tokens": 8192,
+      "model_type": "celerity",
+      "vocab_size": 128256
+    },
+    {
+      "model": "adpretko/celerity-271m-8k-lr-ablation-ad0p8-lr0p6",
+      "revision": "01527f1df23a1565fe115b837c4c6bb633f07cde",
+      "trained_context_tokens": 8192,
+      "model_type": "celerity",
+      "vocab_size": 128256
+    },
+    {
+      "model": "adpretko/celerity-271m-8k-lr-ablation-ad0p4-lr0p6",
+      "revision": "96782085731fca5fd6ffceb47fd2bd6f06f3b96b",
+      "trained_context_tokens": 8192,
+      "model_type": "celerity",
+      "vocab_size": 128256
+    },
+    {
+      "model": "adpretko/celerity-271m-8k-lr-ablation-ad0p2-lr0p6",
+      "revision": "a35853b65b90fcd1464273aca60ad40a8dca8b57",
+      "trained_context_tokens": 8192,
+      "model_type": "celerity",
+      "vocab_size": 128256
+    },
+    {
+      "model": "adpretko/celerity-271m-8k-lr-ablation-ad0-lr0p6",
+      "revision": "dc9b5e54274265cbc52c939d2b54040d1779079c",
+      "trained_context_tokens": 8192,
+      "model_type": "celerity",
+      "vocab_size": 128256
+    },
+    {
+      "model": "adpretko/celerity-271m-8k-lr-ablation-ad0p8-lr0p3",
+      "revision": "703ade003b52eccca9421e488856c701d43f57ec",
+      "trained_context_tokens": 8192,
+      "model_type": "celerity",
+      "vocab_size": 128256
+    },
+    {
+      "model": "adpretko/celerity-271m-8k-lr-ablation-ad0p4-lr0p3",
+      "revision": "570769ca7b18d114f8017fd2e9d7510cdd857a39",
+      "trained_context_tokens": 8192,
+      "model_type": "celerity",
+      "vocab_size": 128256
+    },
+    {
+      "model": "adpretko/celerity-271m-8k-lr-ablation-ad0p2-lr0p3",
+      "revision": "fd850ebf1e0d4bcc0fd5b0022426e40562c84d7b",
+      "trained_context_tokens": 8192,
+      "model_type": "celerity",
+      "vocab_size": 128256
+    },
+    {
+      "model": "adpretko/celerity-271m-8k-lr-ablation-ad0-lr0p3",
+      "revision": "cdb261eaec54ffbdb871db70134e08153075d4a0",
+      "trained_context_tokens": 8192,
+      "model_type": "celerity",
+      "vocab_size": 128256
+    },
+    {
+      "model": "adpretko/celerity-271m-8k-lr-ablation-ad0p8-lr0p15",
+      "revision": "9c03d6d8e9471e8078b89759e0d3587a10fbdc14",
+      "trained_context_tokens": 8192,
+      "model_type": "celerity",
+      "vocab_size": 128256
+    },
+    {
+      "model": "adpretko/celerity-271m-8k-lr-ablation-ad0p4-lr0p15",
+      "revision": "1ebeb96468af9236813beabce9b715d11610c7a6",
+      "trained_context_tokens": 8192,
+      "model_type": "celerity",
+      "vocab_size": 128256
+    },
+    {
+      "model": "adpretko/celerity-271m-8k-lr-ablation-ad0p2-lr0p15",
+      "revision": "28eec4238363dd8d53a7e9f7a1d569f3d740ceb7",
+      "trained_context_tokens": 8192,
+      "model_type": "celerity",
+      "vocab_size": 128256
+    },
+    {
+      "model": "adpretko/celerity-271m-8k-lr-ablation-ad0-lr0p15",
+      "revision": "bba5ae24be4b59aab5d695f2c3b34b565ddcc3bf",
+      "trained_context_tokens": 8192,
+      "model_type": "celerity",
+      "vocab_size": 128256
+    },
+    {
+      "model": "adpretko/celerity-271m-8k-lr-ablation-ad0p8-lr0p075",
+      "revision": "39c13568ec6446d92aadb16e881a2a4c36d0e504",
+      "trained_context_tokens": 8192,
+      "model_type": "celerity",
+      "vocab_size": 128256
+    },
+    {
+      "model": "adpretko/celerity-271m-8k-lr-ablation-ad0p4-lr0p075",
+      "revision": "4e879d991a4d115e0b5a68194c4ec16a7c4f5b12",
+      "trained_context_tokens": 8192,
+      "model_type": "celerity",
+      "vocab_size": 128256
+    },
+    {
+      "model": "adpretko/celerity-271m-8k-lr-ablation-ad0p2-lr0p075",
+      "revision": "98b4370321f4d238455aad8fba5ea5456e0bf061",
+      "trained_context_tokens": 8192,
+      "model_type": "celerity",
+      "vocab_size": 128256
+    },
+    {
+      "model": "adpretko/celerity-271m-8k-lr-ablation-ad0-lr0p075",
+      "revision": "86f8a5866b6b94aaec402bf0e4010d39ed100807",
+      "trained_context_tokens": 8192,
+      "model_type": "celerity",
+      "vocab_size": 128256
+    },
+    {
+      "model": "adpretko/celerity-271m-8k-lr-ablation-ad0p8-lr0p0375",
+      "revision": "3554109422fcebdc09008711de0f3786ab857034",
+      "trained_context_tokens": 8192,
+      "model_type": "celerity",
+      "vocab_size": 128256
+    },
+    {
+      "model": "adpretko/celerity-271m-8k-lr-ablation-ad0p4-lr0p0375",
+      "revision": "393bf67454edd40dd1cec9063985d1de3bb704fb",
+      "trained_context_tokens": 8192,
+      "model_type": "celerity",
+      "vocab_size": 128256
+    },
+    {
+      "model": "adpretko/celerity-271m-8k-lr-ablation-ad0p2-lr0p0375",
+      "revision": "00dd12ec8075566c06dfd84e8f1591ff051eb642",
+      "trained_context_tokens": 8192,
+      "model_type": "celerity",
+      "vocab_size": 128256
+    },
+    {
+      "model": "adpretko/celerity-271m-8k-lr-ablation-ad0-lr0p0375",
+      "revision": "e53184ff762e777ae5112073515538756c33c431",
+      "trained_context_tokens": 8192,
+      "model_type": "celerity",
+      "vocab_size": 128256
+    },
+    {
+      "model": "adpretko/celerity-271m-8k-lr-ablation-ad0p8-lr0p01875",
+      "revision": "4d9edd827f813485b928102be8dd0a67ded0b303",
+      "trained_context_tokens": 8192,
+      "model_type": "celerity",
+      "vocab_size": 128256
+    },
+    {
+      "model": "adpretko/celerity-271m-8k-lr-ablation-ad0p4-lr0p01875",
+      "revision": "286b357801cc89a1eee606c993feeb0c86c44b2c",
+      "trained_context_tokens": 8192,
+      "model_type": "celerity",
+      "vocab_size": 128256
+    },
+    {
+      "model": "adpretko/celerity-271m-8k-lr-ablation-ad0p2-lr0p01875",
+      "revision": "d8bc4f6642acfe0f50ff670c77b1c230486d58e9",
+      "trained_context_tokens": 8192,
+      "model_type": "celerity",
+      "vocab_size": 128256
+    },
+    {
+      "model": "adpretko/celerity-271m-8k-lr-ablation-ad0-lr0p01875",
+      "revision": "1d662c97781466cf7ffd683b02a10c34789c26bb",
+      "trained_context_tokens": 8192,
+      "model_type": "celerity",
+      "vocab_size": 128256
+    },
+    {
+      "model": "adpretko/celerity-906m-16k-ad0p8-ild",
+      "revision": "0f69a83670ddea335532078210af5127708437d5",
+      "trained_context_tokens": 16384,
+      "model_type": "celerity",
+      "vocab_size": 128256
+    },
+    {
+      "model": "adpretko/celerity-906m-16k-ad0p2-ild",
+      "revision": "88a1adad53b814af1a4d321f5d96587e7e814b3b",
+      "trained_context_tokens": 16384,
+      "model_type": "celerity",
+      "vocab_size": 128256
+    },
+    {
+      "model": "adpretko/celerity-906m-16k-ad0p4",
+      "revision": "120ea756b8f316fd0334043f9483312f4224905b",
+      "trained_context_tokens": 16384,
+      "model_type": "celerity",
+      "vocab_size": 128256
+    },
+    {
+      "model": "adpretko/celerity-906m-16k-ad0p1",
+      "revision": "e0083b3c7e85a942d2595e81ffcf5fce4390937a",
+      "trained_context_tokens": 16384,
+      "model_type": "celerity",
+      "vocab_size": 128256
+    },
+    {
+      "model": "adpretko/celerity-504m-8k-rd0p8-ild",
+      "revision": "13658d403729cd4e6c523fc6c63c009ab2716e2e",
+      "trained_context_tokens": 8192,
+      "model_type": "celerity",
+      "vocab_size": 128256
+    },
+    {
+      "model": "adpretko/celerity-504m-8k-rd0p4-ild",
+      "revision": "4daefbdda285a67663bc6072477adb8a6e198225",
+      "trained_context_tokens": 8192,
+      "model_type": "celerity",
+      "vocab_size": 128256
+    },
+    {
+      "model": "adpretko/celerity-504m-8k-rd0p2-ild",
+      "revision": "689c8e8bbf20b4ad6f30f18e16735bbf69376487",
+      "trained_context_tokens": 8192,
+      "model_type": "celerity",
+      "vocab_size": 128256
+    },
+    {
+      "model": "adpretko/celerity-504m-8k-rd0p4",
+      "revision": "349d5453ef19207a3a3e5e25f3cb5e7792527d3e",
+      "trained_context_tokens": 8192,
+      "model_type": "celerity",
+      "vocab_size": 128256
+    },
+    {
+      "model": "adpretko/celerity-504m-8k-rd0p2",
+      "revision": "cebe594f32831c82e3004e3c23f2630e7c15f93d",
+      "trained_context_tokens": 8192,
+      "model_type": "celerity",
+      "vocab_size": 128256
+    },
+    {
+      "model": "adpretko/celerity-504m-8k-rd0p1",
+      "revision": "a900df9b16f2378503688a1eee12ac4bfd592a7b",
+      "trained_context_tokens": 8192,
+      "model_type": "celerity",
+      "vocab_size": 128256
+    },
+    {
+      "model": "adpretko/celerity-271m-8k-rd0p8-ild",
+      "revision": "a5488cafd2efa0c904318e09770b117ecccd71e9",
+      "trained_context_tokens": 8192,
+      "model_type": "celerity",
+      "vocab_size": 128256
+    },
+    {
+      "model": "adpretko/celerity-271m-8k-rd0p4-ild",
+      "revision": "16417378ec5c99b8ec8f78486a796fa631cab18e",
+      "trained_context_tokens": 8192,
+      "model_type": "celerity",
+      "vocab_size": 128256
+    },
+    {
+      "model": "adpretko/celerity-271m-8k-rd0p2-ild",
+      "revision": "34647102762ac4e5d6de859ed3efa40bed1ad8fc",
+      "trained_context_tokens": 8192,
+      "model_type": "celerity",
+      "vocab_size": 128256
+    },
+    {
+      "model": "adpretko/celerity-271m-8k-rd0p4",
+      "revision": "92e0743389b72e5c0113c4d971b95efd876e7100",
+      "trained_context_tokens": 8192,
+      "model_type": "celerity",
+      "vocab_size": 128256
+    },
+    {
+      "model": "adpretko/celerity-271m-8k-rd0p2",
+      "revision": "2cdd42c9854952a2f5915a3c510cafb7c921ebfe",
+      "trained_context_tokens": 8192,
+      "model_type": "celerity",
+      "vocab_size": 128256
+    },
+    {
+      "model": "adpretko/celerity-271m-8k-rd0p1",
+      "revision": "662408f471148d0680a47f12bed131debb5c96e5",
+      "trained_context_tokens": 8192,
+      "model_type": "celerity",
+      "vocab_size": 128256
+    },
+    {
+      "model": "adpretko/celerity-906m-16k-ad0p0",
+      "revision": "33237ee2f3204da97c8854e13d4ffa0a169aaf82",
+      "trained_context_tokens": 16384,
+      "model_type": "celerity",
+      "vocab_size": 128256
+    },
+    {
+      "model": "adpretko/celerity-906m-4k-ad0p8-ild",
+      "revision": "ae49e6d80eda3e69879cc98437a9a6979793ff06",
+      "trained_context_tokens": 4096,
+      "model_type": "celerity",
+      "vocab_size": 128256
+    },
+    {
+      "model": "adpretko/celerity-906m-4k-ad0p4",
+      "revision": "067f19bb743d032d2b6694bc83d7f93ce4533a96",
+      "trained_context_tokens": 4096,
+      "model_type": "celerity",
+      "vocab_size": 128256
+    },
+    {
+      "model": "adpretko/celerity-906m-4k-ad0p2-ild",
+      "revision": "f4bb4727f5e58effe9a6b7d0f9b8b7e156283560",
+      "trained_context_tokens": 4096,
+      "model_type": "celerity",
+      "vocab_size": 128256
+    },
+    {
+      "model": "adpretko/celerity-906m-4k-ad0p2",
+      "revision": "829e3f956eeb4cb21991e9d9486c948b8ff2f9be",
+      "trained_context_tokens": 4096,
+      "model_type": "celerity",
+      "vocab_size": 128256
+    },
+    {
+      "model": "adpretko/celerity-504m-8k-ld0p8-ild",
+      "revision": "8a5213a72e45dafb3048cd64ea982d8c5dd99187",
+      "trained_context_tokens": 8192,
+      "model_type": "celerity",
+      "vocab_size": 128256
+    },
+    {
+      "model": "adpretko/celerity-504m-8k-ld0p4-ild",
+      "revision": "04b10dc377ba35eb6ff43d951d06a54cad6a0746",
+      "trained_context_tokens": 8192,
+      "model_type": "celerity",
+      "vocab_size": 128256
+    },
+    {
+      "model": "adpretko/celerity-504m-8k-ld0p2-ild",
+      "revision": "9e355dcf9b4ac8977c245cd5b76070e5a421de2f",
+      "trained_context_tokens": 8192,
+      "model_type": "celerity",
+      "vocab_size": 128256
+    },
+    {
+      "model": "adpretko/celerity-504m-8k-ld0p4",
+      "revision": "943af2a80e1d604ee514084eed4198fa8a7ab152",
+      "trained_context_tokens": 8192,
+      "model_type": "celerity",
+      "vocab_size": 128256
+    },
+    {
+      "model": "adpretko/celerity-504m-8k-ld0p2",
+      "revision": "89aa05280036bb7bd8c7e9bf8cc7024074b5f542",
+      "trained_context_tokens": 8192,
+      "model_type": "celerity",
+      "vocab_size": 128256
+    },
+    {
+      "model": "adpretko/celerity-504m-8k-ld0p1",
+      "revision": "59da25fd02e1003329551b74011bcf3d73e50748",
+      "trained_context_tokens": 8192,
+      "model_type": "celerity",
+      "vocab_size": 128256
+    },
+    {
+      "model": "adpretko/celerity-271m-8k-ld0p8-ild",
+      "revision": "874475e43c9d30b8f0d8a2a1bb9460197a0d8af0",
+      "trained_context_tokens": 8192,
+      "model_type": "celerity",
+      "vocab_size": 128256
+    },
+    {
+      "model": "adpretko/celerity-271m-8k-ld0p4-ild",
+      "revision": "94826cfdff8325dc2581aeaaaa2ba43471e4c78f",
+      "trained_context_tokens": 8192,
+      "model_type": "celerity",
+      "vocab_size": 128256
+    },
+    {
+      "model": "adpretko/celerity-271m-8k-ld0p2-ild",
+      "revision": "190af443f2029b5866f6bbb4c154cde6caddf394",
+      "trained_context_tokens": 8192,
+      "model_type": "celerity",
+      "vocab_size": 128256
+    },
+    {
+      "model": "adpretko/celerity-271m-8k-ld0p4",
+      "revision": "d079bf4dc397fa288c5f77c0eb7361538f2461f3",
+      "trained_context_tokens": 8192,
+      "model_type": "celerity",
+      "vocab_size": 128256
+    },
+    {
+      "model": "adpretko/celerity-271m-8k-ld0p2",
+      "revision": "ffc173e35466dc8754b791adbada0c83da845c6d",
+      "trained_context_tokens": 8192,
+      "model_type": "celerity",
+      "vocab_size": 128256
+    },
+    {
+      "model": "adpretko/celerity-271m-8k-ld0p1",
+      "revision": "9b91d53014f3659e2eca9c771825a3b672a42782",
+      "trained_context_tokens": 8192,
+      "model_type": "celerity",
+      "vocab_size": 128256
+    },
+    {
+      "model": "adpretko/celerity-906m-16k-ad0p4-ild",
+      "revision": "179a3dc335735df790772173e2dcc848d4493189",
+      "trained_context_tokens": 16384,
+      "model_type": "celerity",
+      "vocab_size": 128256
+    },
+    {
+      "model": "adpretko/celerity-906m-16k-ad0p2",
+      "revision": "3b99db4fe20a85b5fcb3d446b5c4ee8828ef8366",
+      "trained_context_tokens": 16384,
+      "model_type": "celerity",
+      "vocab_size": 128256
+    },
+    {
+      "model": "adpretko/celerity-906m-4k-ad0p4-ild",
+      "revision": "e8bd95e4e1e86214a906c09dd71aace0c0720e7d",
+      "trained_context_tokens": 4096,
+      "model_type": "celerity",
+      "vocab_size": 128256
+    },
+    {
+      "model": "adpretko/celerity-906m-4k-ad0p1",
+      "revision": "2bf81f83cbb1dd939b982a68d4bfbdd437bab591",
+      "trained_context_tokens": 4096,
+      "model_type": "celerity",
+      "vocab_size": 128256
+    },
+    {
+      "model": "adpretko/celerity-906m-4k-ad0p0",
+      "revision": "f9777bdd0f7ad72c59a86fbb11257d2a0e920bdc",
+      "trained_context_tokens": 4096,
+      "model_type": "celerity",
+      "vocab_size": 128256
+    },
+    {
+      "model": "adpretko/celerity-906m-8k-ad0p8-ild",
+      "revision": "7c5ed5f32147dbf078456d315741499ab246f951",
+      "trained_context_tokens": 8192,
+      "model_type": "celerity",
+      "vocab_size": 128256
+    },
+    {
+      "model": "adpretko/celerity-906m-8k-ad0p4-ild",
+      "revision": "e02cd754fcde80e4aa149b6d745c7a79f5c64087",
+      "trained_context_tokens": 8192,
+      "model_type": "celerity",
+      "vocab_size": 128256
+    },
+    {
+      "model": "adpretko/celerity-906m-8k-ad0p2-ild",
+      "revision": "721179d2934435f524f14d8b800c42997a9cd229",
+      "trained_context_tokens": 8192,
+      "model_type": "celerity",
+      "vocab_size": 128256
+    },
+    {
+      "model": "adpretko/celerity-906m-8k-ad0p4",
+      "revision": "e21073e7805f29e4feaa805edb3c95d7f6f49420",
+      "trained_context_tokens": 8192,
+      "model_type": "celerity",
+      "vocab_size": 128256
+    },
+    {
+      "model": "adpretko/celerity-906m-8k-ad0p2",
+      "revision": "f324249b42193ef0189effb156a2a4142938741c",
+      "trained_context_tokens": 8192,
+      "model_type": "celerity",
+      "vocab_size": 128256
+    },
+    {
+      "model": "adpretko/celerity-906m-8k-ad0p1",
+      "revision": "cf21efb8d68a90cb8f03a20bbe6b3732345ee4f4",
+      "trained_context_tokens": 8192,
+      "model_type": "celerity",
+      "vocab_size": 128256
+    },
+    {
+      "model": "adpretko/celerity-906m-8k-ad0p0",
+      "revision": "7ca4f40b4829b198943531081fe426ca28a4889e",
+      "trained_context_tokens": 8192,
+      "model_type": "celerity",
+      "vocab_size": 128256
+    },
+    {
+      "model": "adpretko/celerity-504m-16k-ad0p8-ild",
+      "revision": "9ea7914317370b0108317eb9162e60735c23d40d",
+      "trained_context_tokens": 16384,
+      "model_type": "celerity",
+      "vocab_size": 128256
+    },
+    {
+      "model": "adpretko/celerity-504m-16k-ad0p4-ild",
+      "revision": "21e2fb693bd96f1b418253af4983756a21cda8f3",
+      "trained_context_tokens": 16384,
+      "model_type": "celerity",
+      "vocab_size": 128256
+    },
+    {
+      "model": "adpretko/celerity-504m-16k-ad0p2-ild",
+      "revision": "36f96fb5950df1fd2e7b7049276190b8648e9c8f",
+      "trained_context_tokens": 16384,
+      "model_type": "celerity",
+      "vocab_size": 128256
+    },
+    {
+      "model": "adpretko/celerity-504m-16k-ad0p4",
+      "revision": "f8690ac928284e83af2463887cef7618156eb8a5",
+      "trained_context_tokens": 16384,
+      "model_type": "celerity",
+      "vocab_size": 128256
+    },
+    {
+      "model": "adpretko/celerity-504m-16k-ad0p2",
+      "revision": "6c02b9327753890807469a27b3b50a78bf7a5ede",
+      "trained_context_tokens": 16384,
+      "model_type": "celerity",
+      "vocab_size": 128256
+    },
+    {
+      "model": "adpretko/celerity-504m-16k-ad0p1",
+      "revision": "1622ff378fda0dcaac20406f58a7f10fd272f465",
+      "trained_context_tokens": 16384,
+      "model_type": "celerity",
+      "vocab_size": 128256
+    },
+    {
+      "model": "adpretko/celerity-504m-16k-ad0p0",
+      "revision": "ae9c53f7f19630420e417f00d1ee16c4c2bd897d",
+      "trained_context_tokens": 16384,
+      "model_type": "celerity",
+      "vocab_size": 128256
+    },
+    {
+      "model": "adpretko/celerity-504m-4k-ad0p8-ild",
+      "revision": "88cfefdf816b6f8632498daacd75c27fdd4ba0d6",
+      "trained_context_tokens": 4096,
+      "model_type": "celerity",
+      "vocab_size": 128256
+    },
+    {
+      "model": "adpretko/celerity-504m-4k-ad0p4-ild",
+      "revision": "ed1df0310250fef7cdfdfb4c607de7eae8f8d29e",
+      "trained_context_tokens": 4096,
+      "model_type": "celerity",
+      "vocab_size": 128256
+    },
+    {
+      "model": "adpretko/celerity-504m-4k-ad0p2-ild",
+      "revision": "853a45cf389c548c40962766bda654ada087b1dc",
+      "trained_context_tokens": 4096,
+      "model_type": "celerity",
+      "vocab_size": 128256
+    },
+    {
+      "model": "adpretko/celerity-504m-4k-ad0p4",
+      "revision": "55d929c8ce70006a0999b25b8e20d5c286cc56de",
+      "trained_context_tokens": 4096,
+      "model_type": "celerity",
+      "vocab_size": 128256
+    },
+    {
+      "model": "adpretko/celerity-504m-4k-ad0p2",
+      "revision": "5da63319bcdc603836b054bf223d55cb11193ed1",
+      "trained_context_tokens": 4096,
+      "model_type": "celerity",
+      "vocab_size": 128256
+    },
+    {
+      "model": "adpretko/celerity-504m-4k-ad0p1",
+      "revision": "dce698d28440e684b016057d3fe3b23f70127262",
+      "trained_context_tokens": 4096,
+      "model_type": "celerity",
+      "vocab_size": 128256
+    },
+    {
+      "model": "adpretko/celerity-504m-4k-ad0p0",
+      "revision": "dc839b30ba3760c9cf66db3172e6df182108d678",
+      "trained_context_tokens": 4096,
+      "model_type": "celerity",
+      "vocab_size": 128256
+    },
+    {
+      "model": "adpretko/celerity-504m-8k-ad0p8-ild",
+      "revision": "6b3831c139c7e6ff1c3ab369cd04b3d413efd6de",
+      "trained_context_tokens": 8192,
+      "model_type": "celerity",
+      "vocab_size": 128256
+    },
+    {
+      "model": "adpretko/celerity-504m-8k-ad0p4-ild",
+      "revision": "621d4dd97f32d9fc8f6b49efaa59b9a837051f56",
+      "trained_context_tokens": 8192,
+      "model_type": "celerity",
+      "vocab_size": 128256
+    },
+    {
+      "model": "adpretko/celerity-504m-8k-ad0p2-ild",
+      "revision": "38951190e81285650172e4366d9a0a47657cba9c",
+      "trained_context_tokens": 8192,
+      "model_type": "celerity",
+      "vocab_size": 128256
+    },
+    {
+      "model": "adpretko/celerity-504m-8k-ad0p4",
+      "revision": "d45c4656dd968bede1b3416c6a9ee6a7dd797235",
+      "trained_context_tokens": 8192,
+      "model_type": "celerity",
+      "vocab_size": 128256
+    },
+    {
+      "model": "adpretko/celerity-504m-8k-ad0p2",
+      "revision": "a08906fbc405b35acf887a38843210d99edfed02",
+      "trained_context_tokens": 8192,
+      "model_type": "celerity",
+      "vocab_size": 128256
+    },
+    {
+      "model": "adpretko/celerity-504m-8k-ad0p1",
+      "revision": "9e96a5dff44335bc18c961e731f6bb263cd9d996",
+      "trained_context_tokens": 8192,
+      "model_type": "celerity",
+      "vocab_size": 128256
+    },
+    {
+      "model": "adpretko/celerity-504m-8k-ad0p0",
+      "revision": "931a4caf62777ef16cb1621752362e7397305518",
+      "trained_context_tokens": 8192,
+      "model_type": "celerity",
+      "vocab_size": 128256
+    },
+    {
+      "model": "adpretko/celerity-271m-8k-residual-dropout-0p4",
+      "revision": "228f7e2eb8cd33cd77abf3a04c1180b9b07f6bcf",
+      "trained_context_tokens": 8192,
+      "model_type": "celerity",
+      "vocab_size": 128256
+    },
+    {
+      "model": "adpretko/celerity-271m-8k-residual-dropout-0p2",
+      "revision": "34488e151e33d7ebc2ec5367f0d9484f24c35537",
+      "trained_context_tokens": 8192,
+      "model_type": "celerity",
+      "vocab_size": 128256
+    },
+    {
+      "model": "adpretko/celerity-271m-8k-residual-dropout-0p1",
+      "revision": "3413d7d4d0b11108b8b8d839bb081708801c8679",
+      "trained_context_tokens": 8192,
+      "model_type": "celerity",
+      "vocab_size": 128256
+    },
+    {
+      "model": "adpretko/celerity-271m-8k-residual-dropout-0p0",
+      "revision": "de9dbf435149e65a10bd4f6b7911d37a0e91e790",
+      "trained_context_tokens": 8192,
+      "model_type": "celerity",
+      "vocab_size": 128256
+    },
+    {
+      "model": "adpretko/celerity-271m-8k-good-lr-ad0p0",
+      "revision": "5459c166d037d743608660865d1f5893050a614d",
+      "trained_context_tokens": 8192,
+      "model_type": "celerity",
+      "vocab_size": 128256
+    },
+    {
+      "model": "adpretko/celerity-271m-16k-ad0p8-ild",
+      "revision": "2f891e9bc34398e413eba13382d077367698adcd",
+      "trained_context_tokens": 16384,
+      "model_type": "celerity",
+      "vocab_size": 128256
+    },
+    {
+      "model": "adpretko/celerity-271m-16k-ad0p4-ild",
+      "revision": "3085bbbaff88e5d78b9c2e7e9134b6e7af336fbd",
+      "trained_context_tokens": 16384,
+      "model_type": "celerity",
+      "vocab_size": 128256
+    },
+    {
+      "model": "adpretko/celerity-271m-16k-ad0p2-ild",
+      "revision": "33636d596aab90b70bbb309e6e8f6bffabe3ea2a",
+      "trained_context_tokens": 16384,
+      "model_type": "celerity",
+      "vocab_size": 128256
+    },
+    {
+      "model": "adpretko/celerity-271m-16k-ad0p4",
+      "revision": "6fbde25b95bff6d728b84c7a51c7775b90ca1974",
+      "trained_context_tokens": 16384,
+      "model_type": "celerity",
+      "vocab_size": 128256
+    },
+    {
+      "model": "adpretko/celerity-271m-16k-ad0p2",
+      "revision": "c12a36a14ce045b32f0045e627dd6412186a233d",
+      "trained_context_tokens": 16384,
+      "model_type": "celerity",
+      "vocab_size": 128256
+    },
+    {
+      "model": "adpretko/celerity-271m-16k-ad0p1",
+      "revision": "d516285377f86842e726c3d2132e327de5bac430",
+      "trained_context_tokens": 16384,
+      "model_type": "celerity",
+      "vocab_size": 128256
+    },
+    {
+      "model": "adpretko/celerity-271m-16k-ad0p0",
+      "revision": "a27b5e939966c81f7afe2aa7423e610b5aee5445",
+      "trained_context_tokens": 16384,
+      "model_type": "celerity",
+      "vocab_size": 128256
+    },
+    {
+      "model": "adpretko/celerity-271m-4k-ad0p8-ild",
+      "revision": "2aa0f5ddea24afb031a6a3c3242240bc0aafcce6",
+      "trained_context_tokens": 4096,
+      "model_type": "celerity",
+      "vocab_size": 128256
+    },
+    {
+      "model": "adpretko/celerity-271m-4k-ad0p4-ild",
+      "revision": "5b8fd3cf8c03ac367c055e476637b10f043b6e2c",
+      "trained_context_tokens": 4096,
+      "model_type": "celerity",
+      "vocab_size": 128256
+    },
+    {
+      "model": "adpretko/celerity-271m-4k-ad0p2-ild",
+      "revision": "294a99d34c5acf7d97a407c911dbe3d263691379",
+      "trained_context_tokens": 4096,
+      "model_type": "celerity",
+      "vocab_size": 128256
+    },
+    {
+      "model": "adpretko/celerity-271m-4k-ad0p4",
+      "revision": "39333a9c17904aa09c5d6d6b4cd993e5b3692324",
+      "trained_context_tokens": 4096,
+      "model_type": "celerity",
+      "vocab_size": 128256
+    },
+    {
+      "model": "adpretko/celerity-271m-4k-ad0p2",
+      "revision": "ebc4996b17a272067e27d92d59f02bf118dcd794",
+      "trained_context_tokens": 4096,
+      "model_type": "celerity",
+      "vocab_size": 128256
+    },
+    {
+      "model": "adpretko/celerity-271m-4k-ad0p1",
+      "revision": "7fd1de176c4c87a58096049fa5c235b2014a6b64",
+      "trained_context_tokens": 4096,
+      "model_type": "celerity",
+      "vocab_size": 128256
+    },
+    {
+      "model": "adpretko/celerity-271m-4k-ad0p0",
+      "revision": "be032b277561058f3215d0862ba282c164e73d35",
+      "trained_context_tokens": 4096,
+      "model_type": "celerity",
+      "vocab_size": 128256
+    },
+    {
+      "model": "adpretko/celerity-271m-8k-ad0p8-ild",
+      "revision": "ad72e09187cee1014cd0358ba6298360e7ab0765",
+      "trained_context_tokens": 8192,
+      "model_type": "celerity",
+      "vocab_size": 128256
+    },
+    {
+      "model": "adpretko/celerity-271m-8k-ad0p4-ild",
+      "revision": "07cf922606c729677e7160514702cea3375f041a",
+      "trained_context_tokens": 8192,
+      "model_type": "celerity",
+      "vocab_size": 128256
+    },
+    {
+      "model": "adpretko/celerity-271m-8k-ad0p2-ild",
+      "revision": "876c81da373924c24b36d90c8904146e01da6718",
+      "trained_context_tokens": 8192,
+      "model_type": "celerity",
+      "vocab_size": 128256
+    },
+    {
+      "model": "adpretko/celerity-271m-8k-ad0p4",
+      "revision": "952d98852d7af9af1d28834385e4fb44d6da0950",
+      "trained_context_tokens": 8192,
+      "model_type": "celerity",
+      "vocab_size": 128256
+    },
+    {
+      "model": "adpretko/celerity-271m-8k-ad0p2",
+      "revision": "6eaa59e658d4b7b276173f99b1026c8a6efaea1b",
+      "trained_context_tokens": 8192,
+      "model_type": "celerity",
+      "vocab_size": 128256
+    },
+    {
+      "model": "adpretko/celerity-271m-8k-ad0p1",
+      "revision": "e1822fcf24e7f7d5bccb200945a25db90c51b34b",
+      "trained_context_tokens": 8192,
+      "model_type": "celerity",
+      "vocab_size": 128256
+    },
+    {
+      "model": "adpretko/celerity-271m-8k-ad0p0",
+      "revision": "5f107d0b348f0335a3a488c5e81c03f69c1f9dee",
+      "trained_context_tokens": 8192,
+      "model_type": "celerity",
+      "vocab_size": 128256
+    }
+  ],
+  "total_celerity_repositories": 189,
+  "excluded_models": [],
+  "longbench_revision": "5e628be450b7e67fb7ae6e201bd6d8f7056f7672",
+  "sample_indices": {
+    "narrativeqa": [
+      6,
+      78,
+      89,
+      109,
+      127
+    ],
+    "qasper": [
+      46,
+      135,
+      171,
+      191,
+      196
+    ],
+    "multifieldqa_en": [
+      9,
+      59,
+      93,
+      104,
+      122
+    ],
+    "hotpotqa": [
+      60,
+      94,
+      123,
+      153,
+      156
+    ],
+    "2wikimqa": [
+      33,
+      51,
+      82,
+      148,
+      166
+    ],
+    "musique": [
+      40,
+      151,
+      163,
+      189,
+      194
+    ],
+    "gov_report": [
+      15,
+      141,
+      178,
+      179,
+      186
+    ],
+    "qmsum": [
+      18,
+      20,
+      44,
+      76,
+      137
+    ],
+    "multi_news": [
+      15,
+      42,
+      59,
+      128,
+      178
+    ],
+    "trec": [
+      9,
+      19,
+      74,
+      187,
+      195
+    ],
+    "triviaqa": [
+      65,
+      66,
+      108,
+      126,
+      127
+    ],
+    "samsum": [
+      127,
+      148,
+      150,
+      179,
+      187
+    ],
+    "passage_count": [
+      33,
+      67,
+      85,
+      103,
+      140
+    ],
+    "passage_retrieval_en": [
+      46,
+      54,
+      64,
+      138,
+      182
+    ],
+    "lcc": [
+      13,
+      96,
+      199,
+      249,
+      256
+    ],
+    "repobench-p": [
+      42,
+      119,
+      187,
+      301,
+      302
+    ]
+  },
+  "sample_id_digest": {
+    "narrativeqa": "43babbfd4314fd8b475fe8905f498cfd41b98022dfdb61f9d0a7ba45e4e22cc0",
+    "qasper": "5611d0a2bb9bd230c434e59db06b5e686d79eb124b84753d6ca16b2e58d99f09",
+    "multifieldqa_en": "23e68323f866fb0fce6396e8499bae9e9cc659cce5bf2e0882991a46cf547389",
+    "hotpotqa": "a4aa409197bdbff3a74667d3496d861b4bb463c987025bcd340778e9726ca96d",
+    "2wikimqa": "1859e72250498c27ccedc9a7dfb32592ac7f18385ee038489629f29dbb882727",
+    "musique": "209c6ff4e0ee6d4b5733b9ba0160a64141554066dc694fadd802cc4f965f0ed0",
+    "gov_report": "320a664d702c16dd052ceeb5636142cf4ad5e7f4a77ec0f018368dcf3bb516bb",
+    "qmsum": "45940d54da08e25e17b3d9d0fe502dfa421fe0d769e43d58aa4117264c732137",
+    "multi_news": "4665da675fd5f0853338ce9333b558f33ff0b72adfc0079ddc7497ea583c3879",
+    "trec": "764bdc6d4674757bba351e0beae7c8d55d7caa0e2ee6f30e16022965cbe475c2",
+    "triviaqa": "60283129ad82a488d984fd35a9062e431f205b998eab5e28598cbd5cd6cc8384",
+    "samsum": "e6f80addc398a4938486c33e127abe6fe33e76eb820721b7419d7019da67cfcb",
+    "passage_count": "23494c0a2a87c00f0348fe3bdd9f3eb956e7e4c52eda2877669984eb975a501a",
+    "passage_retrieval_en": "bd25dc0b50b3d7b3acd5bdc468be2e63e8d082d1c63c5570ea6b5e28da17cd87",
+    "lcc": "0c023b414c32ca55d0191b1001da8ebd70c2467498761843392b08c993baff60",
+    "repobench-p": "de1bf4ae7c88e2debe846edaef79ff5ee39a25e0d85c5a3c970efee695263c87"
+  },
+  "source_manifest": "experiments/celerity_all_4k_bf16/manifest.json",
+  "source_model_count": 189
+}

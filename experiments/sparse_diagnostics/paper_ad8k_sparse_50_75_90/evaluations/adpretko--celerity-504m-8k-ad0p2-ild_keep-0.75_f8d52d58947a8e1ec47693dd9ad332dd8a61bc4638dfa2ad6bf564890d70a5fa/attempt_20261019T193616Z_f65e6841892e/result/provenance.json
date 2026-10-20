@@ -1,0 +1,47 @@
+{
+  "model": {
+    "model": "adpretko/celerity-504m-8k-ad0p2-ild",
+    "revision": "38951190e81285650172e4366d9a0a47657cba9c",
+    "trained_context_tokens": 8192,
+    "model_type": "celerity",
+    "vocab_size": 128256
+  },
+  "tokenizer_digest": "cb6fc4ca9320d0f53982e3b20578e5ddd36fe49641b44f1e369e7143062cc2fa",
+  "environment": {
+    "torch": "2.5.1+cu124",
+    "transformers": "4.44.2",
+    "triton": "3.1.0",
+    "cuda": "12.4",
+    "gpu": "NVIDIA RTX A6000",
+    "capability": [
+      8,
+      6
+    ],
+    "float32_matmul_precision": "highest",
+    "allow_tf32": false,
+    "allow_bf16_reduced_precision_reduction": true,
+    "deterministic_algorithms": false
+  },
+  "manifest_sha256": "634beb2c4af50e0e912ef6ffea8df82fc58ffbff465250ec9054b09e8a3a9711",
+  "scorer_sha256": "b58da9adce20542e832bff5d35ede48d205daf2774b399bcca60184b152814ec",
+  "utils_sha256": "3ae0aa3d08adefdddeb37f5a02e387e32bbfc9ffb43a83e9fb9e1bfafd36a0f7",
+  "v2_runner_sha256": "af4e1fc23e88efad910c8cdbd44a0cd2492cbd10c7d395b6e337a8e698ce2d98",
+  "adapter_sha256": "33f3654bcaa45aa4cee1cbde3f4d536fa9afd9db1b65c359117d9c6a7c993a27",
+  "attention_sha256": "53459fc2ebc2bf0e1d75cc06aec38c5308b931efce3f2d58c113307ef02469e9",
+  "launcher_sha256": "c1f07ab4fdf305d5aa451e6a4e952038ffe576cff07b6b51f680f96dfbcafc9d",
+  "longbench_commit": "3a801631605197c49f8e121951b0b28f468f42a1",
+  "settings": {
+    "backend": "reference",
+    "keep_fraction": 0.75,
+    "block_size": 128,
+    "local_blocks": 1
+  },
+  "reference_policy": "first",
+  "evaluation_context": 4096,
+  "case_count": 80,
+  "diagnostic_subset": false,
+  "cases_sha256": "888c61a03f614c5fddfdf368e3cde144071c85fbb7ce6f17245fc4e7e28471f5",
+  "precision": "BF16 weights/QKV; Flex FP32 score accumulation; no INT8",
+  "timing": "synchronized model wall time, includes selection/metadata/instrumentation; excludes scorer loss",
+  "warmup": "all selected cases once per arm; includes compilation; excluded from measured pass"
+}

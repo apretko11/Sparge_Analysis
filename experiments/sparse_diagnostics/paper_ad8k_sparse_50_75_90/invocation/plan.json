@@ -1,0 +1,2088 @@
+{
+  "jobs": [
+    {
+      "evaluation_id": "207829c365378e4f3536cb65dd7a44e9552e9262f5e651aa5b8695413eb1f3c2",
+      "config": {
+        "schema": 1,
+        "model": {
+          "model": "adpretko/celerity-271m-8k-ad0p0",
+          "revision": "5f107d0b348f0335a3a488c5e81c03f69c1f9dee",
+          "trained_context_tokens": 8192,
+          "model_type": "celerity",
+          "vocab_size": 128256
+        },
+        "manifest_sha256": "634beb2c4af50e0e912ef6ffea8df82fc58ffbff465250ec9054b09e8a3a9711",
+        "sources": {
+          "scorer_sha256": "b58da9adce20542e832bff5d35ede48d205daf2774b399bcca60184b152814ec",
+          "utils_sha256": "3ae0aa3d08adefdddeb37f5a02e387e32bbfc9ffb43a83e9fb9e1bfafd36a0f7",
+          "v2_runner_sha256": "af4e1fc23e88efad910c8cdbd44a0cd2492cbd10c7d395b6e337a8e698ce2d98",
+          "adapter_sha256": "33f3654bcaa45aa4cee1cbde3f4d536fa9afd9db1b65c359117d9c6a7c993a27",
+          "attention_sha256": "53459fc2ebc2bf0e1d75cc06aec38c5308b931efce3f2d58c113307ef02469e9",
+          "launcher_sha256": "c1f07ab4fdf305d5aa451e6a4e952038ffe576cff07b6b51f680f96dfbcafc9d",
+          "validator_sha256": "4df9d9482a4defece95289cfe429b25ec2798013b99cf85f0b65c729d97fce4b",
+          "package_sha256": "42ab72d0bf4b4b6ed924d9641287f009f4e0970f12f1337d1c0026ca5e310a57"
+        },
+        "evaluation_context": 4096,
+        "reference_policy": "first",
+        "case_count": 80,
+        "settings": {
+          "backend": "reference",
+          "keep_fraction": 0.5,
+          "block_size": 128,
+          "local_blocks": 1
+        }
+      }
+    },
+    {
+      "evaluation_id": "7ffa29e02702d5c69ecbbfa9223628a43797f3f78fd797d8620d8a6b0c9192f5",
+      "config": {
+        "schema": 1,
+        "model": {
+          "model": "adpretko/celerity-271m-8k-ad0p0",
+          "revision": "5f107d0b348f0335a3a488c5e81c03f69c1f9dee",
+          "trained_context_tokens": 8192,
+          "model_type": "celerity",
+          "vocab_size": 128256
+        },
+        "manifest_sha256": "634beb2c4af50e0e912ef6ffea8df82fc58ffbff465250ec9054b09e8a3a9711",
+        "sources": {
+          "scorer_sha256": "b58da9adce20542e832bff5d35ede48d205daf2774b399bcca60184b152814ec",
+          "utils_sha256": "3ae0aa3d08adefdddeb37f5a02e387e32bbfc9ffb43a83e9fb9e1bfafd36a0f7",
+          "v2_runner_sha256": "af4e1fc23e88efad910c8cdbd44a0cd2492cbd10c7d395b6e337a8e698ce2d98",
+          "adapter_sha256": "33f3654bcaa45aa4cee1cbde3f4d536fa9afd9db1b65c359117d9c6a7c993a27",
+          "attention_sha256": "53459fc2ebc2bf0e1d75cc06aec38c5308b931efce3f2d58c113307ef02469e9",
+          "launcher_sha256": "c1f07ab4fdf305d5aa451e6a4e952038ffe576cff07b6b51f680f96dfbcafc9d",
+          "validator_sha256": "4df9d9482a4defece95289cfe429b25ec2798013b99cf85f0b65c729d97fce4b",
+          "package_sha256": "42ab72d0bf4b4b6ed924d9641287f009f4e0970f12f1337d1c0026ca5e310a57"
+        },
+        "evaluation_context": 4096,
+        "reference_policy": "first",
+        "case_count": 80,
+        "settings": {
+          "backend": "reference",
+          "keep_fraction": 0.75,
+          "block_size": 128,
+          "local_blocks": 1
+        }
+      }
+    },
+    {
+      "evaluation_id": "8a551f50b7a64367a803a3b657dc0af562032299d496584fe69eab32e6a9896c",
+      "config": {
+        "schema": 1,
+        "model": {
+          "model": "adpretko/celerity-271m-8k-ad0p0",
+          "revision": "5f107d0b348f0335a3a488c5e81c03f69c1f9dee",
+          "trained_context_tokens": 8192,
+          "model_type": "celerity",
+          "vocab_size": 128256
+        },
+        "manifest_sha256": "634beb2c4af50e0e912ef6ffea8df82fc58ffbff465250ec9054b09e8a3a9711",
+        "sources": {
+          "scorer_sha256": "b58da9adce20542e832bff5d35ede48d205daf2774b399bcca60184b152814ec",
+          "utils_sha256": "3ae0aa3d08adefdddeb37f5a02e387e32bbfc9ffb43a83e9fb9e1bfafd36a0f7",
+          "v2_runner_sha256": "af4e1fc23e88efad910c8cdbd44a0cd2492cbd10c7d395b6e337a8e698ce2d98",
+          "adapter_sha256": "33f3654bcaa45aa4cee1cbde3f4d536fa9afd9db1b65c359117d9c6a7c993a27",
+          "attention_sha256": "53459fc2ebc2bf0e1d75cc06aec38c5308b931efce3f2d58c113307ef02469e9",
+          "launcher_sha256": "c1f07ab4fdf305d5aa451e6a4e952038ffe576cff07b6b51f680f96dfbcafc9d",
+          "validator_sha256": "4df9d9482a4defece95289cfe429b25ec2798013b99cf85f0b65c729d97fce4b",
+          "package_sha256": "42ab72d0bf4b4b6ed924d9641287f009f4e0970f12f1337d1c0026ca5e310a57"
+        },
+        "evaluation_context": 4096,
+        "reference_policy": "first",
+        "case_count": 80,
+        "settings": {
+          "backend": "reference",
+          "keep_fraction": 0.9,
+          "block_size": 128,
+          "local_blocks": 1
+        }
+      }
+    },
+    {
+      "evaluation_id": "d7d0efc05325ecffdbf88325351d6ee2838d682ca650bf9c6885218c76aec05c",
+      "config": {
+        "schema": 1,
+        "model": {
+          "model": "adpretko/celerity-271m-8k-ad0p1",
+          "revision": "e1822fcf24e7f7d5bccb200945a25db90c51b34b",
+          "trained_context_tokens": 8192,
+          "model_type": "celerity",
+          "vocab_size": 128256
+        },
+        "manifest_sha256": "634beb2c4af50e0e912ef6ffea8df82fc58ffbff465250ec9054b09e8a3a9711",
+        "sources": {
+          "scorer_sha256": "b58da9adce20542e832bff5d35ede48d205daf2774b399bcca60184b152814ec",
+          "utils_sha256": "3ae0aa3d08adefdddeb37f5a02e387e32bbfc9ffb43a83e9fb9e1bfafd36a0f7",
+          "v2_runner_sha256": "af4e1fc23e88efad910c8cdbd44a0cd2492cbd10c7d395b6e337a8e698ce2d98",
+          "adapter_sha256": "33f3654bcaa45aa4cee1cbde3f4d536fa9afd9db1b65c359117d9c6a7c993a27",
+          "attention_sha256": "53459fc2ebc2bf0e1d75cc06aec38c5308b931efce3f2d58c113307ef02469e9",
+          "launcher_sha256": "c1f07ab4fdf305d5aa451e6a4e952038ffe576cff07b6b51f680f96dfbcafc9d",
+          "validator_sha256": "4df9d9482a4defece95289cfe429b25ec2798013b99cf85f0b65c729d97fce4b",
+          "package_sha256": "42ab72d0bf4b4b6ed924d9641287f009f4e0970f12f1337d1c0026ca5e310a57"
+        },
+        "evaluation_context": 4096,
+        "reference_policy": "first",
+        "case_count": 80,
+        "settings": {
+          "backend": "reference",
+          "keep_fraction": 0.5,
+          "block_size": 128,
+          "local_blocks": 1
+        }
+      }
+    },
+    {
+      "evaluation_id": "a800a1b3dd524522bc71cabea11f6f68a6f5f99923542240227fec618824a01e",
+      "config": {
+        "schema": 1,
+        "model": {
+          "model": "adpretko/celerity-271m-8k-ad0p1",
+          "revision": "e1822fcf24e7f7d5bccb200945a25db90c51b34b",
+          "trained_context_tokens": 8192,
+          "model_type": "celerity",
+          "vocab_size": 128256
+        },
+        "manifest_sha256": "634beb2c4af50e0e912ef6ffea8df82fc58ffbff465250ec9054b09e8a3a9711",
+        "sources": {
+          "scorer_sha256": "b58da9adce20542e832bff5d35ede48d205daf2774b399bcca60184b152814ec",
+          "utils_sha256": "3ae0aa3d08adefdddeb37f5a02e387e32bbfc9ffb43a83e9fb9e1bfafd36a0f7",
+          "v2_runner_sha256": "af4e1fc23e88efad910c8cdbd44a0cd2492cbd10c7d395b6e337a8e698ce2d98",
+          "adapter_sha256": "33f3654bcaa45aa4cee1cbde3f4d536fa9afd9db1b65c359117d9c6a7c993a27",
+          "attention_sha256": "53459fc2ebc2bf0e1d75cc06aec38c5308b931efce3f2d58c113307ef02469e9",
+          "launcher_sha256": "c1f07ab4fdf305d5aa451e6a4e952038ffe576cff07b6b51f680f96dfbcafc9d",
+          "validator_sha256": "4df9d9482a4defece95289cfe429b25ec2798013b99cf85f0b65c729d97fce4b",
+          "package_sha256": "42ab72d0bf4b4b6ed924d9641287f009f4e0970f12f1337d1c0026ca5e310a57"
+        },
+        "evaluation_context": 4096,
+        "reference_policy": "first",
+        "case_count": 80,
+        "settings": {
+          "backend": "reference",
+          "keep_fraction": 0.75,
+          "block_size": 128,
+          "local_blocks": 1
+        }
+      }
+    },
+    {
+      "evaluation_id": "490ea83144082ad4d4897ca6231acab74e6715f07160280814104a422c6dfed0",
+      "config": {
+        "schema": 1,
+        "model": {
+          "model": "adpretko/celerity-271m-8k-ad0p1",
+          "revision": "e1822fcf24e7f7d5bccb200945a25db90c51b34b",
+          "trained_context_tokens": 8192,
+          "model_type": "celerity",
+          "vocab_size": 128256
+        },
+        "manifest_sha256": "634beb2c4af50e0e912ef6ffea8df82fc58ffbff465250ec9054b09e8a3a9711",
+        "sources": {
+          "scorer_sha256": "b58da9adce20542e832bff5d35ede48d205daf2774b399bcca60184b152814ec",
+          "utils_sha256": "3ae0aa3d08adefdddeb37f5a02e387e32bbfc9ffb43a83e9fb9e1bfafd36a0f7",
+          "v2_runner_sha256": "af4e1fc23e88efad910c8cdbd44a0cd2492cbd10c7d395b6e337a8e698ce2d98",
+          "adapter_sha256": "33f3654bcaa45aa4cee1cbde3f4d536fa9afd9db1b65c359117d9c6a7c993a27",
+          "attention_sha256": "53459fc2ebc2bf0e1d75cc06aec38c5308b931efce3f2d58c113307ef02469e9",
+          "launcher_sha256": "c1f07ab4fdf305d5aa451e6a4e952038ffe576cff07b6b51f680f96dfbcafc9d",
+          "validator_sha256": "4df9d9482a4defece95289cfe429b25ec2798013b99cf85f0b65c729d97fce4b",
+          "package_sha256": "42ab72d0bf4b4b6ed924d9641287f009f4e0970f12f1337d1c0026ca5e310a57"
+        },
+        "evaluation_context": 4096,
+        "reference_policy": "first",
+        "case_count": 80,
+        "settings": {
+          "backend": "reference",
+          "keep_fraction": 0.9,
+          "block_size": 128,
+          "local_blocks": 1
+        }
+      }
+    },
+    {
+      "evaluation_id": "5d09190270cd2b6e34c65261dbbbe32e92b85983a4a8a663588bfba62587474d",
+      "config": {
+        "schema": 1,
+        "model": {
+          "model": "adpretko/celerity-271m-8k-ad0p2",
+          "revision": "6eaa59e658d4b7b276173f99b1026c8a6efaea1b",
+          "trained_context_tokens": 8192,
+          "model_type": "celerity",
+          "vocab_size": 128256
+        },
+        "manifest_sha256": "634beb2c4af50e0e912ef6ffea8df82fc58ffbff465250ec9054b09e8a3a9711",
+        "sources": {
+          "scorer_sha256": "b58da9adce20542e832bff5d35ede48d205daf2774b399bcca60184b152814ec",
+          "utils_sha256": "3ae0aa3d08adefdddeb37f5a02e387e32bbfc9ffb43a83e9fb9e1bfafd36a0f7",
+          "v2_runner_sha256": "af4e1fc23e88efad910c8cdbd44a0cd2492cbd10c7d395b6e337a8e698ce2d98",
+          "adapter_sha256": "33f3654bcaa45aa4cee1cbde3f4d536fa9afd9db1b65c359117d9c6a7c993a27",
+          "attention_sha256": "53459fc2ebc2bf0e1d75cc06aec38c5308b931efce3f2d58c113307ef02469e9",
+          "launcher_sha256": "c1f07ab4fdf305d5aa451e6a4e952038ffe576cff07b6b51f680f96dfbcafc9d",
+          "validator_sha256": "4df9d9482a4defece95289cfe429b25ec2798013b99cf85f0b65c729d97fce4b",
+          "package_sha256": "42ab72d0bf4b4b6ed924d9641287f009f4e0970f12f1337d1c0026ca5e310a57"
+        },
+        "evaluation_context": 4096,
+        "reference_policy": "first",
+        "case_count": 80,
+        "settings": {
+          "backend": "reference",
+          "keep_fraction": 0.5,
+          "block_size": 128,
+          "local_blocks": 1
+        }
+      }
+    },
+    {
+      "evaluation_id": "f03624fa41d9d5b1788ed633a0463fb45b04cb7380b25104caf346a1e6946f15",
+      "config": {
+        "schema": 1,
+        "model": {
+          "model": "adpretko/celerity-271m-8k-ad0p2",
+          "revision": "6eaa59e658d4b7b276173f99b1026c8a6efaea1b",
+          "trained_context_tokens": 8192,
+          "model_type": "celerity",
+          "vocab_size": 128256
+        },
+        "manifest_sha256": "634beb2c4af50e0e912ef6ffea8df82fc58ffbff465250ec9054b09e8a3a9711",
+        "sources": {
+          "scorer_sha256": "b58da9adce20542e832bff5d35ede48d205daf2774b399bcca60184b152814ec",
+          "utils_sha256": "3ae0aa3d08adefdddeb37f5a02e387e32bbfc9ffb43a83e9fb9e1bfafd36a0f7",
+          "v2_runner_sha256": "af4e1fc23e88efad910c8cdbd44a0cd2492cbd10c7d395b6e337a8e698ce2d98",
+          "adapter_sha256": "33f3654bcaa45aa4cee1cbde3f4d536fa9afd9db1b65c359117d9c6a7c993a27",
+          "attention_sha256": "53459fc2ebc2bf0e1d75cc06aec38c5308b931efce3f2d58c113307ef02469e9",
+          "launcher_sha256": "c1f07ab4fdf305d5aa451e6a4e952038ffe576cff07b6b51f680f96dfbcafc9d",
+          "validator_sha256": "4df9d9482a4defece95289cfe429b25ec2798013b99cf85f0b65c729d97fce4b",
+          "package_sha256": "42ab72d0bf4b4b6ed924d9641287f009f4e0970f12f1337d1c0026ca5e310a57"
+        },
+        "evaluation_context": 4096,
+        "reference_policy": "first",
+        "case_count": 80,
+        "settings": {
+          "backend": "reference",
+          "keep_fraction": 0.75,
+          "block_size": 128,
+          "local_blocks": 1
+        }
+      }
+    },
+    {
+      "evaluation_id": "602ae4f79a3e011fffdea31da8bf37a6e1a93f2f082e0c82a9dfb90eebf1a769",
+      "config": {
+        "schema": 1,
+        "model": {
+          "model": "adpretko/celerity-271m-8k-ad0p2",
+          "revision": "6eaa59e658d4b7b276173f99b1026c8a6efaea1b",
+          "trained_context_tokens": 8192,
+          "model_type": "celerity",
+          "vocab_size": 128256
+        },
+        "manifest_sha256": "634beb2c4af50e0e912ef6ffea8df82fc58ffbff465250ec9054b09e8a3a9711",
+        "sources": {
+          "scorer_sha256": "b58da9adce20542e832bff5d35ede48d205daf2774b399bcca60184b152814ec",
+          "utils_sha256": "3ae0aa3d08adefdddeb37f5a02e387e32bbfc9ffb43a83e9fb9e1bfafd36a0f7",
+          "v2_runner_sha256": "af4e1fc23e88efad910c8cdbd44a0cd2492cbd10c7d395b6e337a8e698ce2d98",
+          "adapter_sha256": "33f3654bcaa45aa4cee1cbde3f4d536fa9afd9db1b65c359117d9c6a7c993a27",
+          "attention_sha256": "53459fc2ebc2bf0e1d75cc06aec38c5308b931efce3f2d58c113307ef02469e9",
+          "launcher_sha256": "c1f07ab4fdf305d5aa451e6a4e952038ffe576cff07b6b51f680f96dfbcafc9d",
+          "validator_sha256": "4df9d9482a4defece95289cfe429b25ec2798013b99cf85f0b65c729d97fce4b",
+          "package_sha256": "42ab72d0bf4b4b6ed924d9641287f009f4e0970f12f1337d1c0026ca5e310a57"
+        },
+        "evaluation_context": 4096,
+        "reference_policy": "first",
+        "case_count": 80,
+        "settings": {
+          "backend": "reference",
+          "keep_fraction": 0.9,
+          "block_size": 128,
+          "local_blocks": 1
+        }
+      }
+    },
+    {
+      "evaluation_id": "055b9ec1c4fb8417b1fd874e32fbb3e48cd252ded653d28b24d398a2abac1a4c",
+      "config": {
+        "schema": 1,
+        "model": {
+          "model": "adpretko/celerity-271m-8k-ad0p2-ild",
+          "revision": "876c81da373924c24b36d90c8904146e01da6718",
+          "trained_context_tokens": 8192,
+          "model_type": "celerity",
+          "vocab_size": 128256
+        },
+        "manifest_sha256": "634beb2c4af50e0e912ef6ffea8df82fc58ffbff465250ec9054b09e8a3a9711",
+        "sources": {
+          "scorer_sha256": "b58da9adce20542e832bff5d35ede48d205daf2774b399bcca60184b152814ec",
+          "utils_sha256": "3ae0aa3d08adefdddeb37f5a02e387e32bbfc9ffb43a83e9fb9e1bfafd36a0f7",
+          "v2_runner_sha256": "af4e1fc23e88efad910c8cdbd44a0cd2492cbd10c7d395b6e337a8e698ce2d98",
+          "adapter_sha256": "33f3654bcaa45aa4cee1cbde3f4d536fa9afd9db1b65c359117d9c6a7c993a27",
+          "attention_sha256": "53459fc2ebc2bf0e1d75cc06aec38c5308b931efce3f2d58c113307ef02469e9",
+          "launcher_sha256": "c1f07ab4fdf305d5aa451e6a4e952038ffe576cff07b6b51f680f96dfbcafc9d",
+          "validator_sha256": "4df9d9482a4defece95289cfe429b25ec2798013b99cf85f0b65c729d97fce4b",
+          "package_sha256": "42ab72d0bf4b4b6ed924d9641287f009f4e0970f12f1337d1c0026ca5e310a57"
+        },
+        "evaluation_context": 4096,
+        "reference_policy": "first",
+        "case_count": 80,
+        "settings": {
+          "backend": "reference",
+          "keep_fraction": 0.5,
+          "block_size": 128,
+          "local_blocks": 1
+        }
+      }
+    },
+    {
+      "evaluation_id": "efeb61a90ef0b9076fe966d6851f52899728536557dd1f852b5cbf40e2a4b79d",
+      "config": {
+        "schema": 1,
+        "model": {
+          "model": "adpretko/celerity-271m-8k-ad0p2-ild",
+          "revision": "876c81da373924c24b36d90c8904146e01da6718",
+          "trained_context_tokens": 8192,
+          "model_type": "celerity",
+          "vocab_size": 128256
+        },
+        "manifest_sha256": "634beb2c4af50e0e912ef6ffea8df82fc58ffbff465250ec9054b09e8a3a9711",
+        "sources": {
+          "scorer_sha256": "b58da9adce20542e832bff5d35ede48d205daf2774b399bcca60184b152814ec",
+          "utils_sha256": "3ae0aa3d08adefdddeb37f5a02e387e32bbfc9ffb43a83e9fb9e1bfafd36a0f7",
+          "v2_runner_sha256": "af4e1fc23e88efad910c8cdbd44a0cd2492cbd10c7d395b6e337a8e698ce2d98",
+          "adapter_sha256": "33f3654bcaa45aa4cee1cbde3f4d536fa9afd9db1b65c359117d9c6a7c993a27",
+          "attention_sha256": "53459fc2ebc2bf0e1d75cc06aec38c5308b931efce3f2d58c113307ef02469e9",
+          "launcher_sha256": "c1f07ab4fdf305d5aa451e6a4e952038ffe576cff07b6b51f680f96dfbcafc9d",
+          "validator_sha256": "4df9d9482a4defece95289cfe429b25ec2798013b99cf85f0b65c729d97fce4b",
+          "package_sha256": "42ab72d0bf4b4b6ed924d9641287f009f4e0970f12f1337d1c0026ca5e310a57"
+        },
+        "evaluation_context": 4096,
+        "reference_policy": "first",
+        "case_count": 80,
+        "settings": {
+          "backend": "reference",
+          "keep_fraction": 0.75,
+          "block_size": 128,
+          "local_blocks": 1
+        }
+      }
+    },
+    {
+      "evaluation_id": "9ce8a413ec2a0fb6d36c4f575025bff0f4f6c707a51effa572b5486b70035b65",
+      "config": {
+        "schema": 1,
+        "model": {
+          "model": "adpretko/celerity-271m-8k-ad0p2-ild",
+          "revision": "876c81da373924c24b36d90c8904146e01da6718",
+          "trained_context_tokens": 8192,
+          "model_type": "celerity",
+          "vocab_size": 128256
+        },
+        "manifest_sha256": "634beb2c4af50e0e912ef6ffea8df82fc58ffbff465250ec9054b09e8a3a9711",
+        "sources": {
+          "scorer_sha256": "b58da9adce20542e832bff5d35ede48d205daf2774b399bcca60184b152814ec",
+          "utils_sha256": "3ae0aa3d08adefdddeb37f5a02e387e32bbfc9ffb43a83e9fb9e1bfafd36a0f7",
+          "v2_runner_sha256": "af4e1fc23e88efad910c8cdbd44a0cd2492cbd10c7d395b6e337a8e698ce2d98",
+          "adapter_sha256": "33f3654bcaa45aa4cee1cbde3f4d536fa9afd9db1b65c359117d9c6a7c993a27",
+          "attention_sha256": "53459fc2ebc2bf0e1d75cc06aec38c5308b931efce3f2d58c113307ef02469e9",
+          "launcher_sha256": "c1f07ab4fdf305d5aa451e6a4e952038ffe576cff07b6b51f680f96dfbcafc9d",
+          "validator_sha256": "4df9d9482a4defece95289cfe429b25ec2798013b99cf85f0b65c729d97fce4b",
+          "package_sha256": "42ab72d0bf4b4b6ed924d9641287f009f4e0970f12f1337d1c0026ca5e310a57"
+        },
+        "evaluation_context": 4096,
+        "reference_policy": "first",
+        "case_count": 80,
+        "settings": {
+          "backend": "reference",
+          "keep_fraction": 0.9,
+          "block_size": 128,
+          "local_blocks": 1
+        }
+      }
+    },
+    {
+      "evaluation_id": "c1a497f8f9e30544e7db5ce6f4d6419e30b58953012a4a56c5590cc625571ace",
+      "config": {
+        "schema": 1,
+        "model": {
+          "model": "adpretko/celerity-271m-8k-ad0p4",
+          "revision": "952d98852d7af9af1d28834385e4fb44d6da0950",
+          "trained_context_tokens": 8192,
+          "model_type": "celerity",
+          "vocab_size": 128256
+        },
+        "manifest_sha256": "634beb2c4af50e0e912ef6ffea8df82fc58ffbff465250ec9054b09e8a3a9711",
+        "sources": {
+          "scorer_sha256": "b58da9adce20542e832bff5d35ede48d205daf2774b399bcca60184b152814ec",
+          "utils_sha256": "3ae0aa3d08adefdddeb37f5a02e387e32bbfc9ffb43a83e9fb9e1bfafd36a0f7",
+          "v2_runner_sha256": "af4e1fc23e88efad910c8cdbd44a0cd2492cbd10c7d395b6e337a8e698ce2d98",
+          "adapter_sha256": "33f3654bcaa45aa4cee1cbde3f4d536fa9afd9db1b65c359117d9c6a7c993a27",
+          "attention_sha256": "53459fc2ebc2bf0e1d75cc06aec38c5308b931efce3f2d58c113307ef02469e9",
+          "launcher_sha256": "c1f07ab4fdf305d5aa451e6a4e952038ffe576cff07b6b51f680f96dfbcafc9d",
+          "validator_sha256": "4df9d9482a4defece95289cfe429b25ec2798013b99cf85f0b65c729d97fce4b",
+          "package_sha256": "42ab72d0bf4b4b6ed924d9641287f009f4e0970f12f1337d1c0026ca5e310a57"
+        },
+        "evaluation_context": 4096,
+        "reference_policy": "first",
+        "case_count": 80,
+        "settings": {
+          "backend": "reference",
+          "keep_fraction": 0.5,
+          "block_size": 128,
+          "local_blocks": 1
+        }
+      }
+    },
+    {
+      "evaluation_id": "4ecb49ce5d1294ef81855f78db1a86477b4d15a950ba1c9111486b2db95189c6",
+      "config": {
+        "schema": 1,
+        "model": {
+          "model": "adpretko/celerity-271m-8k-ad0p4",
+          "revision": "952d98852d7af9af1d28834385e4fb44d6da0950",
+          "trained_context_tokens": 8192,
+          "model_type": "celerity",
+          "vocab_size": 128256
+        },
+        "manifest_sha256": "634beb2c4af50e0e912ef6ffea8df82fc58ffbff465250ec9054b09e8a3a9711",
+        "sources": {
+          "scorer_sha256": "b58da9adce20542e832bff5d35ede48d205daf2774b399bcca60184b152814ec",
+          "utils_sha256": "3ae0aa3d08adefdddeb37f5a02e387e32bbfc9ffb43a83e9fb9e1bfafd36a0f7",
+          "v2_runner_sha256": "af4e1fc23e88efad910c8cdbd44a0cd2492cbd10c7d395b6e337a8e698ce2d98",
+          "adapter_sha256": "33f3654bcaa45aa4cee1cbde3f4d536fa9afd9db1b65c359117d9c6a7c993a27",
+          "attention_sha256": "53459fc2ebc2bf0e1d75cc06aec38c5308b931efce3f2d58c113307ef02469e9",
+          "launcher_sha256": "c1f07ab4fdf305d5aa451e6a4e952038ffe576cff07b6b51f680f96dfbcafc9d",
+          "validator_sha256": "4df9d9482a4defece95289cfe429b25ec2798013b99cf85f0b65c729d97fce4b",
+          "package_sha256": "42ab72d0bf4b4b6ed924d9641287f009f4e0970f12f1337d1c0026ca5e310a57"
+        },
+        "evaluation_context": 4096,
+        "reference_policy": "first",
+        "case_count": 80,
+        "settings": {
+          "backend": "reference",
+          "keep_fraction": 0.75,
+          "block_size": 128,
+          "local_blocks": 1
+        }
+      }
+    },
+    {
+      "evaluation_id": "134588dcbc1b1504776dbfcde625c896a17a6fc54e8dbee86928ef7898028660",
+      "config": {
+        "schema": 1,
+        "model": {
+          "model": "adpretko/celerity-271m-8k-ad0p4",
+          "revision": "952d98852d7af9af1d28834385e4fb44d6da0950",
+          "trained_context_tokens": 8192,
+          "model_type": "celerity",
+          "vocab_size": 128256
+        },
+        "manifest_sha256": "634beb2c4af50e0e912ef6ffea8df82fc58ffbff465250ec9054b09e8a3a9711",
+        "sources": {
+          "scorer_sha256": "b58da9adce20542e832bff5d35ede48d205daf2774b399bcca60184b152814ec",
+          "utils_sha256": "3ae0aa3d08adefdddeb37f5a02e387e32bbfc9ffb43a83e9fb9e1bfafd36a0f7",
+          "v2_runner_sha256": "af4e1fc23e88efad910c8cdbd44a0cd2492cbd10c7d395b6e337a8e698ce2d98",
+          "adapter_sha256": "33f3654bcaa45aa4cee1cbde3f4d536fa9afd9db1b65c359117d9c6a7c993a27",
+          "attention_sha256": "53459fc2ebc2bf0e1d75cc06aec38c5308b931efce3f2d58c113307ef02469e9",
+          "launcher_sha256": "c1f07ab4fdf305d5aa451e6a4e952038ffe576cff07b6b51f680f96dfbcafc9d",
+          "validator_sha256": "4df9d9482a4defece95289cfe429b25ec2798013b99cf85f0b65c729d97fce4b",
+          "package_sha256": "42ab72d0bf4b4b6ed924d9641287f009f4e0970f12f1337d1c0026ca5e310a57"
+        },
+        "evaluation_context": 4096,
+        "reference_policy": "first",
+        "case_count": 80,
+        "settings": {
+          "backend": "reference",
+          "keep_fraction": 0.9,
+          "block_size": 128,
+          "local_blocks": 1
+        }
+      }
+    },
+    {
+      "evaluation_id": "fc97535841ad63d854f5d38210ea72f2a4039d957a728aba394d02ad6ec5dd73",
+      "config": {
+        "schema": 1,
+        "model": {
+          "model": "adpretko/celerity-271m-8k-ad0p4-ild",
+          "revision": "07cf922606c729677e7160514702cea3375f041a",
+          "trained_context_tokens": 8192,
+          "model_type": "celerity",
+          "vocab_size": 128256
+        },
+        "manifest_sha256": "634beb2c4af50e0e912ef6ffea8df82fc58ffbff465250ec9054b09e8a3a9711",
+        "sources": {
+          "scorer_sha256": "b58da9adce20542e832bff5d35ede48d205daf2774b399bcca60184b152814ec",
+          "utils_sha256": "3ae0aa3d08adefdddeb37f5a02e387e32bbfc9ffb43a83e9fb9e1bfafd36a0f7",
+          "v2_runner_sha256": "af4e1fc23e88efad910c8cdbd44a0cd2492cbd10c7d395b6e337a8e698ce2d98",
+          "adapter_sha256": "33f3654bcaa45aa4cee1cbde3f4d536fa9afd9db1b65c359117d9c6a7c993a27",
+          "attention_sha256": "53459fc2ebc2bf0e1d75cc06aec38c5308b931efce3f2d58c113307ef02469e9",
+          "launcher_sha256": "c1f07ab4fdf305d5aa451e6a4e952038ffe576cff07b6b51f680f96dfbcafc9d",
+          "validator_sha256": "4df9d9482a4defece95289cfe429b25ec2798013b99cf85f0b65c729d97fce4b",
+          "package_sha256": "42ab72d0bf4b4b6ed924d9641287f009f4e0970f12f1337d1c0026ca5e310a57"
+        },
+        "evaluation_context": 4096,
+        "reference_policy": "first",
+        "case_count": 80,
+        "settings": {
+          "backend": "reference",
+          "keep_fraction": 0.5,
+          "block_size": 128,
+          "local_blocks": 1
+        }
+      }
+    },
+    {
+      "evaluation_id": "3da421f89d1b5abb8a443432d8e969843b811f91da6ae3fda56ba1747f296258",
+      "config": {
+        "schema": 1,
+        "model": {
+          "model": "adpretko/celerity-271m-8k-ad0p4-ild",
+          "revision": "07cf922606c729677e7160514702cea3375f041a",
+          "trained_context_tokens": 8192,
+          "model_type": "celerity",
+          "vocab_size": 128256
+        },
+        "manifest_sha256": "634beb2c4af50e0e912ef6ffea8df82fc58ffbff465250ec9054b09e8a3a9711",
+        "sources": {
+          "scorer_sha256": "b58da9adce20542e832bff5d35ede48d205daf2774b399bcca60184b152814ec",
+          "utils_sha256": "3ae0aa3d08adefdddeb37f5a02e387e32bbfc9ffb43a83e9fb9e1bfafd36a0f7",
+          "v2_runner_sha256": "af4e1fc23e88efad910c8cdbd44a0cd2492cbd10c7d395b6e337a8e698ce2d98",
+          "adapter_sha256": "33f3654bcaa45aa4cee1cbde3f4d536fa9afd9db1b65c359117d9c6a7c993a27",
+          "attention_sha256": "53459fc2ebc2bf0e1d75cc06aec38c5308b931efce3f2d58c113307ef02469e9",
+          "launcher_sha256": "c1f07ab4fdf305d5aa451e6a4e952038ffe576cff07b6b51f680f96dfbcafc9d",
+          "validator_sha256": "4df9d9482a4defece95289cfe429b25ec2798013b99cf85f0b65c729d97fce4b",
+          "package_sha256": "42ab72d0bf4b4b6ed924d9641287f009f4e0970f12f1337d1c0026ca5e310a57"
+        },
+        "evaluation_context": 4096,
+        "reference_policy": "first",
+        "case_count": 80,
+        "settings": {
+          "backend": "reference",
+          "keep_fraction": 0.75,
+          "block_size": 128,
+          "local_blocks": 1
+        }
+      }
+    },
+    {
+      "evaluation_id": "1fab8266be2c087799adfb555045e03627297951a17668ce122f86d4b1fed026",
+      "config": {
+        "schema": 1,
+        "model": {
+          "model": "adpretko/celerity-271m-8k-ad0p4-ild",
+          "revision": "07cf922606c729677e7160514702cea3375f041a",
+          "trained_context_tokens": 8192,
+          "model_type": "celerity",
+          "vocab_size": 128256
+        },
+        "manifest_sha256": "634beb2c4af50e0e912ef6ffea8df82fc58ffbff465250ec9054b09e8a3a9711",
+        "sources": {
+          "scorer_sha256": "b58da9adce20542e832bff5d35ede48d205daf2774b399bcca60184b152814ec",
+          "utils_sha256": "3ae0aa3d08adefdddeb37f5a02e387e32bbfc9ffb43a83e9fb9e1bfafd36a0f7",
+          "v2_runner_sha256": "af4e1fc23e88efad910c8cdbd44a0cd2492cbd10c7d395b6e337a8e698ce2d98",
+          "adapter_sha256": "33f3654bcaa45aa4cee1cbde3f4d536fa9afd9db1b65c359117d9c6a7c993a27",
+          "attention_sha256": "53459fc2ebc2bf0e1d75cc06aec38c5308b931efce3f2d58c113307ef02469e9",
+          "launcher_sha256": "c1f07ab4fdf305d5aa451e6a4e952038ffe576cff07b6b51f680f96dfbcafc9d",
+          "validator_sha256": "4df9d9482a4defece95289cfe429b25ec2798013b99cf85f0b65c729d97fce4b",
+          "package_sha256": "42ab72d0bf4b4b6ed924d9641287f009f4e0970f12f1337d1c0026ca5e310a57"
+        },
+        "evaluation_context": 4096,
+        "reference_policy": "first",
+        "case_count": 80,
+        "settings": {
+          "backend": "reference",
+          "keep_fraction": 0.9,
+          "block_size": 128,
+          "local_blocks": 1
+        }
+      }
+    },
+    {
+      "evaluation_id": "bf796eb3460784bbb3eea402febfa4963104c9dc9532207b9481b8f3119d1580",
+      "config": {
+        "schema": 1,
+        "model": {
+          "model": "adpretko/celerity-271m-8k-ad0p8-ild",
+          "revision": "ad72e09187cee1014cd0358ba6298360e7ab0765",
+          "trained_context_tokens": 8192,
+          "model_type": "celerity",
+          "vocab_size": 128256
+        },
+        "manifest_sha256": "634beb2c4af50e0e912ef6ffea8df82fc58ffbff465250ec9054b09e8a3a9711",
+        "sources": {
+          "scorer_sha256": "b58da9adce20542e832bff5d35ede48d205daf2774b399bcca60184b152814ec",
+          "utils_sha256": "3ae0aa3d08adefdddeb37f5a02e387e32bbfc9ffb43a83e9fb9e1bfafd36a0f7",
+          "v2_runner_sha256": "af4e1fc23e88efad910c8cdbd44a0cd2492cbd10c7d395b6e337a8e698ce2d98",
+          "adapter_sha256": "33f3654bcaa45aa4cee1cbde3f4d536fa9afd9db1b65c359117d9c6a7c993a27",
+          "attention_sha256": "53459fc2ebc2bf0e1d75cc06aec38c5308b931efce3f2d58c113307ef02469e9",
+          "launcher_sha256": "c1f07ab4fdf305d5aa451e6a4e952038ffe576cff07b6b51f680f96dfbcafc9d",
+          "validator_sha256": "4df9d9482a4defece95289cfe429b25ec2798013b99cf85f0b65c729d97fce4b",
+          "package_sha256": "42ab72d0bf4b4b6ed924d9641287f009f4e0970f12f1337d1c0026ca5e310a57"
+        },
+        "evaluation_context": 4096,
+        "reference_policy": "first",
+        "case_count": 80,
+        "settings": {
+          "backend": "reference",
+          "keep_fraction": 0.5,
+          "block_size": 128,
+          "local_blocks": 1
+        }
+      }
+    },
+    {
+      "evaluation_id": "d4027432f6a0d7ad4b636cd840ee6e748830767cba83bc523ed0f0d272c75a5b",
+      "config": {
+        "schema": 1,
+        "model": {
+          "model": "adpretko/celerity-271m-8k-ad0p8-ild",
+          "revision": "ad72e09187cee1014cd0358ba6298360e7ab0765",
+          "trained_context_tokens": 8192,
+          "model_type": "celerity",
+          "vocab_size": 128256
+        },
+        "manifest_sha256": "634beb2c4af50e0e912ef6ffea8df82fc58ffbff465250ec9054b09e8a3a9711",
+        "sources": {
+          "scorer_sha256": "b58da9adce20542e832bff5d35ede48d205daf2774b399bcca60184b152814ec",
+          "utils_sha256": "3ae0aa3d08adefdddeb37f5a02e387e32bbfc9ffb43a83e9fb9e1bfafd36a0f7",
+          "v2_runner_sha256": "af4e1fc23e88efad910c8cdbd44a0cd2492cbd10c7d395b6e337a8e698ce2d98",
+          "adapter_sha256": "33f3654bcaa45aa4cee1cbde3f4d536fa9afd9db1b65c359117d9c6a7c993a27",
+          "attention_sha256": "53459fc2ebc2bf0e1d75cc06aec38c5308b931efce3f2d58c113307ef02469e9",
+          "launcher_sha256": "c1f07ab4fdf305d5aa451e6a4e952038ffe576cff07b6b51f680f96dfbcafc9d",
+          "validator_sha256": "4df9d9482a4defece95289cfe429b25ec2798013b99cf85f0b65c729d97fce4b",
+          "package_sha256": "42ab72d0bf4b4b6ed924d9641287f009f4e0970f12f1337d1c0026ca5e310a57"
+        },
+        "evaluation_context": 4096,
+        "reference_policy": "first",
+        "case_count": 80,
+        "settings": {
+          "backend": "reference",
+          "keep_fraction": 0.75,
+          "block_size": 128,
+          "local_blocks": 1
+        }
+      }
+    },
+    {
+      "evaluation_id": "725b6f9c1ffa00edb69c2d3815f6a453ce49d881b1b8007f1a304bf4466ed72d",
+      "config": {
+        "schema": 1,
+        "model": {
+          "model": "adpretko/celerity-271m-8k-ad0p8-ild",
+          "revision": "ad72e09187cee1014cd0358ba6298360e7ab0765",
+          "trained_context_tokens": 8192,
+          "model_type": "celerity",
+          "vocab_size": 128256
+        },
+        "manifest_sha256": "634beb2c4af50e0e912ef6ffea8df82fc58ffbff465250ec9054b09e8a3a9711",
+        "sources": {
+          "scorer_sha256": "b58da9adce20542e832bff5d35ede48d205daf2774b399bcca60184b152814ec",
+          "utils_sha256": "3ae0aa3d08adefdddeb37f5a02e387e32bbfc9ffb43a83e9fb9e1bfafd36a0f7",
+          "v2_runner_sha256": "af4e1fc23e88efad910c8cdbd44a0cd2492cbd10c7d395b6e337a8e698ce2d98",
+          "adapter_sha256": "33f3654bcaa45aa4cee1cbde3f4d536fa9afd9db1b65c359117d9c6a7c993a27",
+          "attention_sha256": "53459fc2ebc2bf0e1d75cc06aec38c5308b931efce3f2d58c113307ef02469e9",
+          "launcher_sha256": "c1f07ab4fdf305d5aa451e6a4e952038ffe576cff07b6b51f680f96dfbcafc9d",
+          "validator_sha256": "4df9d9482a4defece95289cfe429b25ec2798013b99cf85f0b65c729d97fce4b",
+          "package_sha256": "42ab72d0bf4b4b6ed924d9641287f009f4e0970f12f1337d1c0026ca5e310a57"
+        },
+        "evaluation_context": 4096,
+        "reference_policy": "first",
+        "case_count": 80,
+        "settings": {
+          "backend": "reference",
+          "keep_fraction": 0.9,
+          "block_size": 128,
+          "local_blocks": 1
+        }
+      }
+    },
+    {
+      "evaluation_id": "fd3e11a0c4867def61ce93098c51dd0a763c197b20c5794b7f817e9d08f46784",
+      "config": {
+        "schema": 1,
+        "model": {
+          "model": "adpretko/celerity-504m-8k-ad0p0",
+          "revision": "931a4caf62777ef16cb1621752362e7397305518",
+          "trained_context_tokens": 8192,
+          "model_type": "celerity",
+          "vocab_size": 128256
+        },
+        "manifest_sha256": "634beb2c4af50e0e912ef6ffea8df82fc58ffbff465250ec9054b09e8a3a9711",
+        "sources": {
+          "scorer_sha256": "b58da9adce20542e832bff5d35ede48d205daf2774b399bcca60184b152814ec",
+          "utils_sha256": "3ae0aa3d08adefdddeb37f5a02e387e32bbfc9ffb43a83e9fb9e1bfafd36a0f7",
+          "v2_runner_sha256": "af4e1fc23e88efad910c8cdbd44a0cd2492cbd10c7d395b6e337a8e698ce2d98",
+          "adapter_sha256": "33f3654bcaa45aa4cee1cbde3f4d536fa9afd9db1b65c359117d9c6a7c993a27",
+          "attention_sha256": "53459fc2ebc2bf0e1d75cc06aec38c5308b931efce3f2d58c113307ef02469e9",
+          "launcher_sha256": "c1f07ab4fdf305d5aa451e6a4e952038ffe576cff07b6b51f680f96dfbcafc9d",
+          "validator_sha256": "4df9d9482a4defece95289cfe429b25ec2798013b99cf85f0b65c729d97fce4b",
+          "package_sha256": "42ab72d0bf4b4b6ed924d9641287f009f4e0970f12f1337d1c0026ca5e310a57"
+        },
+        "evaluation_context": 4096,
+        "reference_policy": "first",
+        "case_count": 80,
+        "settings": {
+          "backend": "reference",
+          "keep_fraction": 0.5,
+          "block_size": 128,
+          "local_blocks": 1
+        }
+      }
+    },
+    {
+      "evaluation_id": "3dc256050991c5cee2f236fd2afc265e0855d22ba9907754e28531ba31763ade",
+      "config": {
+        "schema": 1,
+        "model": {
+          "model": "adpretko/celerity-504m-8k-ad0p0",
+          "revision": "931a4caf62777ef16cb1621752362e7397305518",
+          "trained_context_tokens": 8192,
+          "model_type": "celerity",
+          "vocab_size": 128256
+        },
+        "manifest_sha256": "634beb2c4af50e0e912ef6ffea8df82fc58ffbff465250ec9054b09e8a3a9711",
+        "sources": {
+          "scorer_sha256": "b58da9adce20542e832bff5d35ede48d205daf2774b399bcca60184b152814ec",
+          "utils_sha256": "3ae0aa3d08adefdddeb37f5a02e387e32bbfc9ffb43a83e9fb9e1bfafd36a0f7",
+          "v2_runner_sha256": "af4e1fc23e88efad910c8cdbd44a0cd2492cbd10c7d395b6e337a8e698ce2d98",
+          "adapter_sha256": "33f3654bcaa45aa4cee1cbde3f4d536fa9afd9db1b65c359117d9c6a7c993a27",
+          "attention_sha256": "53459fc2ebc2bf0e1d75cc06aec38c5308b931efce3f2d58c113307ef02469e9",
+          "launcher_sha256": "c1f07ab4fdf305d5aa451e6a4e952038ffe576cff07b6b51f680f96dfbcafc9d",
+          "validator_sha256": "4df9d9482a4defece95289cfe429b25ec2798013b99cf85f0b65c729d97fce4b",
+          "package_sha256": "42ab72d0bf4b4b6ed924d9641287f009f4e0970f12f1337d1c0026ca5e310a57"
+        },
+        "evaluation_context": 4096,
+        "reference_policy": "first",
+        "case_count": 80,
+        "settings": {
+          "backend": "reference",
+          "keep_fraction": 0.75,
+          "block_size": 128,
+          "local_blocks": 1
+        }
+      }
+    },
+    {
+      "evaluation_id": "7eff1d7120a93c343d46ac9f69fdd19eb9e6eb61cfe28e34c6dbe152949ea55f",
+      "config": {
+        "schema": 1,
+        "model": {
+          "model": "adpretko/celerity-504m-8k-ad0p0",
+          "revision": "931a4caf62777ef16cb1621752362e7397305518",
+          "trained_context_tokens": 8192,
+          "model_type": "celerity",
+          "vocab_size": 128256
+        },
+        "manifest_sha256": "634beb2c4af50e0e912ef6ffea8df82fc58ffbff465250ec9054b09e8a3a9711",
+        "sources": {
+          "scorer_sha256": "b58da9adce20542e832bff5d35ede48d205daf2774b399bcca60184b152814ec",
+          "utils_sha256": "3ae0aa3d08adefdddeb37f5a02e387e32bbfc9ffb43a83e9fb9e1bfafd36a0f7",
+          "v2_runner_sha256": "af4e1fc23e88efad910c8cdbd44a0cd2492cbd10c7d395b6e337a8e698ce2d98",
+          "adapter_sha256": "33f3654bcaa45aa4cee1cbde3f4d536fa9afd9db1b65c359117d9c6a7c993a27",
+          "attention_sha256": "53459fc2ebc2bf0e1d75cc06aec38c5308b931efce3f2d58c113307ef02469e9",
+          "launcher_sha256": "c1f07ab4fdf305d5aa451e6a4e952038ffe576cff07b6b51f680f96dfbcafc9d",
+          "validator_sha256": "4df9d9482a4defece95289cfe429b25ec2798013b99cf85f0b65c729d97fce4b",
+          "package_sha256": "42ab72d0bf4b4b6ed924d9641287f009f4e0970f12f1337d1c0026ca5e310a57"
+        },
+        "evaluation_context": 4096,
+        "reference_policy": "first",
+        "case_count": 80,
+        "settings": {
+          "backend": "reference",
+          "keep_fraction": 0.9,
+          "block_size": 128,
+          "local_blocks": 1
+        }
+      }
+    },
+    {
+      "evaluation_id": "8b90769d6dd00328135040ed797faba331bef75cb5f0d94362ede6a4d758ea73",
+      "config": {
+        "schema": 1,
+        "model": {
+          "model": "adpretko/celerity-504m-8k-ad0p1",
+          "revision": "9e96a5dff44335bc18c961e731f6bb263cd9d996",
+          "trained_context_tokens": 8192,
+          "model_type": "celerity",
+          "vocab_size": 128256
+        },
+        "manifest_sha256": "634beb2c4af50e0e912ef6ffea8df82fc58ffbff465250ec9054b09e8a3a9711",
+        "sources": {
+          "scorer_sha256": "b58da9adce20542e832bff5d35ede48d205daf2774b399bcca60184b152814ec",
+          "utils_sha256": "3ae0aa3d08adefdddeb37f5a02e387e32bbfc9ffb43a83e9fb9e1bfafd36a0f7",
+          "v2_runner_sha256": "af4e1fc23e88efad910c8cdbd44a0cd2492cbd10c7d395b6e337a8e698ce2d98",
+          "adapter_sha256": "33f3654bcaa45aa4cee1cbde3f4d536fa9afd9db1b65c359117d9c6a7c993a27",
+          "attention_sha256": "53459fc2ebc2bf0e1d75cc06aec38c5308b931efce3f2d58c113307ef02469e9",
+          "launcher_sha256": "c1f07ab4fdf305d5aa451e6a4e952038ffe576cff07b6b51f680f96dfbcafc9d",
+          "validator_sha256": "4df9d9482a4defece95289cfe429b25ec2798013b99cf85f0b65c729d97fce4b",
+          "package_sha256": "42ab72d0bf4b4b6ed924d9641287f009f4e0970f12f1337d1c0026ca5e310a57"
+        },
+        "evaluation_context": 4096,
+        "reference_policy": "first",
+        "case_count": 80,
+        "settings": {
+          "backend": "reference",
+          "keep_fraction": 0.5,
+          "block_size": 128,
+          "local_blocks": 1
+        }
+      }
+    },
+    {
+      "evaluation_id": "0427d97c6eb7490958a6ddbfa76e27712ad450faeba887a074aa2f7e9e475ba7",
+      "config": {
+        "schema": 1,
+        "model": {
+          "model": "adpretko/celerity-504m-8k-ad0p1",
+          "revision": "9e96a5dff44335bc18c961e731f6bb263cd9d996",
+          "trained_context_tokens": 8192,
+          "model_type": "celerity",
+          "vocab_size": 128256
+        },
+        "manifest_sha256": "634beb2c4af50e0e912ef6ffea8df82fc58ffbff465250ec9054b09e8a3a9711",
+        "sources": {
+          "scorer_sha256": "b58da9adce20542e832bff5d35ede48d205daf2774b399bcca60184b152814ec",
+          "utils_sha256": "3ae0aa3d08adefdddeb37f5a02e387e32bbfc9ffb43a83e9fb9e1bfafd36a0f7",
+          "v2_runner_sha256": "af4e1fc23e88efad910c8cdbd44a0cd2492cbd10c7d395b6e337a8e698ce2d98",
+          "adapter_sha256": "33f3654bcaa45aa4cee1cbde3f4d536fa9afd9db1b65c359117d9c6a7c993a27",
+          "attention_sha256": "53459fc2ebc2bf0e1d75cc06aec38c5308b931efce3f2d58c113307ef02469e9",
+          "launcher_sha256": "c1f07ab4fdf305d5aa451e6a4e952038ffe576cff07b6b51f680f96dfbcafc9d",
+          "validator_sha256": "4df9d9482a4defece95289cfe429b25ec2798013b99cf85f0b65c729d97fce4b",
+          "package_sha256": "42ab72d0bf4b4b6ed924d9641287f009f4e0970f12f1337d1c0026ca5e310a57"
+        },
+        "evaluation_context": 4096,
+        "reference_policy": "first",
+        "case_count": 80,
+        "settings": {
+          "backend": "reference",
+          "keep_fraction": 0.75,
+          "block_size": 128,
+          "local_blocks": 1
+        }
+      }
+    },
+    {
+      "evaluation_id": "b8b1871654f35a1a74bd79e4a5d03056c5154f9d201bec173cdfa7692880a1ae",
+      "config": {
+        "schema": 1,
+        "model": {
+          "model": "adpretko/celerity-504m-8k-ad0p1",
+          "revision": "9e96a5dff44335bc18c961e731f6bb263cd9d996",
+          "trained_context_tokens": 8192,
+          "model_type": "celerity",
+          "vocab_size": 128256
+        },
+        "manifest_sha256": "634beb2c4af50e0e912ef6ffea8df82fc58ffbff465250ec9054b09e8a3a9711",
+        "sources": {
+          "scorer_sha256": "b58da9adce20542e832bff5d35ede48d205daf2774b399bcca60184b152814ec",
+          "utils_sha256": "3ae0aa3d08adefdddeb37f5a02e387e32bbfc9ffb43a83e9fb9e1bfafd36a0f7",
+          "v2_runner_sha256": "af4e1fc23e88efad910c8cdbd44a0cd2492cbd10c7d395b6e337a8e698ce2d98",
+          "adapter_sha256": "33f3654bcaa45aa4cee1cbde3f4d536fa9afd9db1b65c359117d9c6a7c993a27",
+          "attention_sha256": "53459fc2ebc2bf0e1d75cc06aec38c5308b931efce3f2d58c113307ef02469e9",
+          "launcher_sha256": "c1f07ab4fdf305d5aa451e6a4e952038ffe576cff07b6b51f680f96dfbcafc9d",
+          "validator_sha256": "4df9d9482a4defece95289cfe429b25ec2798013b99cf85f0b65c729d97fce4b",
+          "package_sha256": "42ab72d0bf4b4b6ed924d9641287f009f4e0970f12f1337d1c0026ca5e310a57"
+        },
+        "evaluation_context": 4096,
+        "reference_policy": "first",
+        "case_count": 80,
+        "settings": {
+          "backend": "reference",
+          "keep_fraction": 0.9,
+          "block_size": 128,
+          "local_blocks": 1
+        }
+      }
+    },
+    {
+      "evaluation_id": "ffaf7bafffdc9aa462db4165ce1662cd626f6251169eafab05b4958eaeb56adc",
+      "config": {
+        "schema": 1,
+        "model": {
+          "model": "adpretko/celerity-504m-8k-ad0p2",
+          "revision": "a08906fbc405b35acf887a38843210d99edfed02",
+          "trained_context_tokens": 8192,
+          "model_type": "celerity",
+          "vocab_size": 128256
+        },
+        "manifest_sha256": "634beb2c4af50e0e912ef6ffea8df82fc58ffbff465250ec9054b09e8a3a9711",
+        "sources": {
+          "scorer_sha256": "b58da9adce20542e832bff5d35ede48d205daf2774b399bcca60184b152814ec",
+          "utils_sha256": "3ae0aa3d08adefdddeb37f5a02e387e32bbfc9ffb43a83e9fb9e1bfafd36a0f7",
+          "v2_runner_sha256": "af4e1fc23e88efad910c8cdbd44a0cd2492cbd10c7d395b6e337a8e698ce2d98",
+          "adapter_sha256": "33f3654bcaa45aa4cee1cbde3f4d536fa9afd9db1b65c359117d9c6a7c993a27",
+          "attention_sha256": "53459fc2ebc2bf0e1d75cc06aec38c5308b931efce3f2d58c113307ef02469e9",
+          "launcher_sha256": "c1f07ab4fdf305d5aa451e6a4e952038ffe576cff07b6b51f680f96dfbcafc9d",
+          "validator_sha256": "4df9d9482a4defece95289cfe429b25ec2798013b99cf85f0b65c729d97fce4b",
+          "package_sha256": "42ab72d0bf4b4b6ed924d9641287f009f4e0970f12f1337d1c0026ca5e310a57"
+        },
+        "evaluation_context": 4096,
+        "reference_policy": "first",
+        "case_count": 80,
+        "settings": {
+          "backend": "reference",
+          "keep_fraction": 0.5,
+          "block_size": 128,
+          "local_blocks": 1
+        }
+      }
+    },
+    {
+      "evaluation_id": "ca5138d32a85fe442b4d3ffb04abada8080dfd7f85e0c67c876439b63eca802c",
+      "config": {
+        "schema": 1,
+        "model": {
+          "model": "adpretko/celerity-504m-8k-ad0p2",
+          "revision": "a08906fbc405b35acf887a38843210d99edfed02",
+          "trained_context_tokens": 8192,
+          "model_type": "celerity",
+          "vocab_size": 128256
+        },
+        "manifest_sha256": "634beb2c4af50e0e912ef6ffea8df82fc58ffbff465250ec9054b09e8a3a9711",
+        "sources": {
+          "scorer_sha256": "b58da9adce20542e832bff5d35ede48d205daf2774b399bcca60184b152814ec",
+          "utils_sha256": "3ae0aa3d08adefdddeb37f5a02e387e32bbfc9ffb43a83e9fb9e1bfafd36a0f7",
+          "v2_runner_sha256": "af4e1fc23e88efad910c8cdbd44a0cd2492cbd10c7d395b6e337a8e698ce2d98",
+          "adapter_sha256": "33f3654bcaa45aa4cee1cbde3f4d536fa9afd9db1b65c359117d9c6a7c993a27",
+          "attention_sha256": "53459fc2ebc2bf0e1d75cc06aec38c5308b931efce3f2d58c113307ef02469e9",
+          "launcher_sha256": "c1f07ab4fdf305d5aa451e6a4e952038ffe576cff07b6b51f680f96dfbcafc9d",
+          "validator_sha256": "4df9d9482a4defece95289cfe429b25ec2798013b99cf85f0b65c729d97fce4b",
+          "package_sha256": "42ab72d0bf4b4b6ed924d9641287f009f4e0970f12f1337d1c0026ca5e310a57"
+        },
+        "evaluation_context": 4096,
+        "reference_policy": "first",
+        "case_count": 80,
+        "settings": {
+          "backend": "reference",
+          "keep_fraction": 0.75,
+          "block_size": 128,
+          "local_blocks": 1
+        }
+      }
+    },
+    {
+      "evaluation_id": "a489c7e7fdb0d23ef81714eb29c792b8e7ed77117856a8cbaedbbb3bd0fc8b7e",
+      "config": {
+        "schema": 1,
+        "model": {
+          "model": "adpretko/celerity-504m-8k-ad0p2",
+          "revision": "a08906fbc405b35acf887a38843210d99edfed02",
+          "trained_context_tokens": 8192,
+          "model_type": "celerity",
+          "vocab_size": 128256
+        },
+        "manifest_sha256": "634beb2c4af50e0e912ef6ffea8df82fc58ffbff465250ec9054b09e8a3a9711",
+        "sources": {
+          "scorer_sha256": "b58da9adce20542e832bff5d35ede48d205daf2774b399bcca60184b152814ec",
+          "utils_sha256": "3ae0aa3d08adefdddeb37f5a02e387e32bbfc9ffb43a83e9fb9e1bfafd36a0f7",
+          "v2_runner_sha256": "af4e1fc23e88efad910c8cdbd44a0cd2492cbd10c7d395b6e337a8e698ce2d98",
+          "adapter_sha256": "33f3654bcaa45aa4cee1cbde3f4d536fa9afd9db1b65c359117d9c6a7c993a27",
+          "attention_sha256": "53459fc2ebc2bf0e1d75cc06aec38c5308b931efce3f2d58c113307ef02469e9",
+          "launcher_sha256": "c1f07ab4fdf305d5aa451e6a4e952038ffe576cff07b6b51f680f96dfbcafc9d",
+          "validator_sha256": "4df9d9482a4defece95289cfe429b25ec2798013b99cf85f0b65c729d97fce4b",
+          "package_sha256": "42ab72d0bf4b4b6ed924d9641287f009f4e0970f12f1337d1c0026ca5e310a57"
+        },
+        "evaluation_context": 4096,
+        "reference_policy": "first",
+        "case_count": 80,
+        "settings": {
+          "backend": "reference",
+          "keep_fraction": 0.9,
+          "block_size": 128,
+          "local_blocks": 1
+        }
+      }
+    },
+    {
+      "evaluation_id": "8e11f87cad1a28a6422a1ae65a5b7857e914d19703d01a6f31d7224e18f62ffd",
+      "config": {
+        "schema": 1,
+        "model": {
+          "model": "adpretko/celerity-504m-8k-ad0p2-ild",
+          "revision": "38951190e81285650172e4366d9a0a47657cba9c",
+          "trained_context_tokens": 8192,
+          "model_type": "celerity",
+          "vocab_size": 128256
+        },
+        "manifest_sha256": "634beb2c4af50e0e912ef6ffea8df82fc58ffbff465250ec9054b09e8a3a9711",
+        "sources": {
+          "scorer_sha256": "b58da9adce20542e832bff5d35ede48d205daf2774b399bcca60184b152814ec",
+          "utils_sha256": "3ae0aa3d08adefdddeb37f5a02e387e32bbfc9ffb43a83e9fb9e1bfafd36a0f7",
+          "v2_runner_sha256": "af4e1fc23e88efad910c8cdbd44a0cd2492cbd10c7d395b6e337a8e698ce2d98",
+          "adapter_sha256": "33f3654bcaa45aa4cee1cbde3f4d536fa9afd9db1b65c359117d9c6a7c993a27",
+          "attention_sha256": "53459fc2ebc2bf0e1d75cc06aec38c5308b931efce3f2d58c113307ef02469e9",
+          "launcher_sha256": "c1f07ab4fdf305d5aa451e6a4e952038ffe576cff07b6b51f680f96dfbcafc9d",
+          "validator_sha256": "4df9d9482a4defece95289cfe429b25ec2798013b99cf85f0b65c729d97fce4b",
+          "package_sha256": "42ab72d0bf4b4b6ed924d9641287f009f4e0970f12f1337d1c0026ca5e310a57"
+        },
+        "evaluation_context": 4096,
+        "reference_policy": "first",
+        "case_count": 80,
+        "settings": {
+          "backend": "reference",
+          "keep_fraction": 0.5,
+          "block_size": 128,
+          "local_blocks": 1
+        }
+      }
+    },
+    {
+      "evaluation_id": "f8d52d58947a8e1ec47693dd9ad332dd8a61bc4638dfa2ad6bf564890d70a5fa",
+      "config": {
+        "schema": 1,
+        "model": {
+          "model": "adpretko/celerity-504m-8k-ad0p2-ild",
+          "revision": "38951190e81285650172e4366d9a0a47657cba9c",
+          "trained_context_tokens": 8192,
+          "model_type": "celerity",
+          "vocab_size": 128256
+        },
+        "manifest_sha256": "634beb2c4af50e0e912ef6ffea8df82fc58ffbff465250ec9054b09e8a3a9711",
+        "sources": {
+          "scorer_sha256": "b58da9adce20542e832bff5d35ede48d205daf2774b399bcca60184b152814ec",
+          "utils_sha256": "3ae0aa3d08adefdddeb37f5a02e387e32bbfc9ffb43a83e9fb9e1bfafd36a0f7",
+          "v2_runner_sha256": "af4e1fc23e88efad910c8cdbd44a0cd2492cbd10c7d395b6e337a8e698ce2d98",
+          "adapter_sha256": "33f3654bcaa45aa4cee1cbde3f4d536fa9afd9db1b65c359117d9c6a7c993a27",
+          "attention_sha256": "53459fc2ebc2bf0e1d75cc06aec38c5308b931efce3f2d58c113307ef02469e9",
+          "launcher_sha256": "c1f07ab4fdf305d5aa451e6a4e952038ffe576cff07b6b51f680f96dfbcafc9d",
+          "validator_sha256": "4df9d9482a4defece95289cfe429b25ec2798013b99cf85f0b65c729d97fce4b",
+          "package_sha256": "42ab72d0bf4b4b6ed924d9641287f009f4e0970f12f1337d1c0026ca5e310a57"
+        },
+        "evaluation_context": 4096,
+        "reference_policy": "first",
+        "case_count": 80,
+        "settings": {
+          "backend": "reference",
+          "keep_fraction": 0.75,
+          "block_size": 128,
+          "local_blocks": 1
+        }
+      }
+    },
+    {
+      "evaluation_id": "6239e00b893f9e3bdc105fe6e739c0105e8fcb2af68a2637ce56aeca15014d4d",
+      "config": {
+        "schema": 1,
+        "model": {
+          "model": "adpretko/celerity-504m-8k-ad0p2-ild",
+          "revision": "38951190e81285650172e4366d9a0a47657cba9c",
+          "trained_context_tokens": 8192,
+          "model_type": "celerity",
+          "vocab_size": 128256
+        },
+        "manifest_sha256": "634beb2c4af50e0e912ef6ffea8df82fc58ffbff465250ec9054b09e8a3a9711",
+        "sources": {
+          "scorer_sha256": "b58da9adce20542e832bff5d35ede48d205daf2774b399bcca60184b152814ec",
+          "utils_sha256": "3ae0aa3d08adefdddeb37f5a02e387e32bbfc9ffb43a83e9fb9e1bfafd36a0f7",
+          "v2_runner_sha256": "af4e1fc23e88efad910c8cdbd44a0cd2492cbd10c7d395b6e337a8e698ce2d98",
+          "adapter_sha256": "33f3654bcaa45aa4cee1cbde3f4d536fa9afd9db1b65c359117d9c6a7c993a27",
+          "attention_sha256": "53459fc2ebc2bf0e1d75cc06aec38c5308b931efce3f2d58c113307ef02469e9",
+          "launcher_sha256": "c1f07ab4fdf305d5aa451e6a4e952038ffe576cff07b6b51f680f96dfbcafc9d",
+          "validator_sha256": "4df9d9482a4defece95289cfe429b25ec2798013b99cf85f0b65c729d97fce4b",
+          "package_sha256": "42ab72d0bf4b4b6ed924d9641287f009f4e0970f12f1337d1c0026ca5e310a57"
+        },
+        "evaluation_context": 4096,
+        "reference_policy": "first",
+        "case_count": 80,
+        "settings": {
+          "backend": "reference",
+          "keep_fraction": 0.9,
+          "block_size": 128,
+          "local_blocks": 1
+        }
+      }
+    },
+    {
+      "evaluation_id": "90a0f0b1b34b8400323a4f639fa8e53b59b154fe2574838061d8b842ef7cb6fc",
+      "config": {
+        "schema": 1,
+        "model": {
+          "model": "adpretko/celerity-504m-8k-ad0p4",
+          "revision": "d45c4656dd968bede1b3416c6a9ee6a7dd797235",
+          "trained_context_tokens": 8192,
+          "model_type": "celerity",
+          "vocab_size": 128256
+        },
+        "manifest_sha256": "634beb2c4af50e0e912ef6ffea8df82fc58ffbff465250ec9054b09e8a3a9711",
+        "sources": {
+          "scorer_sha256": "b58da9adce20542e832bff5d35ede48d205daf2774b399bcca60184b152814ec",
+          "utils_sha256": "3ae0aa3d08adefdddeb37f5a02e387e32bbfc9ffb43a83e9fb9e1bfafd36a0f7",
+          "v2_runner_sha256": "af4e1fc23e88efad910c8cdbd44a0cd2492cbd10c7d395b6e337a8e698ce2d98",
+          "adapter_sha256": "33f3654bcaa45aa4cee1cbde3f4d536fa9afd9db1b65c359117d9c6a7c993a27",
+          "attention_sha256": "53459fc2ebc2bf0e1d75cc06aec38c5308b931efce3f2d58c113307ef02469e9",
+          "launcher_sha256": "c1f07ab4fdf305d5aa451e6a4e952038ffe576cff07b6b51f680f96dfbcafc9d",
+          "validator_sha256": "4df9d9482a4defece95289cfe429b25ec2798013b99cf85f0b65c729d97fce4b",
+          "package_sha256": "42ab72d0bf4b4b6ed924d9641287f009f4e0970f12f1337d1c0026ca5e310a57"
+        },
+        "evaluation_context": 4096,
+        "reference_policy": "first",
+        "case_count": 80,
+        "settings": {
+          "backend": "reference",
+          "keep_fraction": 0.5,
+          "block_size": 128,
+          "local_blocks": 1
+        }
+      }
+    },
+    {
+      "evaluation_id": "cc8ecdbcfc36bf521a6e2f2caa0a3265b4f82e3c3e12efdbce6b2ea43d3b41b0",
+      "config": {
+        "schema": 1,
+        "model": {
+          "model": "adpretko/celerity-504m-8k-ad0p4",
+          "revision": "d45c4656dd968bede1b3416c6a9ee6a7dd797235",
+          "trained_context_tokens": 8192,
+          "model_type": "celerity",
+          "vocab_size": 128256
+        },
+        "manifest_sha256": "634beb2c4af50e0e912ef6ffea8df82fc58ffbff465250ec9054b09e8a3a9711",
+        "sources": {
+          "scorer_sha256": "b58da9adce20542e832bff5d35ede48d205daf2774b399bcca60184b152814ec",
+          "utils_sha256": "3ae0aa3d08adefdddeb37f5a02e387e32bbfc9ffb43a83e9fb9e1bfafd36a0f7",
+          "v2_runner_sha256": "af4e1fc23e88efad910c8cdbd44a0cd2492cbd10c7d395b6e337a8e698ce2d98",
+          "adapter_sha256": "33f3654bcaa45aa4cee1cbde3f4d536fa9afd9db1b65c359117d9c6a7c993a27",
+          "attention_sha256": "53459fc2ebc2bf0e1d75cc06aec38c5308b931efce3f2d58c113307ef02469e9",
+          "launcher_sha256": "c1f07ab4fdf305d5aa451e6a4e952038ffe576cff07b6b51f680f96dfbcafc9d",
+          "validator_sha256": "4df9d9482a4defece95289cfe429b25ec2798013b99cf85f0b65c729d97fce4b",
+          "package_sha256": "42ab72d0bf4b4b6ed924d9641287f009f4e0970f12f1337d1c0026ca5e310a57"
+        },
+        "evaluation_context": 4096,
+        "reference_policy": "first",
+        "case_count": 80,
+        "settings": {
+          "backend": "reference",
+          "keep_fraction": 0.75,
+          "block_size": 128,
+          "local_blocks": 1
+        }
+      }
+    },
+    {
+      "evaluation_id": "caf8b5a2623cfbc82de029c9e92e525a8196b809bc9190cf79c98f95769274da",
+      "config": {
+        "schema": 1,
+        "model": {
+          "model": "adpretko/celerity-504m-8k-ad0p4",
+          "revision": "d45c4656dd968bede1b3416c6a9ee6a7dd797235",
+          "trained_context_tokens": 8192,
+          "model_type": "celerity",
+          "vocab_size": 128256
+        },
+        "manifest_sha256": "634beb2c4af50e0e912ef6ffea8df82fc58ffbff465250ec9054b09e8a3a9711",
+        "sources": {
+          "scorer_sha256": "b58da9adce20542e832bff5d35ede48d205daf2774b399bcca60184b152814ec",
+          "utils_sha256": "3ae0aa3d08adefdddeb37f5a02e387e32bbfc9ffb43a83e9fb9e1bfafd36a0f7",
+          "v2_runner_sha256": "af4e1fc23e88efad910c8cdbd44a0cd2492cbd10c7d395b6e337a8e698ce2d98",
+          "adapter_sha256": "33f3654bcaa45aa4cee1cbde3f4d536fa9afd9db1b65c359117d9c6a7c993a27",
+          "attention_sha256": "53459fc2ebc2bf0e1d75cc06aec38c5308b931efce3f2d58c113307ef02469e9",
+          "launcher_sha256": "c1f07ab4fdf305d5aa451e6a4e952038ffe576cff07b6b51f680f96dfbcafc9d",
+          "validator_sha256": "4df9d9482a4defece95289cfe429b25ec2798013b99cf85f0b65c729d97fce4b",
+          "package_sha256": "42ab72d0bf4b4b6ed924d9641287f009f4e0970f12f1337d1c0026ca5e310a57"
+        },
+        "evaluation_context": 4096,
+        "reference_policy": "first",
+        "case_count": 80,
+        "settings": {
+          "backend": "reference",
+          "keep_fraction": 0.9,
+          "block_size": 128,
+          "local_blocks": 1
+        }
+      }
+    },
+    {
+      "evaluation_id": "853e03ace69bc62ba39403e246b8ac8ae8b7184a32c233af4e03313ed1908390",
+      "config": {
+        "schema": 1,
+        "model": {
+          "model": "adpretko/celerity-504m-8k-ad0p4-ild",
+          "revision": "621d4dd97f32d9fc8f6b49efaa59b9a837051f56",
+          "trained_context_tokens": 8192,
+          "model_type": "celerity",
+          "vocab_size": 128256
+        },
+        "manifest_sha256": "634beb2c4af50e0e912ef6ffea8df82fc58ffbff465250ec9054b09e8a3a9711",
+        "sources": {
+          "scorer_sha256": "b58da9adce20542e832bff5d35ede48d205daf2774b399bcca60184b152814ec",
+          "utils_sha256": "3ae0aa3d08adefdddeb37f5a02e387e32bbfc9ffb43a83e9fb9e1bfafd36a0f7",
+          "v2_runner_sha256": "af4e1fc23e88efad910c8cdbd44a0cd2492cbd10c7d395b6e337a8e698ce2d98",
+          "adapter_sha256": "33f3654bcaa45aa4cee1cbde3f4d536fa9afd9db1b65c359117d9c6a7c993a27",
+          "attention_sha256": "53459fc2ebc2bf0e1d75cc06aec38c5308b931efce3f2d58c113307ef02469e9",
+          "launcher_sha256": "c1f07ab4fdf305d5aa451e6a4e952038ffe576cff07b6b51f680f96dfbcafc9d",
+          "validator_sha256": "4df9d9482a4defece95289cfe429b25ec2798013b99cf85f0b65c729d97fce4b",
+          "package_sha256": "42ab72d0bf4b4b6ed924d9641287f009f4e0970f12f1337d1c0026ca5e310a57"
+        },
+        "evaluation_context": 4096,
+        "reference_policy": "first",
+        "case_count": 80,
+        "settings": {
+          "backend": "reference",
+          "keep_fraction": 0.5,
+          "block_size": 128,
+          "local_blocks": 1
+        }
+      }
+    },
+    {
+      "evaluation_id": "b434039e4e843d2ba95afab8e50c1121a48f756368b55cb7e6e59ab77847634f",
+      "config": {
+        "schema": 1,
+        "model": {
+          "model": "adpretko/celerity-504m-8k-ad0p4-ild",
+          "revision": "621d4dd97f32d9fc8f6b49efaa59b9a837051f56",
+          "trained_context_tokens": 8192,
+          "model_type": "celerity",
+          "vocab_size": 128256
+        },
+        "manifest_sha256": "634beb2c4af50e0e912ef6ffea8df82fc58ffbff465250ec9054b09e8a3a9711",
+        "sources": {
+          "scorer_sha256": "b58da9adce20542e832bff5d35ede48d205daf2774b399bcca60184b152814ec",
+          "utils_sha256": "3ae0aa3d08adefdddeb37f5a02e387e32bbfc9ffb43a83e9fb9e1bfafd36a0f7",
+          "v2_runner_sha256": "af4e1fc23e88efad910c8cdbd44a0cd2492cbd10c7d395b6e337a8e698ce2d98",
+          "adapter_sha256": "33f3654bcaa45aa4cee1cbde3f4d536fa9afd9db1b65c359117d9c6a7c993a27",
+          "attention_sha256": "53459fc2ebc2bf0e1d75cc06aec38c5308b931efce3f2d58c113307ef02469e9",
+          "launcher_sha256": "c1f07ab4fdf305d5aa451e6a4e952038ffe576cff07b6b51f680f96dfbcafc9d",
+          "validator_sha256": "4df9d9482a4defece95289cfe429b25ec2798013b99cf85f0b65c729d97fce4b",
+          "package_sha256": "42ab72d0bf4b4b6ed924d9641287f009f4e0970f12f1337d1c0026ca5e310a57"
+        },
+        "evaluation_context": 4096,
+        "reference_policy": "first",
+        "case_count": 80,
+        "settings": {
+          "backend": "reference",
+          "keep_fraction": 0.75,
+          "block_size": 128,
+          "local_blocks": 1
+        }
+      }
+    },
+    {
+      "evaluation_id": "b2b16219ee7cdf75a079a3417cd31647b643039303778ed3be1bc442fdbe78bf",
+      "config": {
+        "schema": 1,
+        "model": {
+          "model": "adpretko/celerity-504m-8k-ad0p4-ild",
+          "revision": "621d4dd97f32d9fc8f6b49efaa59b9a837051f56",
+          "trained_context_tokens": 8192,
+          "model_type": "celerity",
+          "vocab_size": 128256
+        },
+        "manifest_sha256": "634beb2c4af50e0e912ef6ffea8df82fc58ffbff465250ec9054b09e8a3a9711",
+        "sources": {
+          "scorer_sha256": "b58da9adce20542e832bff5d35ede48d205daf2774b399bcca60184b152814ec",
+          "utils_sha256": "3ae0aa3d08adefdddeb37f5a02e387e32bbfc9ffb43a83e9fb9e1bfafd36a0f7",
+          "v2_runner_sha256": "af4e1fc23e88efad910c8cdbd44a0cd2492cbd10c7d395b6e337a8e698ce2d98",
+          "adapter_sha256": "33f3654bcaa45aa4cee1cbde3f4d536fa9afd9db1b65c359117d9c6a7c993a27",
+          "attention_sha256": "53459fc2ebc2bf0e1d75cc06aec38c5308b931efce3f2d58c113307ef02469e9",
+          "launcher_sha256": "c1f07ab4fdf305d5aa451e6a4e952038ffe576cff07b6b51f680f96dfbcafc9d",
+          "validator_sha256": "4df9d9482a4defece95289cfe429b25ec2798013b99cf85f0b65c729d97fce4b",
+          "package_sha256": "42ab72d0bf4b4b6ed924d9641287f009f4e0970f12f1337d1c0026ca5e310a57"
+        },
+        "evaluation_context": 4096,
+        "reference_policy": "first",
+        "case_count": 80,
+        "settings": {
+          "backend": "reference",
+          "keep_fraction": 0.9,
+          "block_size": 128,
+          "local_blocks": 1
+        }
+      }
+    },
+    {
+      "evaluation_id": "b688eb14631574deae60600e1909ea7ca59fe62c6ffa0c7a076a10f15c196754",
+      "config": {
+        "schema": 1,
+        "model": {
+          "model": "adpretko/celerity-504m-8k-ad0p8-ild",
+          "revision": "6b3831c139c7e6ff1c3ab369cd04b3d413efd6de",
+          "trained_context_tokens": 8192,
+          "model_type": "celerity",
+          "vocab_size": 128256
+        },
+        "manifest_sha256": "634beb2c4af50e0e912ef6ffea8df82fc58ffbff465250ec9054b09e8a3a9711",
+        "sources": {
+          "scorer_sha256": "b58da9adce20542e832bff5d35ede48d205daf2774b399bcca60184b152814ec",
+          "utils_sha256": "3ae0aa3d08adefdddeb37f5a02e387e32bbfc9ffb43a83e9fb9e1bfafd36a0f7",
+          "v2_runner_sha256": "af4e1fc23e88efad910c8cdbd44a0cd2492cbd10c7d395b6e337a8e698ce2d98",
+          "adapter_sha256": "33f3654bcaa45aa4cee1cbde3f4d536fa9afd9db1b65c359117d9c6a7c993a27",
+          "attention_sha256": "53459fc2ebc2bf0e1d75cc06aec38c5308b931efce3f2d58c113307ef02469e9",
+          "launcher_sha256": "c1f07ab4fdf305d5aa451e6a4e952038ffe576cff07b6b51f680f96dfbcafc9d",
+          "validator_sha256": "4df9d9482a4defece95289cfe429b25ec2798013b99cf85f0b65c729d97fce4b",
+          "package_sha256": "42ab72d0bf4b4b6ed924d9641287f009f4e0970f12f1337d1c0026ca5e310a57"
+        },
+        "evaluation_context": 4096,
+        "reference_policy": "first",
+        "case_count": 80,
+        "settings": {
+          "backend": "reference",
+          "keep_fraction": 0.5,
+          "block_size": 128,
+          "local_blocks": 1
+        }
+      }
+    },
+    {
+      "evaluation_id": "297d8e9a7a8f7710d3858bc5477eb56d30272490476e91186781641a4ca408ea",
+      "config": {
+        "schema": 1,
+        "model": {
+          "model": "adpretko/celerity-504m-8k-ad0p8-ild",
+          "revision": "6b3831c139c7e6ff1c3ab369cd04b3d413efd6de",
+          "trained_context_tokens": 8192,
+          "model_type": "celerity",
+          "vocab_size": 128256
+        },
+        "manifest_sha256": "634beb2c4af50e0e912ef6ffea8df82fc58ffbff465250ec9054b09e8a3a9711",
+        "sources": {
+          "scorer_sha256": "b58da9adce20542e832bff5d35ede48d205daf2774b399bcca60184b152814ec",
+          "utils_sha256": "3ae0aa3d08adefdddeb37f5a02e387e32bbfc9ffb43a83e9fb9e1bfafd36a0f7",
+          "v2_runner_sha256": "af4e1fc23e88efad910c8cdbd44a0cd2492cbd10c7d395b6e337a8e698ce2d98",
+          "adapter_sha256": "33f3654bcaa45aa4cee1cbde3f4d536fa9afd9db1b65c359117d9c6a7c993a27",
+          "attention_sha256": "53459fc2ebc2bf0e1d75cc06aec38c5308b931efce3f2d58c113307ef02469e9",
+          "launcher_sha256": "c1f07ab4fdf305d5aa451e6a4e952038ffe576cff07b6b51f680f96dfbcafc9d",
+          "validator_sha256": "4df9d9482a4defece95289cfe429b25ec2798013b99cf85f0b65c729d97fce4b",
+          "package_sha256": "42ab72d0bf4b4b6ed924d9641287f009f4e0970f12f1337d1c0026ca5e310a57"
+        },
+        "evaluation_context": 4096,
+        "reference_policy": "first",
+        "case_count": 80,
+        "settings": {
+          "backend": "reference",
+          "keep_fraction": 0.75,
+          "block_size": 128,
+          "local_blocks": 1
+        }
+      }
+    },
+    {
+      "evaluation_id": "468862140c08f1f5b93513dace76d5c72f9c4a97bc07e5a4aca3852c920724d1",
+      "config": {
+        "schema": 1,
+        "model": {
+          "model": "adpretko/celerity-504m-8k-ad0p8-ild",
+          "revision": "6b3831c139c7e6ff1c3ab369cd04b3d413efd6de",
+          "trained_context_tokens": 8192,
+          "model_type": "celerity",
+          "vocab_size": 128256
+        },
+        "manifest_sha256": "634beb2c4af50e0e912ef6ffea8df82fc58ffbff465250ec9054b09e8a3a9711",
+        "sources": {
+          "scorer_sha256": "b58da9adce20542e832bff5d35ede48d205daf2774b399bcca60184b152814ec",
+          "utils_sha256": "3ae0aa3d08adefdddeb37f5a02e387e32bbfc9ffb43a83e9fb9e1bfafd36a0f7",
+          "v2_runner_sha256": "af4e1fc23e88efad910c8cdbd44a0cd2492cbd10c7d395b6e337a8e698ce2d98",
+          "adapter_sha256": "33f3654bcaa45aa4cee1cbde3f4d536fa9afd9db1b65c359117d9c6a7c993a27",
+          "attention_sha256": "53459fc2ebc2bf0e1d75cc06aec38c5308b931efce3f2d58c113307ef02469e9",
+          "launcher_sha256": "c1f07ab4fdf305d5aa451e6a4e952038ffe576cff07b6b51f680f96dfbcafc9d",
+          "validator_sha256": "4df9d9482a4defece95289cfe429b25ec2798013b99cf85f0b65c729d97fce4b",
+          "package_sha256": "42ab72d0bf4b4b6ed924d9641287f009f4e0970f12f1337d1c0026ca5e310a57"
+        },
+        "evaluation_context": 4096,
+        "reference_policy": "first",
+        "case_count": 80,
+        "settings": {
+          "backend": "reference",
+          "keep_fraction": 0.9,
+          "block_size": 128,
+          "local_blocks": 1
+        }
+      }
+    },
+    {
+      "evaluation_id": "1e61d5756efb8571dad0517ca7fc2bef7f807337559c8fa04e769ce06f4b6360",
+      "config": {
+        "schema": 1,
+        "model": {
+          "model": "adpretko/celerity-906m-8k-ad0p0",
+          "revision": "7ca4f40b4829b198943531081fe426ca28a4889e",
+          "trained_context_tokens": 8192,
+          "model_type": "celerity",
+          "vocab_size": 128256
+        },
+        "manifest_sha256": "634beb2c4af50e0e912ef6ffea8df82fc58ffbff465250ec9054b09e8a3a9711",
+        "sources": {
+          "scorer_sha256": "b58da9adce20542e832bff5d35ede48d205daf2774b399bcca60184b152814ec",
+          "utils_sha256": "3ae0aa3d08adefdddeb37f5a02e387e32bbfc9ffb43a83e9fb9e1bfafd36a0f7",
+          "v2_runner_sha256": "af4e1fc23e88efad910c8cdbd44a0cd2492cbd10c7d395b6e337a8e698ce2d98",
+          "adapter_sha256": "33f3654bcaa45aa4cee1cbde3f4d536fa9afd9db1b65c359117d9c6a7c993a27",
+          "attention_sha256": "53459fc2ebc2bf0e1d75cc06aec38c5308b931efce3f2d58c113307ef02469e9",
+          "launcher_sha256": "c1f07ab4fdf305d5aa451e6a4e952038ffe576cff07b6b51f680f96dfbcafc9d",
+          "validator_sha256": "4df9d9482a4defece95289cfe429b25ec2798013b99cf85f0b65c729d97fce4b",
+          "package_sha256": "42ab72d0bf4b4b6ed924d9641287f009f4e0970f12f1337d1c0026ca5e310a57"
+        },
+        "evaluation_context": 4096,
+        "reference_policy": "first",
+        "case_count": 80,
+        "settings": {
+          "backend": "reference",
+          "keep_fraction": 0.5,
+          "block_size": 128,
+          "local_blocks": 1
+        }
+      }
+    },
+    {
+      "evaluation_id": "b01d23df5603633e6a087f8b577073cbf129ad206d9d73e17435b1a68491aebb",
+      "config": {
+        "schema": 1,
+        "model": {
+          "model": "adpretko/celerity-906m-8k-ad0p0",
+          "revision": "7ca4f40b4829b198943531081fe426ca28a4889e",
+          "trained_context_tokens": 8192,
+          "model_type": "celerity",
+          "vocab_size": 128256
+        },
+        "manifest_sha256": "634beb2c4af50e0e912ef6ffea8df82fc58ffbff465250ec9054b09e8a3a9711",
+        "sources": {
+          "scorer_sha256": "b58da9adce20542e832bff5d35ede48d205daf2774b399bcca60184b152814ec",
+          "utils_sha256": "3ae0aa3d08adefdddeb37f5a02e387e32bbfc9ffb43a83e9fb9e1bfafd36a0f7",
+          "v2_runner_sha256": "af4e1fc23e88efad910c8cdbd44a0cd2492cbd10c7d395b6e337a8e698ce2d98",
+          "adapter_sha256": "33f3654bcaa45aa4cee1cbde3f4d536fa9afd9db1b65c359117d9c6a7c993a27",
+          "attention_sha256": "53459fc2ebc2bf0e1d75cc06aec38c5308b931efce3f2d58c113307ef02469e9",
+          "launcher_sha256": "c1f07ab4fdf305d5aa451e6a4e952038ffe576cff07b6b51f680f96dfbcafc9d",
+          "validator_sha256": "4df9d9482a4defece95289cfe429b25ec2798013b99cf85f0b65c729d97fce4b",
+          "package_sha256": "42ab72d0bf4b4b6ed924d9641287f009f4e0970f12f1337d1c0026ca5e310a57"
+        },
+        "evaluation_context": 4096,
+        "reference_policy": "first",
+        "case_count": 80,
+        "settings": {
+          "backend": "reference",
+          "keep_fraction": 0.75,
+          "block_size": 128,
+          "local_blocks": 1
+        }
+      }
+    },
+    {
+      "evaluation_id": "a0ed3a8ac14f5d3b1df306bbda96695cac99cf4aad17e477652920bd3487059b",
+      "config": {
+        "schema": 1,
+        "model": {
+          "model": "adpretko/celerity-906m-8k-ad0p0",
+          "revision": "7ca4f40b4829b198943531081fe426ca28a4889e",
+          "trained_context_tokens": 8192,
+          "model_type": "celerity",
+          "vocab_size": 128256
+        },
+        "manifest_sha256": "634beb2c4af50e0e912ef6ffea8df82fc58ffbff465250ec9054b09e8a3a9711",
+        "sources": {
+          "scorer_sha256": "b58da9adce20542e832bff5d35ede48d205daf2774b399bcca60184b152814ec",
+          "utils_sha256": "3ae0aa3d08adefdddeb37f5a02e387e32bbfc9ffb43a83e9fb9e1bfafd36a0f7",
+          "v2_runner_sha256": "af4e1fc23e88efad910c8cdbd44a0cd2492cbd10c7d395b6e337a8e698ce2d98",
+          "adapter_sha256": "33f3654bcaa45aa4cee1cbde3f4d536fa9afd9db1b65c359117d9c6a7c993a27",
+          "attention_sha256": "53459fc2ebc2bf0e1d75cc06aec38c5308b931efce3f2d58c113307ef02469e9",
+          "launcher_sha256": "c1f07ab4fdf305d5aa451e6a4e952038ffe576cff07b6b51f680f96dfbcafc9d",
+          "validator_sha256": "4df9d9482a4defece95289cfe429b25ec2798013b99cf85f0b65c729d97fce4b",
+          "package_sha256": "42ab72d0bf4b4b6ed924d9641287f009f4e0970f12f1337d1c0026ca5e310a57"
+        },
+        "evaluation_context": 4096,
+        "reference_policy": "first",
+        "case_count": 80,
+        "settings": {
+          "backend": "reference",
+          "keep_fraction": 0.9,
+          "block_size": 128,
+          "local_blocks": 1
+        }
+      }
+    },
+    {
+      "evaluation_id": "cabb40c24106d33c450e5fc162307e4642667852a036a9e31cf3dc5484053ff7",
+      "config": {
+        "schema": 1,
+        "model": {
+          "model": "adpretko/celerity-906m-8k-ad0p1",
+          "revision": "cf21efb8d68a90cb8f03a20bbe6b3732345ee4f4",
+          "trained_context_tokens": 8192,
+          "model_type": "celerity",
+          "vocab_size": 128256
+        },
+        "manifest_sha256": "634beb2c4af50e0e912ef6ffea8df82fc58ffbff465250ec9054b09e8a3a9711",
+        "sources": {
+          "scorer_sha256": "b58da9adce20542e832bff5d35ede48d205daf2774b399bcca60184b152814ec",
+          "utils_sha256": "3ae0aa3d08adefdddeb37f5a02e387e32bbfc9ffb43a83e9fb9e1bfafd36a0f7",
+          "v2_runner_sha256": "af4e1fc23e88efad910c8cdbd44a0cd2492cbd10c7d395b6e337a8e698ce2d98",
+          "adapter_sha256": "33f3654bcaa45aa4cee1cbde3f4d536fa9afd9db1b65c359117d9c6a7c993a27",
+          "attention_sha256": "53459fc2ebc2bf0e1d75cc06aec38c5308b931efce3f2d58c113307ef02469e9",
+          "launcher_sha256": "c1f07ab4fdf305d5aa451e6a4e952038ffe576cff07b6b51f680f96dfbcafc9d",
+          "validator_sha256": "4df9d9482a4defece95289cfe429b25ec2798013b99cf85f0b65c729d97fce4b",
+          "package_sha256": "42ab72d0bf4b4b6ed924d9641287f009f4e0970f12f1337d1c0026ca5e310a57"
+        },
+        "evaluation_context": 4096,
+        "reference_policy": "first",
+        "case_count": 80,
+        "settings": {
+          "backend": "reference",
+          "keep_fraction": 0.5,
+          "block_size": 128,
+          "local_blocks": 1
+        }
+      }
+    },
+    {
+      "evaluation_id": "90ae4782f4b74851f0ae022416ecf10ac95b8469330bd1f764a80dbd7985b943",
+      "config": {
+        "schema": 1,
+        "model": {
+          "model": "adpretko/celerity-906m-8k-ad0p1",
+          "revision": "cf21efb8d68a90cb8f03a20bbe6b3732345ee4f4",
+          "trained_context_tokens": 8192,
+          "model_type": "celerity",
+          "vocab_size": 128256
+        },
+        "manifest_sha256": "634beb2c4af50e0e912ef6ffea8df82fc58ffbff465250ec9054b09e8a3a9711",
+        "sources": {
+          "scorer_sha256": "b58da9adce20542e832bff5d35ede48d205daf2774b399bcca60184b152814ec",
+          "utils_sha256": "3ae0aa3d08adefdddeb37f5a02e387e32bbfc9ffb43a83e9fb9e1bfafd36a0f7",
+          "v2_runner_sha256": "af4e1fc23e88efad910c8cdbd44a0cd2492cbd10c7d395b6e337a8e698ce2d98",
+          "adapter_sha256": "33f3654bcaa45aa4cee1cbde3f4d536fa9afd9db1b65c359117d9c6a7c993a27",
+          "attention_sha256": "53459fc2ebc2bf0e1d75cc06aec38c5308b931efce3f2d58c113307ef02469e9",
+          "launcher_sha256": "c1f07ab4fdf305d5aa451e6a4e952038ffe576cff07b6b51f680f96dfbcafc9d",
+          "validator_sha256": "4df9d9482a4defece95289cfe429b25ec2798013b99cf85f0b65c729d97fce4b",
+          "package_sha256": "42ab72d0bf4b4b6ed924d9641287f009f4e0970f12f1337d1c0026ca5e310a57"
+        },
+        "evaluation_context": 4096,
+        "reference_policy": "first",
+        "case_count": 80,
+        "settings": {
+          "backend": "reference",
+          "keep_fraction": 0.75,
+          "block_size": 128,
+          "local_blocks": 1
+        }
+      }
+    },
+    {
+      "evaluation_id": "2a11f1f4f3903a70356fe48459c9806af542bb5ab6081d4b0b89c2391d395165",
+      "config": {
+        "schema": 1,
+        "model": {
+          "model": "adpretko/celerity-906m-8k-ad0p1",
+          "revision": "cf21efb8d68a90cb8f03a20bbe6b3732345ee4f4",
+          "trained_context_tokens": 8192,
+          "model_type": "celerity",
+          "vocab_size": 128256
+        },
+        "manifest_sha256": "634beb2c4af50e0e912ef6ffea8df82fc58ffbff465250ec9054b09e8a3a9711",
+        "sources": {
+          "scorer_sha256": "b58da9adce20542e832bff5d35ede48d205daf2774b399bcca60184b152814ec",
+          "utils_sha256": "3ae0aa3d08adefdddeb37f5a02e387e32bbfc9ffb43a83e9fb9e1bfafd36a0f7",
+          "v2_runner_sha256": "af4e1fc23e88efad910c8cdbd44a0cd2492cbd10c7d395b6e337a8e698ce2d98",
+          "adapter_sha256": "33f3654bcaa45aa4cee1cbde3f4d536fa9afd9db1b65c359117d9c6a7c993a27",
+          "attention_sha256": "53459fc2ebc2bf0e1d75cc06aec38c5308b931efce3f2d58c113307ef02469e9",
+          "launcher_sha256": "c1f07ab4fdf305d5aa451e6a4e952038ffe576cff07b6b51f680f96dfbcafc9d",
+          "validator_sha256": "4df9d9482a4defece95289cfe429b25ec2798013b99cf85f0b65c729d97fce4b",
+          "package_sha256": "42ab72d0bf4b4b6ed924d9641287f009f4e0970f12f1337d1c0026ca5e310a57"
+        },
+        "evaluation_context": 4096,
+        "reference_policy": "first",
+        "case_count": 80,
+        "settings": {
+          "backend": "reference",
+          "keep_fraction": 0.9,
+          "block_size": 128,
+          "local_blocks": 1
+        }
+      }
+    },
+    {
+      "evaluation_id": "503e72ed3a0905be059fba9c15e3cd9438d6d5ba300b5151ba234cef96f40771",
+      "config": {
+        "schema": 1,
+        "model": {
+          "model": "adpretko/celerity-906m-8k-ad0p2",
+          "revision": "f324249b42193ef0189effb156a2a4142938741c",
+          "trained_context_tokens": 8192,
+          "model_type": "celerity",
+          "vocab_size": 128256
+        },
+        "manifest_sha256": "634beb2c4af50e0e912ef6ffea8df82fc58ffbff465250ec9054b09e8a3a9711",
+        "sources": {
+          "scorer_sha256": "b58da9adce20542e832bff5d35ede48d205daf2774b399bcca60184b152814ec",
+          "utils_sha256": "3ae0aa3d08adefdddeb37f5a02e387e32bbfc9ffb43a83e9fb9e1bfafd36a0f7",
+          "v2_runner_sha256": "af4e1fc23e88efad910c8cdbd44a0cd2492cbd10c7d395b6e337a8e698ce2d98",
+          "adapter_sha256": "33f3654bcaa45aa4cee1cbde3f4d536fa9afd9db1b65c359117d9c6a7c993a27",
+          "attention_sha256": "53459fc2ebc2bf0e1d75cc06aec38c5308b931efce3f2d58c113307ef02469e9",
+          "launcher_sha256": "c1f07ab4fdf305d5aa451e6a4e952038ffe576cff07b6b51f680f96dfbcafc9d",
+          "validator_sha256": "4df9d9482a4defece95289cfe429b25ec2798013b99cf85f0b65c729d97fce4b",
+          "package_sha256": "42ab72d0bf4b4b6ed924d9641287f009f4e0970f12f1337d1c0026ca5e310a57"
+        },
+        "evaluation_context": 4096,
+        "reference_policy": "first",
+        "case_count": 80,
+        "settings": {
+          "backend": "reference",
+          "keep_fraction": 0.5,
+          "block_size": 128,
+          "local_blocks": 1
+        }
+      }
+    },
+    {
+      "evaluation_id": "60bbb81a0abe325bbd80319dc5d2b57a0c7aad2e127eee0ed152bcb64634a7db",
+      "config": {
+        "schema": 1,
+        "model": {
+          "model": "adpretko/celerity-906m-8k-ad0p2",
+          "revision": "f324249b42193ef0189effb156a2a4142938741c",
+          "trained_context_tokens": 8192,
+          "model_type": "celerity",
+          "vocab_size": 128256
+        },
+        "manifest_sha256": "634beb2c4af50e0e912ef6ffea8df82fc58ffbff465250ec9054b09e8a3a9711",
+        "sources": {
+          "scorer_sha256": "b58da9adce20542e832bff5d35ede48d205daf2774b399bcca60184b152814ec",
+          "utils_sha256": "3ae0aa3d08adefdddeb37f5a02e387e32bbfc9ffb43a83e9fb9e1bfafd36a0f7",
+          "v2_runner_sha256": "af4e1fc23e88efad910c8cdbd44a0cd2492cbd10c7d395b6e337a8e698ce2d98",
+          "adapter_sha256": "33f3654bcaa45aa4cee1cbde3f4d536fa9afd9db1b65c359117d9c6a7c993a27",
+          "attention_sha256": "53459fc2ebc2bf0e1d75cc06aec38c5308b931efce3f2d58c113307ef02469e9",
+          "launcher_sha256": "c1f07ab4fdf305d5aa451e6a4e952038ffe576cff07b6b51f680f96dfbcafc9d",
+          "validator_sha256": "4df9d9482a4defece95289cfe429b25ec2798013b99cf85f0b65c729d97fce4b",
+          "package_sha256": "42ab72d0bf4b4b6ed924d9641287f009f4e0970f12f1337d1c0026ca5e310a57"
+        },
+        "evaluation_context": 4096,
+        "reference_policy": "first",
+        "case_count": 80,
+        "settings": {
+          "backend": "reference",
+          "keep_fraction": 0.75,
+          "block_size": 128,
+          "local_blocks": 1
+        }
+      }
+    },
+    {
+      "evaluation_id": "f2c63ee3b9c5b3e99c28d94ff22f761b4f3c615c71f84a9ab09e222951d80c7b",
+      "config": {
+        "schema": 1,
+        "model": {
+          "model": "adpretko/celerity-906m-8k-ad0p2",
+          "revision": "f324249b42193ef0189effb156a2a4142938741c",
+          "trained_context_tokens": 8192,
+          "model_type": "celerity",
+          "vocab_size": 128256
+        },
+        "manifest_sha256": "634beb2c4af50e0e912ef6ffea8df82fc58ffbff465250ec9054b09e8a3a9711",
+        "sources": {
+          "scorer_sha256": "b58da9adce20542e832bff5d35ede48d205daf2774b399bcca60184b152814ec",
+          "utils_sha256": "3ae0aa3d08adefdddeb37f5a02e387e32bbfc9ffb43a83e9fb9e1bfafd36a0f7",
+          "v2_runner_sha256": "af4e1fc23e88efad910c8cdbd44a0cd2492cbd10c7d395b6e337a8e698ce2d98",
+          "adapter_sha256": "33f3654bcaa45aa4cee1cbde3f4d536fa9afd9db1b65c359117d9c6a7c993a27",
+          "attention_sha256": "53459fc2ebc2bf0e1d75cc06aec38c5308b931efce3f2d58c113307ef02469e9",
+          "launcher_sha256": "c1f07ab4fdf305d5aa451e6a4e952038ffe576cff07b6b51f680f96dfbcafc9d",
+          "validator_sha256": "4df9d9482a4defece95289cfe429b25ec2798013b99cf85f0b65c729d97fce4b",
+          "package_sha256": "42ab72d0bf4b4b6ed924d9641287f009f4e0970f12f1337d1c0026ca5e310a57"
+        },
+        "evaluation_context": 4096,
+        "reference_policy": "first",
+        "case_count": 80,
+        "settings": {
+          "backend": "reference",
+          "keep_fraction": 0.9,
+          "block_size": 128,
+          "local_blocks": 1
+        }
+      }
+    },
+    {
+      "evaluation_id": "20958c8453c5e1b76fd1d83bfff0278ee9b852d438895a029720e5dcf8bed702",
+      "config": {
+        "schema": 1,
+        "model": {
+          "model": "adpretko/celerity-906m-8k-ad0p2-ild",
+          "revision": "721179d2934435f524f14d8b800c42997a9cd229",
+          "trained_context_tokens": 8192,
+          "model_type": "celerity",
+          "vocab_size": 128256
+        },
+        "manifest_sha256": "634beb2c4af50e0e912ef6ffea8df82fc58ffbff465250ec9054b09e8a3a9711",
+        "sources": {
+          "scorer_sha256": "b58da9adce20542e832bff5d35ede48d205daf2774b399bcca60184b152814ec",
+          "utils_sha256": "3ae0aa3d08adefdddeb37f5a02e387e32bbfc9ffb43a83e9fb9e1bfafd36a0f7",
+          "v2_runner_sha256": "af4e1fc23e88efad910c8cdbd44a0cd2492cbd10c7d395b6e337a8e698ce2d98",
+          "adapter_sha256": "33f3654bcaa45aa4cee1cbde3f4d536fa9afd9db1b65c359117d9c6a7c993a27",
+          "attention_sha256": "53459fc2ebc2bf0e1d75cc06aec38c5308b931efce3f2d58c113307ef02469e9",
+          "launcher_sha256": "c1f07ab4fdf305d5aa451e6a4e952038ffe576cff07b6b51f680f96dfbcafc9d",
+          "validator_sha256": "4df9d9482a4defece95289cfe429b25ec2798013b99cf85f0b65c729d97fce4b",
+          "package_sha256": "42ab72d0bf4b4b6ed924d9641287f009f4e0970f12f1337d1c0026ca5e310a57"
+        },
+        "evaluation_context": 4096,
+        "reference_policy": "first",
+        "case_count": 80,
+        "settings": {
+          "backend": "reference",
+          "keep_fraction": 0.5,
+          "block_size": 128,
+          "local_blocks": 1
+        }
+      }
+    },
+    {
+      "evaluation_id": "35d961af23c7eeda6ef13d0113b753b41a0cbd7e185cf53f939148b45f57895d",
+      "config": {
+        "schema": 1,
+        "model": {
+          "model": "adpretko/celerity-906m-8k-ad0p2-ild",
+          "revision": "721179d2934435f524f14d8b800c42997a9cd229",
+          "trained_context_tokens": 8192,
+          "model_type": "celerity",
+          "vocab_size": 128256
+        },
+        "manifest_sha256": "634beb2c4af50e0e912ef6ffea8df82fc58ffbff465250ec9054b09e8a3a9711",
+        "sources": {
+          "scorer_sha256": "b58da9adce20542e832bff5d35ede48d205daf2774b399bcca60184b152814ec",
+          "utils_sha256": "3ae0aa3d08adefdddeb37f5a02e387e32bbfc9ffb43a83e9fb9e1bfafd36a0f7",
+          "v2_runner_sha256": "af4e1fc23e88efad910c8cdbd44a0cd2492cbd10c7d395b6e337a8e698ce2d98",
+          "adapter_sha256": "33f3654bcaa45aa4cee1cbde3f4d536fa9afd9db1b65c359117d9c6a7c993a27",
+          "attention_sha256": "53459fc2ebc2bf0e1d75cc06aec38c5308b931efce3f2d58c113307ef02469e9",
+          "launcher_sha256": "c1f07ab4fdf305d5aa451e6a4e952038ffe576cff07b6b51f680f96dfbcafc9d",
+          "validator_sha256": "4df9d9482a4defece95289cfe429b25ec2798013b99cf85f0b65c729d97fce4b",
+          "package_sha256": "42ab72d0bf4b4b6ed924d9641287f009f4e0970f12f1337d1c0026ca5e310a57"
+        },
+        "evaluation_context": 4096,
+        "reference_policy": "first",
+        "case_count": 80,
+        "settings": {
+          "backend": "reference",
+          "keep_fraction": 0.75,
+          "block_size": 128,
+          "local_blocks": 1
+        }
+      }
+    },
+    {
+      "evaluation_id": "991624168d346a50d128789706dde516e579994ff2d79fa813eed6866a7d78f2",
+      "config": {
+        "schema": 1,
+        "model": {
+          "model": "adpretko/celerity-906m-8k-ad0p2-ild",
+          "revision": "721179d2934435f524f14d8b800c42997a9cd229",
+          "trained_context_tokens": 8192,
+          "model_type": "celerity",
+          "vocab_size": 128256
+        },
+        "manifest_sha256": "634beb2c4af50e0e912ef6ffea8df82fc58ffbff465250ec9054b09e8a3a9711",
+        "sources": {
+          "scorer_sha256": "b58da9adce20542e832bff5d35ede48d205daf2774b399bcca60184b152814ec",
+          "utils_sha256": "3ae0aa3d08adefdddeb37f5a02e387e32bbfc9ffb43a83e9fb9e1bfafd36a0f7",
+          "v2_runner_sha256": "af4e1fc23e88efad910c8cdbd44a0cd2492cbd10c7d395b6e337a8e698ce2d98",
+          "adapter_sha256": "33f3654bcaa45aa4cee1cbde3f4d536fa9afd9db1b65c359117d9c6a7c993a27",
+          "attention_sha256": "53459fc2ebc2bf0e1d75cc06aec38c5308b931efce3f2d58c113307ef02469e9",
+          "launcher_sha256": "c1f07ab4fdf305d5aa451e6a4e952038ffe576cff07b6b51f680f96dfbcafc9d",
+          "validator_sha256": "4df9d9482a4defece95289cfe429b25ec2798013b99cf85f0b65c729d97fce4b",
+          "package_sha256": "42ab72d0bf4b4b6ed924d9641287f009f4e0970f12f1337d1c0026ca5e310a57"
+        },
+        "evaluation_context": 4096,
+        "reference_policy": "first",
+        "case_count": 80,
+        "settings": {
+          "backend": "reference",
+          "keep_fraction": 0.9,
+          "block_size": 128,
+          "local_blocks": 1
+        }
+      }
+    },
+    {
+      "evaluation_id": "2f38df70a4482da6446e7548ee3f453a38c2484470507b21763a3a1ec100f94f",
+      "config": {
+        "schema": 1,
+        "model": {
+          "model": "adpretko/celerity-906m-8k-ad0p4",
+          "revision": "e21073e7805f29e4feaa805edb3c95d7f6f49420",
+          "trained_context_tokens": 8192,
+          "model_type": "celerity",
+          "vocab_size": 128256
+        },
+        "manifest_sha256": "634beb2c4af50e0e912ef6ffea8df82fc58ffbff465250ec9054b09e8a3a9711",
+        "sources": {
+          "scorer_sha256": "b58da9adce20542e832bff5d35ede48d205daf2774b399bcca60184b152814ec",
+          "utils_sha256": "3ae0aa3d08adefdddeb37f5a02e387e32bbfc9ffb43a83e9fb9e1bfafd36a0f7",
+          "v2_runner_sha256": "af4e1fc23e88efad910c8cdbd44a0cd2492cbd10c7d395b6e337a8e698ce2d98",
+          "adapter_sha256": "33f3654bcaa45aa4cee1cbde3f4d536fa9afd9db1b65c359117d9c6a7c993a27",
+          "attention_sha256": "53459fc2ebc2bf0e1d75cc06aec38c5308b931efce3f2d58c113307ef02469e9",
+          "launcher_sha256": "c1f07ab4fdf305d5aa451e6a4e952038ffe576cff07b6b51f680f96dfbcafc9d",
+          "validator_sha256": "4df9d9482a4defece95289cfe429b25ec2798013b99cf85f0b65c729d97fce4b",
+          "package_sha256": "42ab72d0bf4b4b6ed924d9641287f009f4e0970f12f1337d1c0026ca5e310a57"
+        },
+        "evaluation_context": 4096,
+        "reference_policy": "first",
+        "case_count": 80,
+        "settings": {
+          "backend": "reference",
+          "keep_fraction": 0.5,
+          "block_size": 128,
+          "local_blocks": 1
+        }
+      }
+    },
+    {
+      "evaluation_id": "4ae94ad8923cddaecc8ff8d704bf5554b7a54590dcc3b3e5bd85d21266829fe7",
+      "config": {
+        "schema": 1,
+        "model": {
+          "model": "adpretko/celerity-906m-8k-ad0p4",
+          "revision": "e21073e7805f29e4feaa805edb3c95d7f6f49420",
+          "trained_context_tokens": 8192,
+          "model_type": "celerity",
+          "vocab_size": 128256
+        },
+        "manifest_sha256": "634beb2c4af50e0e912ef6ffea8df82fc58ffbff465250ec9054b09e8a3a9711",
+        "sources": {
+          "scorer_sha256": "b58da9adce20542e832bff5d35ede48d205daf2774b399bcca60184b152814ec",
+          "utils_sha256": "3ae0aa3d08adefdddeb37f5a02e387e32bbfc9ffb43a83e9fb9e1bfafd36a0f7",
+          "v2_runner_sha256": "af4e1fc23e88efad910c8cdbd44a0cd2492cbd10c7d395b6e337a8e698ce2d98",
+          "adapter_sha256": "33f3654bcaa45aa4cee1cbde3f4d536fa9afd9db1b65c359117d9c6a7c993a27",
+          "attention_sha256": "53459fc2ebc2bf0e1d75cc06aec38c5308b931efce3f2d58c113307ef02469e9",
+          "launcher_sha256": "c1f07ab4fdf305d5aa451e6a4e952038ffe576cff07b6b51f680f96dfbcafc9d",
+          "validator_sha256": "4df9d9482a4defece95289cfe429b25ec2798013b99cf85f0b65c729d97fce4b",
+          "package_sha256": "42ab72d0bf4b4b6ed924d9641287f009f4e0970f12f1337d1c0026ca5e310a57"
+        },
+        "evaluation_context": 4096,
+        "reference_policy": "first",
+        "case_count": 80,
+        "settings": {
+          "backend": "reference",
+          "keep_fraction": 0.75,
+          "block_size": 128,
+          "local_blocks": 1
+        }
+      }
+    },
+    {
+      "evaluation_id": "7f21a3672c43f5932669a8931d579c4f2385e13c70f0328bda3216475e1bee47",
+      "config": {
+        "schema": 1,
+        "model": {
+          "model": "adpretko/celerity-906m-8k-ad0p4",
+          "revision": "e21073e7805f29e4feaa805edb3c95d7f6f49420",
+          "trained_context_tokens": 8192,
+          "model_type": "celerity",
+          "vocab_size": 128256
+        },
+        "manifest_sha256": "634beb2c4af50e0e912ef6ffea8df82fc58ffbff465250ec9054b09e8a3a9711",
+        "sources": {
+          "scorer_sha256": "b58da9adce20542e832bff5d35ede48d205daf2774b399bcca60184b152814ec",
+          "utils_sha256": "3ae0aa3d08adefdddeb37f5a02e387e32bbfc9ffb43a83e9fb9e1bfafd36a0f7",
+          "v2_runner_sha256": "af4e1fc23e88efad910c8cdbd44a0cd2492cbd10c7d395b6e337a8e698ce2d98",
+          "adapter_sha256": "33f3654bcaa45aa4cee1cbde3f4d536fa9afd9db1b65c359117d9c6a7c993a27",
+          "attention_sha256": "53459fc2ebc2bf0e1d75cc06aec38c5308b931efce3f2d58c113307ef02469e9",
+          "launcher_sha256": "c1f07ab4fdf305d5aa451e6a4e952038ffe576cff07b6b51f680f96dfbcafc9d",
+          "validator_sha256": "4df9d9482a4defece95289cfe429b25ec2798013b99cf85f0b65c729d97fce4b",
+          "package_sha256": "42ab72d0bf4b4b6ed924d9641287f009f4e0970f12f1337d1c0026ca5e310a57"
+        },
+        "evaluation_context": 4096,
+        "reference_policy": "first",
+        "case_count": 80,
+        "settings": {
+          "backend": "reference",
+          "keep_fraction": 0.9,
+          "block_size": 128,
+          "local_blocks": 1
+        }
+      }
+    },
+    {
+      "evaluation_id": "fd6e3c9fbdf8e90f0183752c13104e11b4c47a70bce449c9c476e927ab88385d",
+      "config": {
+        "schema": 1,
+        "model": {
+          "model": "adpretko/celerity-906m-8k-ad0p4-ild",
+          "revision": "e02cd754fcde80e4aa149b6d745c7a79f5c64087",
+          "trained_context_tokens": 8192,
+          "model_type": "celerity",
+          "vocab_size": 128256
+        },
+        "manifest_sha256": "634beb2c4af50e0e912ef6ffea8df82fc58ffbff465250ec9054b09e8a3a9711",
+        "sources": {
+          "scorer_sha256": "b58da9adce20542e832bff5d35ede48d205daf2774b399bcca60184b152814ec",
+          "utils_sha256": "3ae0aa3d08adefdddeb37f5a02e387e32bbfc9ffb43a83e9fb9e1bfafd36a0f7",
+          "v2_runner_sha256": "af4e1fc23e88efad910c8cdbd44a0cd2492cbd10c7d395b6e337a8e698ce2d98",
+          "adapter_sha256": "33f3654bcaa45aa4cee1cbde3f4d536fa9afd9db1b65c359117d9c6a7c993a27",
+          "attention_sha256": "53459fc2ebc2bf0e1d75cc06aec38c5308b931efce3f2d58c113307ef02469e9",
+          "launcher_sha256": "c1f07ab4fdf305d5aa451e6a4e952038ffe576cff07b6b51f680f96dfbcafc9d",
+          "validator_sha256": "4df9d9482a4defece95289cfe429b25ec2798013b99cf85f0b65c729d97fce4b",
+          "package_sha256": "42ab72d0bf4b4b6ed924d9641287f009f4e0970f12f1337d1c0026ca5e310a57"
+        },
+        "evaluation_context": 4096,
+        "reference_policy": "first",
+        "case_count": 80,
+        "settings": {
+          "backend": "reference",
+          "keep_fraction": 0.5,
+          "block_size": 128,
+          "local_blocks": 1
+        }
+      }
+    },
+    {
+      "evaluation_id": "c11602654f41def14eb98900a3961c7125a606734c89048e7b340ab7a2af0bdb",
+      "config": {
+        "schema": 1,
+        "model": {
+          "model": "adpretko/celerity-906m-8k-ad0p4-ild",
+          "revision": "e02cd754fcde80e4aa149b6d745c7a79f5c64087",
+          "trained_context_tokens": 8192,
+          "model_type": "celerity",
+          "vocab_size": 128256
+        },
+        "manifest_sha256": "634beb2c4af50e0e912ef6ffea8df82fc58ffbff465250ec9054b09e8a3a9711",
+        "sources": {
+          "scorer_sha256": "b58da9adce20542e832bff5d35ede48d205daf2774b399bcca60184b152814ec",
+          "utils_sha256": "3ae0aa3d08adefdddeb37f5a02e387e32bbfc9ffb43a83e9fb9e1bfafd36a0f7",
+          "v2_runner_sha256": "af4e1fc23e88efad910c8cdbd44a0cd2492cbd10c7d395b6e337a8e698ce2d98",
+          "adapter_sha256": "33f3654bcaa45aa4cee1cbde3f4d536fa9afd9db1b65c359117d9c6a7c993a27",
+          "attention_sha256": "53459fc2ebc2bf0e1d75cc06aec38c5308b931efce3f2d58c113307ef02469e9",
+          "launcher_sha256": "c1f07ab4fdf305d5aa451e6a4e952038ffe576cff07b6b51f680f96dfbcafc9d",
+          "validator_sha256": "4df9d9482a4defece95289cfe429b25ec2798013b99cf85f0b65c729d97fce4b",
+          "package_sha256": "42ab72d0bf4b4b6ed924d9641287f009f4e0970f12f1337d1c0026ca5e310a57"
+        },
+        "evaluation_context": 4096,
+        "reference_policy": "first",
+        "case_count": 80,
+        "settings": {
+          "backend": "reference",
+          "keep_fraction": 0.75,
+          "block_size": 128,
+          "local_blocks": 1
+        }
+      }
+    },
+    {
+      "evaluation_id": "5854781eb874f155ab3b6ddd10009b8c34a44b64158b9fb1531d49371d02cf4a",
+      "config": {
+        "schema": 1,
+        "model": {
+          "model": "adpretko/celerity-906m-8k-ad0p4-ild",
+          "revision": "e02cd754fcde80e4aa149b6d745c7a79f5c64087",
+          "trained_context_tokens": 8192,
+          "model_type": "celerity",
+          "vocab_size": 128256
+        },
+        "manifest_sha256": "634beb2c4af50e0e912ef6ffea8df82fc58ffbff465250ec9054b09e8a3a9711",
+        "sources": {
+          "scorer_sha256": "b58da9adce20542e832bff5d35ede48d205daf2774b399bcca60184b152814ec",
+          "utils_sha256": "3ae0aa3d08adefdddeb37f5a02e387e32bbfc9ffb43a83e9fb9e1bfafd36a0f7",
+          "v2_runner_sha256": "af4e1fc23e88efad910c8cdbd44a0cd2492cbd10c7d395b6e337a8e698ce2d98",
+          "adapter_sha256": "33f3654bcaa45aa4cee1cbde3f4d536fa9afd9db1b65c359117d9c6a7c993a27",
+          "attention_sha256": "53459fc2ebc2bf0e1d75cc06aec38c5308b931efce3f2d58c113307ef02469e9",
+          "launcher_sha256": "c1f07ab4fdf305d5aa451e6a4e952038ffe576cff07b6b51f680f96dfbcafc9d",
+          "validator_sha256": "4df9d9482a4defece95289cfe429b25ec2798013b99cf85f0b65c729d97fce4b",
+          "package_sha256": "42ab72d0bf4b4b6ed924d9641287f009f4e0970f12f1337d1c0026ca5e310a57"
+        },
+        "evaluation_context": 4096,
+        "reference_policy": "first",
+        "case_count": 80,
+        "settings": {
+          "backend": "reference",
+          "keep_fraction": 0.9,
+          "block_size": 128,
+          "local_blocks": 1
+        }
+      }
+    },
+    {
+      "evaluation_id": "e9503c2c6a6cbcfb4ebcdf0259c72e87a493c2f23d05f9709e6c220663d8eac4",
+      "config": {
+        "schema": 1,
+        "model": {
+          "model": "adpretko/celerity-906m-8k-ad0p8-ild",
+          "revision": "7c5ed5f32147dbf078456d315741499ab246f951",
+          "trained_context_tokens": 8192,
+          "model_type": "celerity",
+          "vocab_size": 128256
+        },
+        "manifest_sha256": "634beb2c4af50e0e912ef6ffea8df82fc58ffbff465250ec9054b09e8a3a9711",
+        "sources": {
+          "scorer_sha256": "b58da9adce20542e832bff5d35ede48d205daf2774b399bcca60184b152814ec",
+          "utils_sha256": "3ae0aa3d08adefdddeb37f5a02e387e32bbfc9ffb43a83e9fb9e1bfafd36a0f7",
+          "v2_runner_sha256": "af4e1fc23e88efad910c8cdbd44a0cd2492cbd10c7d395b6e337a8e698ce2d98",
+          "adapter_sha256": "33f3654bcaa45aa4cee1cbde3f4d536fa9afd9db1b65c359117d9c6a7c993a27",
+          "attention_sha256": "53459fc2ebc2bf0e1d75cc06aec38c5308b931efce3f2d58c113307ef02469e9",
+          "launcher_sha256": "c1f07ab4fdf305d5aa451e6a4e952038ffe576cff07b6b51f680f96dfbcafc9d",
+          "validator_sha256": "4df9d9482a4defece95289cfe429b25ec2798013b99cf85f0b65c729d97fce4b",
+          "package_sha256": "42ab72d0bf4b4b6ed924d9641287f009f4e0970f12f1337d1c0026ca5e310a57"
+        },
+        "evaluation_context": 4096,
+        "reference_policy": "first",
+        "case_count": 80,
+        "settings": {
+          "backend": "reference",
+          "keep_fraction": 0.5,
+          "block_size": 128,
+          "local_blocks": 1
+        }
+      }
+    },
+    {
+      "evaluation_id": "ab4779390eeb8371fc2a2128df5a347c84dc3e37fa50b98608f9e1665c03f1cf",
+      "config": {
+        "schema": 1,
+        "model": {
+          "model": "adpretko/celerity-906m-8k-ad0p8-ild",
+          "revision": "7c5ed5f32147dbf078456d315741499ab246f951",
+          "trained_context_tokens": 8192,
+          "model_type": "celerity",
+          "vocab_size": 128256
+        },
+        "manifest_sha256": "634beb2c4af50e0e912ef6ffea8df82fc58ffbff465250ec9054b09e8a3a9711",
+        "sources": {
+          "scorer_sha256": "b58da9adce20542e832bff5d35ede48d205daf2774b399bcca60184b152814ec",
+          "utils_sha256": "3ae0aa3d08adefdddeb37f5a02e387e32bbfc9ffb43a83e9fb9e1bfafd36a0f7",
+          "v2_runner_sha256": "af4e1fc23e88efad910c8cdbd44a0cd2492cbd10c7d395b6e337a8e698ce2d98",
+          "adapter_sha256": "33f3654bcaa45aa4cee1cbde3f4d536fa9afd9db1b65c359117d9c6a7c993a27",
+          "attention_sha256": "53459fc2ebc2bf0e1d75cc06aec38c5308b931efce3f2d58c113307ef02469e9",
+          "launcher_sha256": "c1f07ab4fdf305d5aa451e6a4e952038ffe576cff07b6b51f680f96dfbcafc9d",
+          "validator_sha256": "4df9d9482a4defece95289cfe429b25ec2798013b99cf85f0b65c729d97fce4b",
+          "package_sha256": "42ab72d0bf4b4b6ed924d9641287f009f4e0970f12f1337d1c0026ca5e310a57"
+        },
+        "evaluation_context": 4096,
+        "reference_policy": "first",
+        "case_count": 80,
+        "settings": {
+          "backend": "reference",
+          "keep_fraction": 0.75,
+          "block_size": 128,
+          "local_blocks": 1
+        }
+      }
+    },
+    {
+      "evaluation_id": "c4a1078d97eeea189a32ade45184d2a5456d59754142295a0e03f28b7ee4a329",
+      "config": {
+        "schema": 1,
+        "model": {
+          "model": "adpretko/celerity-906m-8k-ad0p8-ild",
+          "revision": "7c5ed5f32147dbf078456d315741499ab246f951",
+          "trained_context_tokens": 8192,
+          "model_type": "celerity",
+          "vocab_size": 128256
+        },
+        "manifest_sha256": "634beb2c4af50e0e912ef6ffea8df82fc58ffbff465250ec9054b09e8a3a9711",
+        "sources": {
+          "scorer_sha256": "b58da9adce20542e832bff5d35ede48d205daf2774b399bcca60184b152814ec",
+          "utils_sha256": "3ae0aa3d08adefdddeb37f5a02e387e32bbfc9ffb43a83e9fb9e1bfafd36a0f7",
+          "v2_runner_sha256": "af4e1fc23e88efad910c8cdbd44a0cd2492cbd10c7d395b6e337a8e698ce2d98",
+          "adapter_sha256": "33f3654bcaa45aa4cee1cbde3f4d536fa9afd9db1b65c359117d9c6a7c993a27",
+          "attention_sha256": "53459fc2ebc2bf0e1d75cc06aec38c5308b931efce3f2d58c113307ef02469e9",
+          "launcher_sha256": "c1f07ab4fdf305d5aa451e6a4e952038ffe576cff07b6b51f680f96dfbcafc9d",
+          "validator_sha256": "4df9d9482a4defece95289cfe429b25ec2798013b99cf85f0b65c729d97fce4b",
+          "package_sha256": "42ab72d0bf4b4b6ed924d9641287f009f4e0970f12f1337d1c0026ca5e310a57"
+        },
+        "evaluation_context": 4096,
+        "reference_policy": "first",
+        "case_count": 80,
+        "settings": {
+          "backend": "reference",
+          "keep_fraction": 0.9,
+          "block_size": 128,
+          "local_blocks": 1
+        }
+      }
+    }
+  ],
+  "gpu": "0",
+  "python": "/home/ubuntu/Perplexity_LongBench/.venv/bin/python",
+  "batch_driver_sha256": "040c2b680a2ae8c225ac5d9b10eb9804f432fd1707c6357296d5a80b7968953d",
+  "manifest": "/home/ubuntu/Perplexity_LongBench/experiments/celerity_all_4k_a6000_bf16/manifest.json",
+  "longbench_repo": "/home/ubuntu/Perplexity_LongBench"
+}
