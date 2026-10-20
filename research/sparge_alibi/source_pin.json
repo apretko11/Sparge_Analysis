@@ -1,0 +1,34 @@
+{
+  "repository": "https://github.com/thu-ml/SpargeAttn",
+  "revision": "ae5b629ebb41e41f86b3ea2ab5a3283f13ac151a",
+  "commit_date": "2026-02-25T00:07:21Z",
+  "retrieved_date": "2026-10-20",
+  "scope": "Unmodified source-only inspection subset; not an installable upstream checkout",
+  "sha256": {
+    "LICENSE": "0b79354c6e3d1ec02c1711f40de6303e347efd4ab6dc3d0778e6332f29beaa6b",
+    "README.md": "fcf52d2f7181e3b56d24326deebeb303f83cd19bfabf80e8ec67a31514dd5b2d",
+    "Triton_SpargeAttn/triton_kernel_example.py": "3f6e6f1c15938b4237c9efdca871c6af4eb64ea44d788fe9c27569fb4e61bc4b",
+    "csrc/qattn/attn_cuda.h": "b3d851357972fb2c2d62f5a1db2695f3d19b8c1bf7301b23715b676268e1160c",
+    "csrc/qattn/attn_utils.cuh": "4767a0771fc84447c12898a35b2528da21f3bcc1f5a98d9fc2999fb8f0ebdb7a",
+    "csrc/qattn/pybind.cpp": "1bfa00477eefdaf2741d379dc947ed546b952e4b1057db2084a9b98834bdd21e",
+    "csrc/qattn/qk_int_sv_f16_cuda_sm80.cu": "7b516040a5a21583e85ad4dab00ad097c3a686406de4ea2bca9f66fab3860e25",
+    "csrc/qattn/qk_int_sv_f16_cuda_sm80.cuh": "56abdb2eba7d267d05b736f80b27512443dbce8e6a9d31487650702d0e8c1494",
+    "setup.py": "1d9f247af85a08f2a3a56e16bccc19fa29fd3912ca6ac286e01cfd69d74938c3",
+    "spas_sage_attn/core.py": "24656fd6de6952e99bcba78ec56109d9c2075df3675efab80ca7541c32c8d3e7",
+    "spas_sage_attn/quant_per_block.py": "e444520cdbb0f0528d109427abc7c1db27cb55dd34105db811b78b4d05667a30",
+    "spas_sage_attn/quant_per_warp_cuda.py": "2a7b8e249b83a43abc728f1f2825c9e7949ce0927ad2520aca31bb8297c4bd7e",
+    "spas_sage_attn/utils.py": "eecf9109d12bbf34e853e327c4fa8f1b60e66dca74ec1a6ca355236bbbd06325"
+  },
+  "local_base_commit": "5c882e3584acc4c1215531aa457f0a56d432a690",
+  "protected_sha256": {
+    "celerity_sparse/attention.py": "53459fc2ebc2bf0e1d75cc06aec38c5308b931efce3f2d58c113307ef02469e9",
+    "celerity_sparse/adapter.py": "33f3654bcaa45aa4cee1cbde3f4d536fa9afd9db1b65c359117d9c6a7c993a27",
+    "scripts/run_sparse_longbench.py": "c1f07ab4fdf305d5aa451e6a4e952038ffe576cff07b6b51f680f96dfbcafc9d",
+    "scripts/run_sparse_longbench_batch.py": "040c2b680a2ae8c225ac5d9b10eb9804f432fd1707c6357296d5a80b7968953d",
+    "tests_sparse/model_fixture.py": "017c91858842f19fd2f9609ad7c982961d3751d1400f5d454436ddc962966f56",
+    "tests_sparse/test_adapter.py": "ff5e4ed26cfd2e0ab6c7a4358c742a4911cf587522349879dc399780dd5693a4",
+    "tests_sparse/test_attention.py": "48ccb0281bdb067e28bcac9df4fe696f1dbf5bc432fe4861dbca3e7e80e849a8",
+    "tests_sparse/test_batch.py": "7b146c19110588861def40dc4ff76292d80a7225010fe375cb0e44920d31c0e3",
+    "tests_sparse/test_launcher.py": "30b5eee9db53d84928f762ea5d11de967c6713f2e3b75405229453e1a7aa5bb0"
+  }
+}

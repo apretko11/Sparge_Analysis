@@ -1,0 +1,33 @@
+{
+  "upstream_revision": "ae5b629ebb41e41f86b3ea2ab5a3283f13ac151a",
+  "decision": "option_C_no_faithful_integration",
+  "evidence_scope": "CPU mathematical probes plus unchanged upstream Python decision logic; not GPU execution",
+  "source": {
+    "attn_mask_consumed": false,
+    "ampere_causal_argument": false,
+    "selector_receives_scale": false
+  },
+  "query_future_dependency": {
+    "unchanged_through_token": 128,
+    "changed_tokens": "129..255",
+    "selected_before": [
+      0
+    ],
+    "selected_after": [
+      1
+    ],
+    "token_128_output_max_abs_change": 1.0,
+    "final_token_causal_mask_applied": true
+  },
+  "length_dependency": {
+    "selected_at_length_256": 1,
+    "selected_at_length_512": 2
+  },
+  "q_quantization_future_dependency": {
+    "earlier_row_dequantized_max_abs_change": 0.30709049105644226
+  },
+  "key_centering_future_dependency": {
+    "old_block_gate_before": false,
+    "old_block_gate_after": true
+  }
+}
