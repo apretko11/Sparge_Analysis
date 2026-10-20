@@ -1,0 +1,8 @@
+{
+  "status": "failed",
+  "model_source_sha256": "09ba09638f0b832efffd09951895455e043b7dfd152d344ff048bada8dce235c",
+  "adapter_sha256": "33f3654bcaa45aa4cee1cbde3f4d536fa9afd9db1b65c359117d9c6a7c993a27",
+  "attention_sha256": "4347c69be91ca7b1ffdfee404077f95e75f2137a7eb8176d6c26bd28d5b598e7",
+  "error": "Traceback (most recent call last):\n  File \"/home/alexanderpretko/Sparge_Analysis/scripts/validate_sparse_gpu.py\", line 172, in main\n    raise RuntimeError(\"CUDA unavailable; do not interpret CPU tests as a GPU pass\")\nRuntimeError: CUDA unavailable; do not interpret CPU tests as a GPU pass\n",
+  "validation_wall_seconds_including_compile": 0.0005050289910286665
+}
